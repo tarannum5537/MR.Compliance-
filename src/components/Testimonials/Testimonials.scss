@@ -1,0 +1,101 @@
+@use "../../styles/tokens" as *;
+
+.quotes {
+  @include section;
+  border-top: 1px solid $border;
+  background: #070707;
+
+  &__inner {
+    @include container;
+    max-width: 980px;
+  }
+
+  &__eyebrow {
+    @include eyebrow;
+    margin-bottom: 40px;
+  }
+
+  &__body p {
+    font-size: clamp(19px, 2.7vw, 34px);
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    color: $text;
+    font-weight: 400;
+    animation: mc-fade 0.5s ease;
+  }
+
+  &__foot {
+    margin-top: 48px;
+    padding-top: 26px;
+    border-top: 1px solid $border;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  &__author {
+    strong {
+      display: block;
+      font-size: 15px;
+      font-weight: 600;
+      color: $text;
+    }
+
+    span {
+      display: block;
+      margin-top: 4px;
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: $muted;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    button {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      border: 1px solid $border;
+      background: transparent;
+      color: $text;
+      font-size: 15px;
+      transition:
+        border-color 0.25s ease,
+        color 0.25s ease;
+
+      &:hover,
+      &:focus-visible {
+        border-color: $lime;
+        color: $lime;
+      }
+
+      &:active {
+        background: transparent;
+      }
+    }
+  }
+
+  &__count {
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    color: $muted;
+  }
+}
+
+@keyframes mc-fade {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

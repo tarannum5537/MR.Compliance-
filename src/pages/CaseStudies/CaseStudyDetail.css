@@ -1,0 +1,353 @@
+@charset "UTF-8";
+.cs__back {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+@media (max-width: 640px) {
+  .cs__back {
+    padding: 0 18px;
+  }
+}
+.cs__back {
+  padding-top: 118px;
+}
+.cs__back a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #9a9a9a;
+  transition: color 0.3s ease;
+}
+.cs__back a:hover, .cs__back a:focus-visible {
+  color: #b6ff00;
+}
+.cs__hero {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+@media (max-width: 640px) {
+  .cs__hero {
+    padding: 0 18px;
+  }
+}
+.cs__hero {
+  padding-top: 34px;
+  padding-bottom: clamp(36px, 5vw, 64px);
+  max-width: 1080px;
+}
+.cs__eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #b6ff00;
+  margin-bottom: 22px;
+}
+.cs__title {
+  font-size: clamp(34px, 6vw, 78px);
+  line-height: 1;
+  letter-spacing: -0.035em;
+  font-weight: 600;
+  color: #f5f5f0;
+}
+.cs__title span {
+  color: #b6ff00;
+}
+.cs__sub {
+  margin-top: 26px;
+  max-width: 660px;
+  color: #9a9a9a;
+  font-size: clamp(15px, 1.4vw, 18px);
+  line-height: 1.75;
+}
+.cs__media {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+@media (max-width: 640px) {
+  .cs__media {
+    padding: 0 18px;
+  }
+}
+.cs__media {
+  margin-bottom: clamp(40px, 6vw, 76px);
+}
+.cs__media div {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  aspect-ratio: 21/9;
+}
+.cs__media img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: saturate(0.85) contrast(1.05);
+}
+.cs__media div::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(5, 5, 5, 0) 45%, rgba(5, 5, 5, 0.6) 100%);
+}
+.cs__facts {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+@media (max-width: 640px) {
+  .cs__facts {
+    padding: 0 18px;
+  }
+}
+.cs__facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  padding-bottom: clamp(48px, 6vw, 84px);
+  border-bottom: 1px solid #242424;
+}
+@media (max-width: 760px) {
+  .cs__facts {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+  }
+}
+.cs__facts dt {
+  font-size: 10.5px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #9a9a9a;
+  margin-bottom: 10px;
+}
+.cs__facts dd {
+  margin: 0;
+  font-size: 16px;
+  color: #f5f5f0;
+  letter-spacing: -0.01em;
+}
+.cs__section {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+@media (max-width: 640px) {
+  .cs__section {
+    padding: 0 18px;
+  }
+}
+.cs__section {
+  padding-top: clamp(56px, 7vw, 100px);
+  display: grid;
+  grid-template-columns: 0.42fr 1fr;
+  gap: clamp(24px, 4vw, 72px);
+  align-items: start;
+}
+@media (max-width: 860px) {
+  .cs__section {
+    grid-template-columns: 1fr;
+  }
+}
+.cs__heading {
+  font-size: clamp(22px, 2.6vw, 32px);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+  color: #f5f5f0;
+  position: sticky;
+  top: 110px;
+}
+@media (max-width: 860px) {
+  .cs__heading {
+    position: static;
+  }
+}
+.cs__body p {
+  color: #9a9a9a;
+  font-size: 16px;
+  line-height: 1.85;
+}
+.cs__body p + p {
+  margin-top: 18px;
+}
+.cs__list {
+  margin: 26px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+.cs__list li {
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  gap: 12px;
+  color: #f5f5f0;
+  font-size: 15px;
+  opacity: 0.88;
+}
+.cs__list li::before {
+  content: "—";
+  color: #b6ff00;
+}
+.cs__steps {
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: #242424;
+  border: 1px solid #242424;
+  border-radius: 4px;
+  overflow: hidden;
+}
+@media (max-width: 620px) {
+  .cs__steps {
+    grid-template-columns: 1fr;
+  }
+}
+.cs__step {
+  background: #070707;
+  padding: 28px 26px 30px;
+  transition: background 0.35s ease;
+}
+.cs__step:hover {
+  background: #0c0c0c;
+}
+.cs__step span {
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  color: #b6ff00;
+}
+.cs__step h3 {
+  margin: 16px 0 10px;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  color: #f5f5f0;
+}
+.cs__step p {
+  color: #9a9a9a;
+  font-size: 14.5px;
+  line-height: 1.75;
+}
+.cs__note {
+  margin-top: 34px;
+  padding: 24px 26px;
+  border-left: 2px solid #b6ff00;
+  background: rgba(182, 255, 0, 0.05);
+  border-radius: 0 4px 4px 0;
+  color: #f5f5f0;
+  font-size: 15.5px;
+  line-height: 1.8;
+  opacity: 0.92;
+}
+.cs__outcomes {
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px 40px;
+}
+@media (max-width: 620px) {
+  .cs__outcomes {
+    grid-template-columns: 1fr;
+  }
+}
+.cs__outcomes h3 {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #f5f5f0;
+  padding-top: 16px;
+  border-top: 1px solid #242424;
+  margin-bottom: 10px;
+}
+.cs__outcomes p {
+  color: #9a9a9a;
+  font-size: 14.5px;
+  line-height: 1.75;
+}
+.cs__end {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+@media (max-width: 640px) {
+  .cs__end {
+    padding: 0 18px;
+  }
+}
+.cs__end {
+  padding-top: clamp(56px, 7vw, 100px);
+  padding-bottom: clamp(16px, 3vw, 40px);
+}
+.cs__more {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+@media (max-width: 640px) {
+  .cs__more {
+    padding: 0 18px;
+  }
+}
+.cs__more {
+  padding-top: clamp(48px, 6vw, 82px);
+  padding-bottom: clamp(24px, 4vw, 48px);
+}
+.cs__more h2 {
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #b6ff00;
+  margin-bottom: 26px;
+}
+.cs__more-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+@media (max-width: 760px) {
+  .cs__more-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.cs__more-grid a {
+  display: block;
+  border-top: 1px solid #242424;
+  padding-top: 18px;
+  transition: border-color 0.35s ease;
+}
+.cs__more-grid a small {
+  display: block;
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #9a9a9a;
+  margin-bottom: 10px;
+}
+.cs__more-grid a strong {
+  display: block;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #f5f5f0;
+  transition: color 0.3s ease;
+}
+.cs__more-grid a:hover {
+  border-color: #b6ff00;
+}
+.cs__more-grid a:hover strong {
+  color: #b6ff00;
+}/*# sourceMappingURL=CaseStudyDetail.css.map */

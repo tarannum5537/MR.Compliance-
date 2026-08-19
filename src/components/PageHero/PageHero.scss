@@ -1,0 +1,56 @@
+@use "../../styles/tokens" as *;
+
+.phero {
+  padding: 110px 0 60px;
+  position: relative;
+  overflow: hidden;
+
+  @media (max-width: 900px) {
+    padding: 70px 0 44px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -280px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 900px;
+    height: 520px;
+    background: radial-gradient(
+      ellipse,
+      rgba(182, 255, 0, 0.07),
+      transparent 65%
+    );
+    pointer-events: none;
+  }
+
+  &__inner {
+    @include container;
+    position: relative;
+    max-width: 940px;
+  }
+
+  &__eyebrow {
+    @include eyebrow;
+    margin-bottom: 22px;
+  }
+
+  &__title {
+    @include display(34px, 72px);
+    color: $text;
+    text-transform: none;
+
+    span {
+      color: $lime;
+    }
+  }
+
+  &__text {
+    margin-top: 24px;
+    max-width: 660px;
+    color: $muted;
+    font-size: 16px;
+    line-height: 1.75;
+  }
+}

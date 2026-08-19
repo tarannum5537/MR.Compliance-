@@ -1,0 +1,70 @@
+.logos__viewport {
+  margin-top: 44px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+}
+.logos__track {
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+  gap: 20px;
+  animation-name: logos-marquee;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  will-change: transform;
+}
+.logos__track:hover {
+  animation-play-state: paused;
+}
+.logos__card {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  background: #f5f5f0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+@media (max-width: 900px) {
+  .logos__card {
+    width: 172px;
+    height: 86px;
+    padding: 16px 20px;
+  }
+}
+@media (max-width: 640px) {
+  .logos__card {
+    width: 148px;
+    height: 78px;
+    padding: 14px 16px;
+  }
+}
+.logos__img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: block;
+  pointer-events: none;
+}
+
+@keyframes logos-marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(calc(-50% - 10px), 0, 0);
+  }
+}/*# sourceMappingURL=ClientLogoSlider.css.map */

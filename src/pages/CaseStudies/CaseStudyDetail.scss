@@ -1,0 +1,322 @@
+@use "../../styles/tokens" as *;
+
+.cs {
+  &__back {
+    @include container;
+    padding-top: 118px;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: $muted;
+      transition: color 0.3s ease;
+
+      &:hover,
+      &:focus-visible {
+        color: $lime;
+      }
+    }
+  }
+
+  &__hero {
+    @include container;
+    padding-top: 34px;
+    padding-bottom: clamp(36px, 5vw, 64px);
+    max-width: 1080px;
+  }
+
+  &__eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: $lime;
+    margin-bottom: 22px;
+  }
+
+  &__title {
+    font-size: clamp(34px, 6vw, 78px);
+    line-height: 1;
+    letter-spacing: -0.035em;
+    font-weight: 600;
+    color: $text;
+
+    span {
+      color: $lime;
+    }
+  }
+
+  &__sub {
+    margin-top: 26px;
+    max-width: 660px;
+    color: $muted;
+    font-size: clamp(15px, 1.4vw, 18px);
+    line-height: 1.75;
+  }
+
+  &__media {
+    @include container;
+    margin-bottom: clamp(40px, 6vw, 76px);
+
+    div {
+      position: relative;
+      overflow: hidden;
+      border-radius: 6px;
+      aspect-ratio: 21 / 9;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: saturate(0.85) contrast(1.05);
+    }
+
+    div::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(5, 5, 5, 0) 45%, rgba(5, 5, 5, 0.6) 100%);
+    }
+  }
+
+  &__facts {
+    @include container;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    padding-bottom: clamp(48px, 6vw, 84px);
+    border-bottom: 1px solid $border;
+
+    @media (max-width: 760px) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 28px;
+    }
+
+    dt {
+      font-size: 10.5px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: $muted;
+      margin-bottom: 10px;
+    }
+
+    dd {
+      margin: 0;
+      font-size: 16px;
+      color: $text;
+      letter-spacing: -0.01em;
+    }
+  }
+
+  &__section {
+    @include container;
+    padding-top: clamp(56px, 7vw, 100px);
+    display: grid;
+    grid-template-columns: 0.42fr 1fr;
+    gap: clamp(24px, 4vw, 72px);
+    align-items: start;
+
+    @media (max-width: 860px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__heading {
+    font-size: clamp(22px, 2.6vw, 32px);
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+    font-weight: 600;
+    color: $text;
+    position: sticky;
+    top: 110px;
+
+    @media (max-width: 860px) {
+      position: static;
+    }
+  }
+
+  &__body {
+    p {
+      color: $muted;
+      font-size: 16px;
+      line-height: 1.85;
+
+      + p {
+        margin-top: 18px;
+      }
+    }
+  }
+
+  &__list {
+    margin: 26px 0 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 12px;
+
+    li {
+      display: grid;
+      grid-template-columns: 16px 1fr;
+      gap: 12px;
+      color: $text;
+      font-size: 15px;
+      opacity: 0.88;
+
+      &::before {
+        content: "—";
+        color: $lime;
+      }
+    }
+  }
+
+  &__steps {
+    margin-top: 34px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    background: $border;
+    border: 1px solid $border;
+    border-radius: 4px;
+    overflow: hidden;
+
+    @media (max-width: 620px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__step {
+    background: #070707;
+    padding: 28px 26px 30px;
+    transition: background 0.35s ease;
+
+    &:hover {
+      background: #0c0c0c;
+    }
+
+    span {
+      font-size: 11px;
+      letter-spacing: 0.22em;
+      color: $lime;
+    }
+
+    h3 {
+      margin: 16px 0 10px;
+      font-size: 18px;
+      letter-spacing: -0.02em;
+      font-weight: 600;
+      color: $text;
+    }
+
+    p {
+      color: $muted;
+      font-size: 14.5px;
+      line-height: 1.75;
+    }
+  }
+
+  &__note {
+    margin-top: 34px;
+    padding: 24px 26px;
+    border-left: 2px solid $lime;
+    background: rgba(182, 255, 0, 0.05);
+    border-radius: 0 4px 4px 0;
+    color: $text;
+    font-size: 15.5px;
+    line-height: 1.8;
+    opacity: 0.92;
+  }
+
+  &__outcomes {
+    margin-top: 34px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px 40px;
+
+    @media (max-width: 620px) {
+      grid-template-columns: 1fr;
+    }
+
+    h3 {
+      font-size: 17px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: $text;
+      padding-top: 16px;
+      border-top: 1px solid $border;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: $muted;
+      font-size: 14.5px;
+      line-height: 1.75;
+    }
+  }
+
+  &__end {
+    @include container;
+    padding-top: clamp(56px, 7vw, 100px);
+    padding-bottom: clamp(16px, 3vw, 40px);
+  }
+
+  &__more {
+    @include container;
+    padding-top: clamp(48px, 6vw, 82px);
+    padding-bottom: clamp(24px, 4vw, 48px);
+
+    h2 {
+      font-size: 11px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: $lime;
+      margin-bottom: 26px;
+    }
+  }
+
+  &__more-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+    @media (max-width: 760px) {
+      grid-template-columns: 1fr;
+    }
+
+    a {
+      display: block;
+      border-top: 1px solid $border;
+      padding-top: 18px;
+      transition: border-color 0.35s ease;
+
+      small {
+        display: block;
+        font-size: 10.5px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: $muted;
+        margin-bottom: 10px;
+      }
+
+      strong {
+        display: block;
+        font-size: 19px;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        color: $text;
+        transition: color 0.3s ease;
+      }
+
+      &:hover {
+        border-color: $lime;
+
+        strong {
+          color: $lime;
+        }
+      }
+    }
+  }
+}

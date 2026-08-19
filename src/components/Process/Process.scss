@@ -1,0 +1,202 @@
+@use "../../styles/tokens" as *;
+
+.process {
+  @include section;
+  border-top: 1px solid $border;
+
+  &__inner {
+    @include container;
+  }
+
+  &__head {
+    max-width: 780px;
+    margin-bottom: 72px;
+
+    @media (max-width: 780px) {
+      margin-bottom: 44px;
+    }
+  }
+
+  &__eyebrow {
+    @include eyebrow;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    @include display(28px, 54px);
+    color: $text;
+
+    span {
+      color: $lime;
+    }
+  }
+
+  &__lead {
+    margin-top: 22px;
+    max-width: 640px;
+    color: $muted;
+    font-size: 15.5px;
+    line-height: 1.75;
+  }
+}
+
+/* Vertical zigzag timeline */
+.ptl {
+  position: relative;
+  list-style: none;
+  margin: 0 auto;
+  padding: 8px 0;
+  max-width: 1080px;
+
+  // central straight line
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    transform: translateX(-0.5px);
+    background: rgba($lime, 0.28);
+  }
+
+  &__row {
+    position: relative;
+    display: flex;
+    min-height: 150px;
+    padding: 34px 0;
+
+    &--left {
+      justify-content: flex-start;
+    }
+
+    &--right {
+      justify-content: flex-end;
+    }
+  }
+
+  &__node {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    margin-left: -9px;
+    border-radius: 50%;
+    border: 1px solid rgba($lime, 0.55);
+    background: $black;
+    transition:
+      box-shadow 0.2s ease,
+      border-color 0.2s ease,
+      background 0.2s ease;
+
+    &--active {
+      background: $lime;
+      border-color: $lime;
+      box-shadow: 0 0 0 6px rgba($lime, 0.12);
+    }
+  }
+
+  &__connector {
+    position: absolute;
+    top: 58px;
+    width: 46px;
+    height: 1px;
+    background: rgba($lime, 0.22);
+  }
+
+
+  &__row--left &__connector {
+    right: 50%;
+    margin-right: 9px;
+  }
+
+  &__row--right &__connector {
+    left: 50%;
+    margin-left: 9px;
+  }
+
+  &__block {
+    width: calc(50% - 74px);
+    padding: 18px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    outline: none;
+    transition:
+      border-color 0.2s ease,
+      transform 0.2s ease;
+
+    &:hover,
+    &:focus-visible {
+      border-color: rgba($lime, 0.7);
+    }
+  }
+
+  &__row:hover &__node,
+  &__block:focus-visible ~ &__node {
+    border-color: $lime;
+    box-shadow: 0 0 0 6px rgba($lime, 0.14);
+  }
+
+  &__num {
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: $lime;
+  }
+
+  h3 {
+    margin-top: 12px;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: $text;
+  }
+
+  &__text {
+    margin-top: 10px;
+    color: $muted;
+    font-size: 14.5px;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 780px) {
+    &::before {
+      left: 9px;
+      transform: none;
+    }
+
+    &__row {
+      padding: 22px 0;
+      min-height: 0;
+      justify-content: flex-start;
+    }
+
+    &__node {
+      left: 9px;
+      top: 34px;
+    }
+
+    &__connector {
+      top: 42px;
+      left: 9px;
+      margin-left: 9px;
+      width: 22px;
+      right: auto;
+      margin-right: 0;
+    }
+
+    &__row--left &__connector,
+    &__row--right &__connector {
+      left: 9px;
+      right: auto;
+      margin-left: 9px;
+      margin-right: 0;
+    }
+
+    &__block {
+      width: 100%;
+      margin-left: 48px;
+    }
+  }
+}

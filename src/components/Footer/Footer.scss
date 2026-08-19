@@ -1,0 +1,114 @@
+@use "../../styles/tokens" as *;
+
+.footer {
+  border-top: 1px solid $border;
+  background: #070707;
+
+  &__inner {
+    @include container;
+    padding-top: 64px;
+    padding-bottom: 54px;
+    display: grid;
+    grid-template-columns: 1.5fr 0.75fr 1fr 1.1fr 0.85fr;
+    gap: 34px;
+
+    @media (max-width: 1100px) {
+      grid-template-columns: 1fr 1fr;
+      gap: 34px;
+    }
+
+    @media (max-width: 560px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__brand {
+    img {
+      height: 30px;
+      width: auto;
+      filter: brightness(0) invert(1);
+      opacity: 0.9;
+    }
+
+    p {
+      margin-top: 18px;
+      max-width: 320px;
+      color: $muted;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+  }
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    h3 {
+      font-size: 10.5px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: $lime;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    a {
+      font-size: 14px;
+      color: $muted;
+      transition: color 0.25s ease;
+
+      &:hover,
+      &:focus-visible {
+        color: $text;
+      }
+
+    &:active {
+        background: transparent;
+      }
+    }
+  }
+
+  &__office {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 14px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    strong {
+      font-size: 13px;
+      font-weight: 600;
+      color: $text;
+      letter-spacing: 0.02em;
+    }
+
+    span {
+      font-size: 13px;
+      line-height: 1.65;
+      color: $muted;
+    }
+  }
+
+  &__bar {
+    @include container;
+    padding-top: 22px;
+    padding-bottom: 30px;
+    border-top: 1px solid $border;
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    flex-wrap: wrap;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #6a6a6a;
+  }
+
+  &__frameworks {
+    color: #6a6a6a;
+  }
+}

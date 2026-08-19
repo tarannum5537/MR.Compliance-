@@ -1,0 +1,173 @@
+@use "../../styles/tokens" as *;
+
+.services {
+  @include section;
+  border-top: 1px solid $border;
+
+  &__inner {
+    @include container;
+  }
+
+  &__head {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 24px;
+    margin-bottom: 60px;
+
+    @media (max-width: 780px) {
+      grid-template-columns: 1fr;
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__eyebrow {
+    @include eyebrow;
+    padding-top: 12px;
+  }
+
+  &__title {
+    @include display(30px, 58px);
+    color: $text;
+
+    span {
+      color: $lime;
+    }
+  }
+
+  &__list {
+    border-top: 1px solid $border;
+  }
+
+  &__row {
+    border-bottom: 1px solid $border;
+
+    &.is-open {
+      .services__body {
+        grid-template-rows: 1fr;
+      }
+      .services__name {
+        color: $text;
+      }
+      .services__mark {
+        color: $lime;
+        transform: translate(2px, -2px);
+      }
+    }
+  }
+
+  &__row-head {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 26px 4px;
+    display: grid;
+    grid-template-columns: 54px 1fr auto 26px;
+    align-items: center;
+    gap: 16px;
+    text-align: left;
+    color: inherit;
+
+    &:focus-visible {
+      .services__name {
+        color: $text;
+      }
+
+      .services__mark {
+        color: $lime;
+      }
+    }
+
+    &:active {
+      background: none;
+    }
+
+    @media (max-width: 640px) {
+      grid-template-columns: 40px 1fr 20px;
+      padding: 20px 2px;
+    }
+  }
+
+  &__num {
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    color: $muted;
+  }
+
+  &__name {
+    font-size: clamp(22px, 3.4vw, 38px);
+    letter-spacing: -0.02em;
+    color: #cfcfc9;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+
+  &__kind {
+    font-size: 10.5px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: $muted;
+
+    @media (max-width: 640px) {
+      display: none;
+    }
+  }
+
+  &__mark {
+    font-size: 18px;
+    color: $muted;
+    transition:
+      color 0.3s ease,
+      transform 0.3s ease;
+  }
+
+  &__body {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.45s ease;
+  }
+
+  &__body-inner {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 54px minmax(0, 620px);
+    gap: 16px;
+
+    p {
+      grid-column: 2;
+      color: $muted;
+      font-size: 15px;
+      line-height: 1.7;
+      padding-bottom: 14px;
+    }
+
+    a {
+      grid-column: 2;
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: $lime;
+      padding-bottom: 26px;
+      width: fit-content;
+
+      &:hover,
+      &:focus-visible {
+        text-decoration: underline;
+        text-decoration-color: $lime;
+        text-underline-offset: 3px;
+      }
+
+      &:active {
+        background: transparent;
+      }
+    }
+
+    @media (max-width: 640px) {
+      grid-template-columns: 1fr;
+
+      a {
+        grid-column: 1;
+      }
+    }
+  }
+}
