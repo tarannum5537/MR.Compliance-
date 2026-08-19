@@ -243,7 +243,7 @@ function ServicePage({
                   <h3>{item.title}</h3>
                   <p>{item.short}</p>
                   <span className="soc2__related-arrow" aria-hidden="true">
-                    ↗
+                    ↗︎
                   </span>
                 </Link>)}
             </div>

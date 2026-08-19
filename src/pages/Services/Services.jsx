@@ -34,7 +34,7 @@ function ServicesPage() {
     data-reveal
   >
                     <span className="services-card__arrow" aria-hidden="true">
-                      ↗
+                      ↗︎
                     </span>
                     <h3>{s.title}</h3>
                     <div className="services-card__description">

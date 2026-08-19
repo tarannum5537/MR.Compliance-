@@ -53,7 +53,7 @@ function CaseStudyPage() {
     className="cstory__link"
     to={`/study/${s.slug}/`}
   >
-                  View Case Study <em aria-hidden="true">↗</em>
+                  View Case Study <em aria-hidden="true">↗︎</em>
                 </Link>
               </div>
             </div>

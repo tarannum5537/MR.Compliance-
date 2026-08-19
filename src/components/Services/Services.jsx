@@ -74,7 +74,7 @@ function Services() {
                   <span className="services__name">{s.name}</span>
                   <span className="services__kind">{s.kind}</span>
                   <span className="services__mark" aria-hidden="true">
-                    ↗
+                    ↗︎
                   </span>
                 </button>
 
@@ -82,7 +82,7 @@ function Services() {
                   <div className="services__body-inner">
                     <p>{s.text}</p>
                     <a href={s.href} target="_blank" rel="noreferrer">
-                      View service ↗
+                      View service ↗︎
                     </a>
                   </div>
                 </div>

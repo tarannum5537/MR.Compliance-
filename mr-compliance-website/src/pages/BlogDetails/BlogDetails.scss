@@ -1,0 +1,46 @@
+@use "../../styles/tokens" as *;
+
+.post {
+  padding: calc(#{$nav-h} + 80px) 0 120px;
+
+  &__inner {
+    @include container;
+    max-width: 760px;
+  }
+
+  &__back {
+    font-size: 13px;
+    color: $muted;
+    transition: color 0.25s ease;
+
+    &:hover {
+      color: $lime;
+    }
+  }
+
+  &__date {
+    display: block;
+    margin-top: 40px;
+    font-size: 12px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: $muted;
+  }
+
+  &__title {
+    @include display(30px, 52px);
+    margin-top: 14px;
+  }
+
+  &__para {
+    margin-top: 22px;
+    color: $muted;
+    font-size: 17px;
+    line-height: 1.75;
+  }
+
+  &__empty {
+    margin-top: 48px;
+    color: $muted;
+  }
+}

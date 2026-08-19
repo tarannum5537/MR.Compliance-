@@ -46,7 +46,7 @@ function PartnersPage() {
             {PARTNERS.map((p) => <Link className="pcard" key={p.name} to={p.to} data-reveal>
                 <h3>{p.name}</h3>
                 <p>{p.text}</p>
-                <p className="pcard__meta">View program ↗</p>
+                <p className="pcard__meta">View program ↗︎</p>
               </Link>)}
           </div>
 

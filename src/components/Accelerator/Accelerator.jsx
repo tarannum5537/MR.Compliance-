@@ -95,7 +95,7 @@ function Accelerator({ tool }) {
     target="_blank"
     rel="noreferrer"
   >
-              Schedule a discovery call <span aria-hidden="true">↗</span>
+              Schedule a discovery call <span aria-hidden="true">↗︎</span>
             </a>
             <a
     className="btn btn--ghost"

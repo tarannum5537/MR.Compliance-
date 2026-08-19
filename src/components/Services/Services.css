@@ -68,12 +68,6 @@
   color: #b6ff00;
   transform: translate(2px, -2px);
 }
-@media (max-width: 640px) {
-  .services__row.is-open .services__mark {
-    color: #9a9a9a;
-    transform: none;
-  }
-}
 .services__row-head {
   width: 100%;
   background: none;
@@ -99,9 +93,6 @@
   .services__row-head {
     grid-template-columns: 40px 1fr 20px;
     padding: 20px 2px;
-  }
-  .services__row-head:focus-visible .services__mark {
-    color: #9a9a9a;
   }
 }
 .services__num {

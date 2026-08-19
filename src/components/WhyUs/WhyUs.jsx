@@ -44,7 +44,7 @@ function WhyUs() {
     rel="noreferrer"
     data-reveal
   >
-            View details ↗
+            View details ↗︎
           </a>
         </div>
 

@@ -44,7 +44,7 @@ function Navbar() {
     target="_blank"
     rel="noreferrer"
   >
-          Book Free Assessment <span aria-hidden="true">↗</span>
+          Book Free Assessment <span aria-hidden="true">↗︎</span>
         </a>
 
         <button
@@ -69,7 +69,7 @@ function Navbar() {
     rel="noreferrer"
     onClick={() => setOpen(false)}
   >
-            Book Free Assessment ↗
+            Book Free Assessment ↗︎
           </a>
         </div>}
     </header>;

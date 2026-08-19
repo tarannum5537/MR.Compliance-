@@ -1,0 +1,134 @@
+@use "../../styles/tokens" as *;
+
+.cases {
+  @include section;
+  border-top: 1px solid $border;
+
+  &__inner {
+    @include container;
+  }
+
+  &__head {
+    margin-bottom: 54px;
+  }
+
+  &__eyebrow {
+    @include eyebrow;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    @include display(28px, 54px);
+    color: $text;
+
+    span {
+      color: $lime;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: clamp(20px, 3vw, 40px);
+    align-items: start;
+
+    @media (max-width: 860px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__card {
+    display: block;
+    border: 1px solid $border;
+    border-radius: 20px;
+    padding: 14px 14px 4px;
+    background: #0a0a0a;
+    transition:
+      transform 0.35s ease,
+      border-color 0.35s ease;
+
+    &:hover {
+      transform: translateY(-6px);
+      border-color: #3a3a3a;
+
+      img {
+        transform: scale(1.05);
+      }
+
+      .cases__meta em {
+        color: $lime;
+      }
+    }
+
+    // Slight asymmetry: the second card sits lower on desktop.
+    &--1 {
+      margin-top: 64px;
+
+      @media (max-width: 860px) {
+        margin-top: 0;
+      }
+    }
+  }
+
+  &__media {
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    aspect-ratio: 16 / 10;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+  }
+
+  &__tag {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: $lime;
+    background: rgba(5, 5, 5, 0.78);
+    border: 1px solid rgba(182, 255, 0, 0.3);
+    border-radius: 999px;
+    padding: 6px 12px;
+    backdrop-filter: blur(6px);
+  }
+
+  &__meta {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    padding: 22px 8px 24px;
+
+    span {
+      grid-column: 1;
+      font-size: 10.5px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: $muted;
+    }
+
+    h3 {
+      grid-column: 1;
+      margin-top: 10px;
+      font-size: clamp(20px, 2.4vw, 28px);
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: $text;
+    }
+
+    em {
+      grid-column: 2;
+      grid-row: 1 / span 2;
+      font-style: normal;
+      font-size: 20px;
+      color: $muted;
+      transition: color 0.3s ease;
+    }
+  }
+}

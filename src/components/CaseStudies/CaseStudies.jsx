@@ -47,7 +47,7 @@ function CaseStudies() {
               <div className="cases__meta">
                 <span>{c.date}</span>
                 <h3>{c.title}</h3>
-                <em aria-hidden="true">↗</em>
+                <em aria-hidden="true">↗︎</em>
               </div>
             </a>)}
         </div>

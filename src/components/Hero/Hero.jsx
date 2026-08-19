@@ -101,7 +101,7 @@ function Hero() {
     target="_blank"
     rel="noreferrer"
   >
-              Book Free Assessment <span aria-hidden="true">↗</span>
+              Book Free Assessment <span aria-hidden="true">↗︎</span>
             </a>
             <a className="btn btn--ghost" href="#services">
               Explore Services <span aria-hidden="true">→</span>

@@ -19,7 +19,7 @@ function Careers() {
 
           <a className="careers__mail" href="mailto:hr@mrcompliance.co">
             <span>Send your resume</span>
-            <strong>hr@mrcompliance.co ↗</strong>
+            <strong>hr@mrcompliance.co ↗︎</strong>
           </a>
         </div>
       </div>

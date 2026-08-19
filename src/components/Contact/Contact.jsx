@@ -27,7 +27,7 @@ function Contact() {
     target="_blank"
     rel="noreferrer"
   >
-            Book Free Assessment <span aria-hidden="true">↗</span>
+            Book Free Assessment <span aria-hidden="true">↗︎</span>
           </a>
           <a className="btn btn--ghost" href="mailto:support@mrcompliance.co">
             support@mrcompliance.co
