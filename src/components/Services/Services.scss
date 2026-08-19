@@ -46,12 +46,24 @@
       .services__body {
         grid-template-rows: 1fr;
       }
+
       .services__name {
         color: $text;
       }
+
       .services__mark {
         color: $lime;
         transform: translate(2px, -2px);
+      }
+    }
+
+    // Mobile: keep the arrow neutral even when the item is open
+    @media (max-width: 640px) {
+      &.is-open {
+        .services__mark {
+          color: $muted;
+          transform: none;
+        }
       }
     }
   }
@@ -85,6 +97,12 @@
     @media (max-width: 640px) {
       grid-template-columns: 40px 1fr 20px;
       padding: 20px 2px;
+
+      &:focus-visible {
+        .services__mark {
+          color: $muted;
+        }
+      }
     }
   }
 
@@ -167,6 +185,11 @@
 
       a {
         grid-column: 1;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        width: fit-content;
+        white-space: nowrap;
       }
     }
   }
