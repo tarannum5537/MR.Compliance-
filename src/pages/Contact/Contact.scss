@@ -1,112 +1,11 @@
-@use "../../styles/tokens" as *;
-
-.contact-page {
-  position: relative;
-  overflow: hidden;
-  padding: 130px 0 140px;
-   
-  .phone-field {
-  display: flex;
-  gap: 8px;
-  width: 100%;
-
-  &__code {
-    width: 180px;
-    flex-shrink: 0;
-    padding: 0 14px;
-    border: 1px solid rgba($text, 0.12);
-    border-radius: 12px;
-    background: rgba($text, 0.06);
-    color: $text;
-    font-family: inherit;
-    font-size: 15px;
-    cursor: pointer;
-
-    &:focus {
-      outline: none;
-      border-color: $lime;
-    }
-  }
-
-  &__manual-code {
-    width: 80px;
-    flex-shrink: 0;
-    padding: 0 14px;
-    border: 1px solid rgba($text, 0.12);
-    border-radius: 12px;
-    background: rgba($text, 0.06);
-    color: $text;
-    font-family: inherit;
-    font-size: 15px;
-
-    &:focus {
-      outline: none;
-      border-color: $lime;
-    }
-  }
-
-  &__number {
-    flex: 1;
-    min-width: 0;
-  }
-
-  @media (max-width: 640px) {
-    &__code {
-      width: 145px;
-    }
-
-    &__manual-code {
-      width: 70px;
-    }
-  }
-}
-
-  @media (max-width: 900px) {
-    padding: 80px 0 90px;
-  }
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: -280px;
-    left: 50%;
-    width: 900px;
-    height: 520px;
-    pointer-events: none;
-    background: radial-gradient(
-      rgba($lime, 0.07),
-      transparent 65%
-    );
-    transform: translateX(-50%);
-  }
-
-  &__inner {
-    position: relative;
-    width: 100%;
-    max-width: $max;
-    margin: 0 auto;
-    padding: 0 24px;
-
-    @media (max-width: 640px) {
-      padding: 0 18px;
-    }
-  }
-
-  &__title {
-    margin-bottom: 72px;
-    color: $text;
-    font-size: clamp(34px, 6vw, 56px);
-    font-weight: 600;
-    letter-spacing: -0.03em;
-    line-height: 1.02;
-    opacity: 0; // revealed by GSAP entrance timeline
-  }
-}
-
 .contact-form {
   display: flex;
   flex-direction: column;
   gap: 28px;
+
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
 
   &__field {
     display: flex;
@@ -173,7 +72,7 @@
   }
 
   &__textarea {
-    min-height: 180px;
+    min-height: 160px;
     resize: vertical;
   }
 

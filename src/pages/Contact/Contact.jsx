@@ -4,6 +4,7 @@ import toast from "react-hot-toast";
 import gsap from "gsap";
 
 import "./Contact.scss";
+import PageLayout from "../../components/PageLayout/PageLayout";
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const EASE = "power3.out";
@@ -124,8 +125,8 @@ const countries = [
   }
 };
 
-  return (
-    <section className="contact-page" ref={pageRef}>
+  return <PageLayout>
+     <section className="contact-page" ref={pageRef}>
       <div className="contact-page__inner">
         <h1 className="contact-page__title">Feel free to write</h1>
 
@@ -291,5 +292,5 @@ const countries = [
         </form>
       </div>
     </section>
-  );
+  </PageLayout>
 }
