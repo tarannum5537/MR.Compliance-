@@ -129,10 +129,6 @@
 .ptl__block:hover, .ptl__block:focus-visible {
   border-color: rgba(182, 255, 0, 0.7);
 }
-.ptl__row:hover .ptl__node, .ptl__block:focus-visible ~ .ptl__node {
-  border-color: #b6ff00;
-  box-shadow: 0 0 0 6px rgba(182, 255, 0, 0.14);
-}
 .ptl__num {
   font-size: 11px;
   letter-spacing: 0.2em;

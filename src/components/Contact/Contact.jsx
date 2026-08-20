@@ -9,7 +9,7 @@ function Contact() {
     <section className="contact" id="contact">
       <div className="contact__inner" ref={ref}>
         <p className="contact__eyebrow" data-reveal>
-          Schedule free assessment
+         READY TO GET STARTED 
         </p>
 
         <h2 className="contact__title" data-reveal>

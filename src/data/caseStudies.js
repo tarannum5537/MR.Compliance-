@@ -1,11 +1,11 @@
-import healthcare from "../assets/images/case-healthcare.webp";
-import portqii from "../assets/images/case-portqii.jpg";
+import healthcare from "../assets/images/case-healthcare.png";
+import portqii from "../assets/images/case-portqii.png";
 import automynd from "../assets/images/case-automynd.jpg";
 import udemy from "../assets/images/case-udemy.jpg";
 const CASE_STUDIES = [
   {
     slug: "strengthening-healthcare-security",
-    date: "05 March 2026",
+    
     category: "Healthcare",
     cardTitle: "Strengthening Healthcare Security",
     cardLede: "Strengthening Healthcare Security: How Takeoff41 Achieved SOC 2 & HIPAA Readiness. Takeoff41 builds intelligent clinical tools for neonatal care, with EHR-integrated TPN ordering workflows \u2014 so security, privacy and regulatory compliance sit at the centre of their operations.",
@@ -99,7 +99,6 @@ const CASE_STUDIES = [
   },
   {
     slug: "portqii-soc2-journey",
-    date: "25 February 2026",
     category: "SaaS / SOC 2 Type II",
     cardTitle: "Portqii SOC2 Journey",
     cardLede: "Achieving SOC 2 Type II: How Portqii Strengthened Trust and Security with Scrut Automation. As Portqii scaled its platform and onboarded enterprise customers, security questionnaires and vendor risk assessments made a formal compliance framework essential.",
@@ -193,7 +192,6 @@ const CASE_STUDIES = [
   },
   {
     slug: "automynd-vanta-saga",
-    date: "25 February 2026",
     category: "AI & Automation",
     cardTitle: "Automynd Vanta Saga",
     cardLede: "Achieving SOC 2 Type II: How Automynd Strengthened Security and Trust with Vanta. Automynd delivers intelligent automation and AI-driven solutions, and needed a structured compliance program to meet enterprise security expectations.",
@@ -287,7 +285,6 @@ const CASE_STUDIES = [
   },
   {
     slug: "udemy-sox-compliance",
-    date: "25 February 2026",
     category: "SOX / Financial Controls",
     cardTitle: "Udemy SOX Compliance",
     cardLede: "Strengthening Financial Controls: Supporting SOX Compliance for Udemy Using AuditBoard. As a publicly traded global learning marketplace, Udemy maintains strong financial governance and internal controls under the Sarbanes-Oxley Act.",

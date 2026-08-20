@@ -82,6 +82,7 @@
   width: 1px;
   height: 42px;
   background: rgba(255, 255, 255, 0.35);
+  flex-shrink: 0;
 }
 .contact__email {
   display: inline-flex;
@@ -105,20 +106,21 @@
 @media (max-width: 600px) {
   .contact__actions {
     margin-top: 28px;
-    gap: 14px;
-    flex-wrap: wrap;
+    gap: 10px;
+    flex-wrap: nowrap;
+    width: 100%;
   }
   .contact__question, .contact__email {
-    font-size: 14px;
+    font-size: 12px;
   }
   .contact__divider {
     height: 28px;
   }
   .contact__email {
-    gap: 8px;
+    gap: 6px;
   }
   .contact__email-icon {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
   }
 }/*# sourceMappingURL=Contact.css.map */

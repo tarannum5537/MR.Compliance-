@@ -132,11 +132,6 @@
     }
   }
 
-  &__row:hover &__node,
-  &__block:focus-visible ~ &__node {
-    border-color: $lime;
-    box-shadow: 0 0 0 6px rgba($lime, 0.14);
-  }
 
   &__num {
     font-size: 11px;

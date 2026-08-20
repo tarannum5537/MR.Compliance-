@@ -42,7 +42,7 @@ function CaseStudyDetailPage() {
 
         <header className="cs__hero">
           <p className="cs__eyebrow" data-reveal>
-            {study.category} · {study.date}
+            {study.category} 
           </p>
           <h1 className="cs__title" data-reveal>
             {study.title} <span>{study.accent}</span>

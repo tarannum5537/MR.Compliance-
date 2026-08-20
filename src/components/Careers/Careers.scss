@@ -30,6 +30,7 @@
   &__title {
     font-size: clamp(24px, 3.4vw, 40px);
     letter-spacing: -0.025em;
+     line-height: 1.27;
     font-weight: 600;
     color: $text;
 

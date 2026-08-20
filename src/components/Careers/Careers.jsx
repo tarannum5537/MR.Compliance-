@@ -8,7 +8,7 @@ function Careers() {
           <div>
             <p className="careers__eyebrow">Careers</p>
             <h2 className="careers__title">
-              BUILD THE FUTURE OF  <span>SECURITY & COMPLIANCE.</span>
+              BUILD THE FUTURE OF SECURITY <br/> <span>& COMPLIANCE.</span>
             </h2>
             <p className="careers__text">
               We're building a team of security, compliance and risk professionals helping growing companies build programs that actually work.

@@ -5,7 +5,7 @@ import PageHero from "../../components/PageHero/PageHero";
 import useReveal from "../../hooks/useReveal";
 import { CASE_STUDIES } from "../../data/caseStudies";
 import "./CaseStudies.scss";
-const TITLE = "Case Studies \u2014 Compliance Programs We Delivered | Mr. Compliance";
+const TITLE = "Case Studies  Compliance Programs We Delivered | Mr. Compliance";
 const DESC = "Real Mr. Compliance engagements: Takeoff41 healthcare security, Portqii's SOC 2 journey, the Automynd Vanta saga and Udemy SOX compliance.";
 function CaseStudyPage() {
   useSeo({ title: TITLE, description: DESC, path: "/case-study/" });
@@ -42,7 +42,7 @@ function CaseStudyPage() {
                 <div className="cstory__meta">
                   <span>{s.category}</span>
                   <i aria-hidden="true" />
-                  <span>{s.date}</span>
+                
                 </div>
                 <h2 className="cstory__title">{s.cardTitle}</h2>
                 <p className="cstory__lede">{s.cardLede}</p>
