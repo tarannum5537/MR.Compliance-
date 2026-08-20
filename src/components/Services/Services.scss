@@ -118,12 +118,17 @@
   }
 
   &__mark {
-    font-size: 18px;
-    color: $muted;
-    transition:
-      color 0.3s ease,
-      transform 0.3s ease;
+  color: $muted;
+  display: inline-flex;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+
+  svg {
+    width: 18px;
+    height: 18px;
   }
+}
 
   &__body {
     display: grid;
@@ -145,26 +150,35 @@
       padding-bottom: 14px;
     }
 
-    a {
-      grid-column: 2;
-      font-size: 11px;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: $lime;
-      padding-bottom: 26px;
-      width: fit-content;
+   a {
+  grid-column: 2;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: $lime;
+  padding-bottom: 26px;
+  width: fit-content;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 
-      &:hover,
-      &:focus-visible {
-        text-decoration: underline;
-        text-decoration-color: $lime;
-        text-underline-offset: 3px;
-      }
+  svg {
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+  }
 
-      &:active {
-        background: transparent;
-      }
-    }
+  &:hover,
+  &:focus-visible {
+    text-decoration: underline;
+    text-decoration-color: $lime;
+    text-underline-offset: 3px;
+  }
+
+  &:active {
+    background: transparent;
+  }
+}
 
     @media (max-width: 640px) {
       grid-template-columns: 1fr;

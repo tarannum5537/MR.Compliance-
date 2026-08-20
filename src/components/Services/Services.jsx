@@ -41,6 +41,28 @@ const SERVICES = [
   }
 ];
 
+function ArrowIcon({ className }) {
+  return (
+    <svg
+      className={className}
+      width="14"
+      height="14"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+    >
+      <path
+        d="M7 17L17 7M17 7H8M17 7V16"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
 function Services() {
   const ref = useReveal();
   const [active, setActive] = useState("soc2");
@@ -77,16 +99,14 @@ function Services() {
                   <span className="services__num">0{i + 1}</span>
                   <span className="services__name">{s.name}</span>
                   <span className="services__kind">{s.kind}</span>
-                  <span className="services__mark" aria-hidden="true">
-                    ↗︎
-                  </span>
+                  <ArrowIcon className="services__mark" />
                 </button>
 
                 <div className="services__body">
                   <div className="services__body-inner">
                     <p>{s.text}</p>
                     <Link className="service__link" to={s.href}>
-                      View service ↗
+                      View service <ArrowIcon />
                     </Link>
                   </div>
                 </div>
