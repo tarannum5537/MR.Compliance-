@@ -4,11 +4,22 @@
 // These extend the shared .psec/.pgrid/.pcard classes without modifying them.
 
 .services-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
   align-items: stretch;
   grid-auto-rows: 1fr;
+  gap: 24px;
 
   > * {
     height: 100%;
+  }
+
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr !important;
   }
 }
 
@@ -87,8 +98,6 @@
 }
 
 /* Category grouping on the Services index -------------------------- */
-              
-
 
 .services-group {
   padding-top: 48px;
@@ -113,7 +122,6 @@
     }
   }
 }
-
 
 
 

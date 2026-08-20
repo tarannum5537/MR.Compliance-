@@ -1,9 +1,22 @@
 .services-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
   align-items: stretch;
   grid-auto-rows: 1fr;
+  gap: 24px;
 }
 .services-grid > * {
   height: 100%;
+}
+@media (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr !important;
+  }
 }
 
 .services-card {
