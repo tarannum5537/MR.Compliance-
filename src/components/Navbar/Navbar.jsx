@@ -28,8 +28,8 @@ function Navbar() {
   }, [open]);
   return <header className={`nav ${scrolled ? "nav--scrolled" : ""}`}>
       <div className="nav__inner">
-        <Link className="nav__brand" to="/" aria-label="Mr. Compliance home">
-          <img src={logo} alt="Mr. Compliance" />
+        <Link className="nav__brand" to="/" aria-label="Mr.Compliance home">
+          <img src={logo} alt="Mr.Compliance" />
         </Link>
 
         <nav className="nav__links" aria-label="Primary">

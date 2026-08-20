@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/mr-compliance-logo.png";
+import indiaFlag from "../../assets/images/india-flag.png";
+import usaFlag from "../../assets/images/usa-flag.png";
 import "./Footer.scss";
 
 const QUICK = [
@@ -27,9 +29,9 @@ function Footer() {
     <footer className="footer">
       <div className="footer__inner">
         <div className="footer__brand">
-          <img src={logo} alt="Mr. Compliance" />
+          <img src={logo} alt="Mr.Compliance" />
           <p>
-            Mr. Compliance helps growing companies build, implement, and operate
+            Mr.Compliance helps growing companies build, implement, and operate
             their security and compliance programs - so they can win enterprise
             customers, reduce risk, and scale with confidence.
           </p>
@@ -53,18 +55,36 @@ function Footer() {
           ))}
         </nav>
 
-        <div className="footer__col">
-          <h3>Offices</h3>
-          <div className="footer__office">
-            <strong>India</strong>
-            <span>Phone: +91 7634076777</span>
-            <span>15, 2nd floor, cross road buildings Wakad pune 411057</span>
-          </div>
-          <div className="footer__office">
-            <strong>USA</strong>
-            <span>971 US Hwy 202N, Ste R, Branchburg, NJ 08876</span>
-          </div>
-        </div>
+       <div className="footer__col">
+  <h3>Offices</h3>
+
+  <div className="footer__office">
+    <strong>
+      India
+      <img
+        src={indiaFlag}
+        alt="India"
+        className="footer__flag"
+      />
+    </strong>
+
+    <span>Phone: +91 7634076777</span>
+    <span>15, 2nd floor, Crossroads building, Wakad, Pune-411057</span>
+  </div>
+
+  <div className="footer__office">
+    <strong>
+      USA
+      <img
+        src={usaFlag}
+        alt="USA"
+        className="footer__flag"
+      />
+    </strong>
+
+    <span>971 US Hwy 202N, Ste R, Branchburg, NJ 08876</span>
+  </div>
+</div>
 
         <div className="footer__col">
           <h3>Contact</h3>
@@ -74,7 +94,7 @@ function Footer() {
 
       <div className="footer__bar">
         <span>
-          © {new Date().getFullYear()} Mr. Compliance. All rights reserved.
+          © {new Date().getFullYear()} Mr.Compliance. All rights reserved.
         </span>
         <span className="footer__frameworks">
           SOC 2 · ISO 27001 · PCI DSS · HIPAA · GDPR · NIST

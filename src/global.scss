@@ -8,7 +8,7 @@
 
 
 /*
- * Global base for the Mr. Compliance site.
+ * Global base for the Mr.Compliance site.
  * Component styling lives in per-component SCSS files.
  */
 
@@ -145,7 +145,15 @@ img {
   }
 
   &__lead {
-    margin-top: 20px;
+    margin-top: 60px;
+    max-width: 680px;
+    color: $muted;
+    font-size: 15.5px;
+    line-height: 1.75;
+  }
+
+  &__main {
+    margin-top: 30px;
     max-width: 680px;
     color: $muted;
     font-size: 15.5px;
@@ -186,7 +194,7 @@ img {
 
   &:hover {
     transform: translateY(-5px);
-    border-color: #3a3a3a;
+    border-color: #8ed900;
   }
 
   &__num {

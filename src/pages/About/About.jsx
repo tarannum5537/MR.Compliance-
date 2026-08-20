@@ -2,10 +2,10 @@ import useSeo from "../../hooks/useSeo";
 import PageLayout from "../../components/PageLayout/PageLayout";
 import PageHero from "../../components/PageHero/PageHero";
 import Testimonials from "../../components/Testimonials/Testimonials";
-// import ClientLogoSlider from "../../components/ClientLogoSlider/ClientLogoSlider";
+import ClientLogoSlider from "../../components/ClientLogoSlider/ClientLogoSlider";
 import useReveal from "../../hooks/useReveal";
-const TITLE = "About Us \u2014 Expert Security & Compliance Consulting | Mr. Compliance";
-const DESC = "Mr. Compliance helps startups and growing technology companies implement SOC 2, ISO 27001, HIPAA, PCI DSS, NIST and SOX using automation platforms like Drata, Vanta and Scrut.";
+const TITLE = "About Us \u2014 Expert Security & Compliance Consulting | Mr.Compliance";
+const DESC = "Mr.Compliance helps startups and growing technology companies implement SOC 2, ISO 27001, HIPAA, PCI DSS, NIST and SOX using automation platforms like Drata, Vanta and Scrut.";
 function AboutUsPage() {
   useSeo({ title: TITLE, description: DESC, path: "/about-us/" });
   const ref = useReveal();
@@ -16,7 +16,7 @@ function AboutUsPage() {
 YOUR SECURITY PROGRAM. 
 "
     accent="OUR EXPERTISE."
-    text="Mr. Compliance helps growing companies build, implement and operate their security, compliance and risk programs - so they can win enterprise customers, reduce risk and scale with confidence. <br>
+    text="Mr.Compliance helps growing companies build, implement and operate their security, compliance and risk programs - so they can win enterprise customers, reduce risk and scale with confidence.
 We work as an extension of your team, bringing the expertise, structure and execution needed to turn security requirements into a program that actually works
 "
   />
@@ -32,8 +32,8 @@ We work as an extension of your team, bringing the expertise, structure and exec
           <p className="psec__lead" data-reveal>
             As companies grow, security stops being an audit project and becomes part of how the business operates. Enterprise customers, regulators and partners expect organizations to have security and compliance programs that are not only documented, but actually working.
           </p>
-          <p className="psec__lead" data-reveal>
-            Mr. Compliance helps growing companies build those programs - from security foundations and compliance frameworks to risk management, customer questionnaires and ongoing operations. We work alongside your team to make security practical, measurable and sustainable as you scale.
+          <p className="psec__main" data-reveal>
+            Mr.Compliance helps growing companies build those programs - from security foundations and compliance frameworks to risk management, customer questionnaires and ongoing operations. We work alongside your team to make security practical, measurable and sustainable as you scale.
           </p>
 
           <div className="pgrid pgrid--2">
@@ -63,10 +63,10 @@ We work as an extension of your team, bringing the expertise, structure and exec
           <h2 className="psec__title">
             Trusted by teams building <span>what’s next</span>.
           </h2>
-          <p className="psec__lead">
+          <p className="psec__main">
            From startups to growing technology companies, we work alongside teams building stronger security programs, earning customer trust and scaling into enterprise markets.
           </p>
-          {/* <ClientLogoSlider /> */}
+          <ClientLogoSlider />
         </div>
       </section>
 

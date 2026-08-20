@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import PageLayout from "../../components/PageLayout/PageLayout";
 import PageHero from "../../components/PageHero/PageHero";
 import useReveal from "../../hooks/useReveal";
-const TITLE = "Partners & Clients Compliance Automation Platforms | Mr. Compliance";
+const TITLE = "Partners & Clients Compliance Automation Platforms | Mr.Compliance";
 const DESC = "We work with leading compliance automation platforms Drata, Vanta, Scrut Automation and AuditBoard to streamline evidence collection, monitoring and audit readiness.";
 const PARTNERS = [
   {
@@ -50,7 +50,7 @@ function PartnersPage() {
               </Link>)}
           </div>
 
-          <div className="pgrid">
+          {/* <div className="pgrid">
             <article className="pcard" data-reveal>
               <h3>AuditBoard</h3>
               <p>
@@ -58,7 +58,7 @@ function PartnersPage() {
                 enterprise audit programs and continuous monitoring.
               </p>
             </article>
-          </div>
+          </div> */}
         </div>
       </section>
     </PageLayout>;

@@ -1,23 +1,19 @@
 import "./ClientLogoSlider.scss";
-import apporto from "../../assets/logos/apporto.png";
 import automynd from "../../assets/logos/automynd.png";
-import datagain from "../../assets/logos/datagain.png";
-import docsink from "../../assets/logos/docsink.png";
 import omni from "../../assets/logos/omni.png";
 import portqii from "../../assets/logos/portqii.png";
-import randomtrees from "../../assets/logos/randomtrees.png";
 import serviceup from "../../assets/logos/serviceup.png";
-import udemy from "../../assets/logos/udemy.png";
+import Takeoff41 from "../../assets/logos/TakeoffA1.webp"
+import TukaTek from "../../assets/logos/TukaTek.webp"
+
 const LOGOS = [
   { name: "Portqii", src: portqii },
-  { name: "Apporto", src: apporto },
-  { name: "Udemy", src: udemy },
   { name: "Omni", src: omni },
   { name: "AutoMynd", src: automynd },
-  { name: "Datagain", src: datagain },
-  { name: "RandomTrees", src: randomtrees },
   { name: "ServiceUp", src: serviceup },
-  { name: "DocsInk", src: docsink }
+  { name: "Takeoff41", src: Takeoff41 },
+  { name: "TukaTek", src: TukaTek }
+
 ];
 function ClientLogoSlider() {
   const items = [...LOGOS, ...LOGOS];

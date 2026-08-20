@@ -4,10 +4,10 @@ import automynd from "../assets/images/case-automynd.jpg";
 import udemy from "../assets/images/case-udemy.jpg";
 const CASE_STUDIES = [
   {
-    slug: "strengthening-healthcare-security",
+    slug: "Takeoff41- SOC2 & HIPAA certificate",
     
     category: "Healthcare",
-    cardTitle: "Strengthening Healthcare Security",
+    cardTitle: "Takeoff41- SOC2 & HIPAA certificate",
     cardLede: "Strengthening Healthcare Security: How Takeoff41 Achieved SOC 2 & HIPAA Readiness. Takeoff41 builds intelligent clinical tools for neonatal care, with EHR-integrated TPN ordering workflows  so security, privacy and regulatory compliance sit at the centre of their operations.",
     cardPoints: [
       "Aligning security practices with SOC 2 and HIPAA requirements",
@@ -47,7 +47,7 @@ const CASE_STUDIES = [
       ]
     },
     approach: {
-      intro: "Takeoff41 partnered with Mr. Compliance to implement a structured compliance program and achieve SOC 2 and HIPAA readiness, adopting Drata to monitor security controls, automate evidence collection, and manage compliance workflows.",
+      intro: "Takeoff41 partnered with Mr.Compliance to implement a structured compliance program and achieve SOC 2 and HIPAA readiness, adopting Drata to monitor security controls, automate evidence collection, and manage compliance workflows.",
       items: [
         {
           title: "Policies & procedures",
@@ -66,7 +66,7 @@ const CASE_STUDIES = [
           text: "Implementing vendor and third-party risk management processes alongside employee security awareness and training programs."
         }
       ],
-      note: "Drata\u2019s automation capabilities helped integrate compliance monitoring into Takeoff41\u2019s cloud infrastructure and SaaS environment, reducing manual effort and providing continuous visibility into security controls. Mr. Compliance ensured controls were not just documented but fully implemented and aligned with industry best practices."
+      note: "Drata\u2019s automation capabilities helped integrate compliance monitoring into Takeoff41\u2019s cloud infrastructure and SaaS environment, reducing manual effort and providing continuous visibility into security controls. Mr.Compliance ensured controls were not just documented but fully implemented and aligned with industry best practices."
     },
     outcome: {
       intro: "Following the implementation of its compliance program, Takeoff41 achieved several key outcomes.",
@@ -93,7 +93,7 @@ const CASE_STUDIES = [
       heading: "Compliance as a healthcare trust accelerator",
       paras: [
         "For healthcare technology companies, security and privacy are not just technical requirements \u2014 they are foundational to patient trust and clinical partnerships.",
-        "By combining Drata\u2019s automation platform with Mr. Compliance\u2019s implementation expertise, Takeoff41 successfully built a scalable compliance program aligned with SOC 2 and HIPAA requirements. The result is a stronger security posture, improved operational transparency, and the ability to confidently engage with healthcare institutions that demand the highest standards of data protection."
+        "By combining Drata\u2019s automation platform with Mr.Compliance\u2019s implementation expertise, Takeoff41 successfully built a scalable compliance program aligned with SOC 2 and HIPAA requirements. The result is a stronger security posture, improved operational transparency, and the ability to confidently engage with healthcare institutions that demand the highest standards of data protection."
       ]
     }
   },
@@ -140,7 +140,7 @@ const CASE_STUDIES = [
       ]
     },
     approach: {
-      intro: "Portqii partnered with Mr. Compliance to design and implement a structured compliance program, adopting Scrut Automation to monitor security controls, automate evidence collection, and manage compliance workflows.",
+      intro: "Portqii partnered with Mr.Compliance to design and implement a structured compliance program, adopting Scrut Automation to monitor security controls, automate evidence collection, and manage compliance workflows.",
       items: [
         {
           title: "Governance & policies",
@@ -159,7 +159,7 @@ const CASE_STUDIES = [
           text: "Creating a centralized compliance documentation and evidence repository, and preparing the organization for the SOC 2 Type II audit process."
         }
       ],
-      note: "Scrut Automation streamlined compliance management by automating evidence collection and integrating with Portqii\u2019s cloud infrastructure and operational tools, giving the team continuous visibility into compliance status while Mr. Compliance ensured controls were implemented effectively day to day."
+      note: "Scrut Automation streamlined compliance management by automating evidence collection and integrating with Portqii\u2019s cloud infrastructure and operational tools, giving the team continuous visibility into compliance status while Mr.Compliance ensured controls were implemented effectively day to day."
     },
     outcome: {
       intro: "Portqii achieved SOC 2 Type II certification, demonstrating that its security controls operate effectively over time.",
@@ -186,7 +186,7 @@ const CASE_STUDIES = [
       heading: "Turning compliance into a business enabler",
       paras: [
         "Portqii\u2019s SOC 2 Type II journey demonstrates that compliance is most effective when it is integrated into daily operations rather than treated as a one-time audit requirement.",
-        "By combining Scrut Automation\u2019s compliance platform with Mr. Compliance\u2019s implementation expertise, the company built a structured and scalable security program that supports both regulatory expectations and business growth."
+        "By combining Scrut Automation\u2019s compliance platform with Mr.Compliance\u2019s implementation expertise, the company built a structured and scalable security program that supports both regulatory expectations and business growth."
       ]
     }
   },
@@ -233,7 +233,7 @@ const CASE_STUDIES = [
       ]
     },
     approach: {
-      intro: "Automynd partnered with Mr. Compliance to design and implement a comprehensive compliance program, adopting Vanta to manage security controls, automate evidence collection, and maintain continuous compliance monitoring.",
+      intro: "Automynd partnered with Mr.Compliance to design and implement a comprehensive compliance program, adopting Vanta to manage security controls, automate evidence collection, and maintain continuous compliance monitoring.",
       items: [
         {
           title: "Policies & procedures",
@@ -252,7 +252,7 @@ const CASE_STUDIES = [
           text: "Establishing employee security awareness and compliance training, and preparing audit documentation and compliance evidence."
         }
       ],
-      note: "Vanta provided a centralized platform for continuous security monitoring, automated evidence collection, policy management and employee compliance tracking, while Mr. Compliance ensured controls were properly implemented and aligned with SOC 2 Trust Service Criteria."
+      note: "Vanta provided a centralized platform for continuous security monitoring, automated evidence collection, policy management and employee compliance tracking, while Mr.Compliance ensured controls were properly implemented and aligned with SOC 2 Trust Service Criteria."
     },
     outcome: {
       intro: "Automynd achieved SOC 2 Type II certification, demonstrating that its security controls operate effectively over time.",
@@ -279,7 +279,7 @@ const CASE_STUDIES = [
       heading: "Compliance as a competitive advantage",
       paras: [
         "Automynd\u2019s SOC 2 Type II journey demonstrates that strong security governance and operational controls are essential for companies operating in today\u2019s technology landscape.",
-        "By combining Vanta\u2019s compliance automation capabilities with Mr. Compliance\u2019s implementation expertise, Automynd built a structured and scalable compliance program aligned with SOC 2 requirements \u2014 resulting in a stronger security posture, increased transparency, and greater trust with enterprise customers and partners."
+        "By combining Vanta\u2019s compliance automation capabilities with Mr.Compliance\u2019s implementation expertise, Automynd built a structured and scalable compliance program aligned with SOC 2 requirements \u2014 resulting in a stronger security posture, increased transparency, and greater trust with enterprise customers and partners."
       ]
     }
   },
@@ -326,7 +326,7 @@ const CASE_STUDIES = [
   //     ]
   //   },
   //   approach: {
-  //     intro: "Udemy adopted AuditBoard, a governance, risk, and compliance platform designed to help organizations manage internal audits, risk management and SOX compliance. Mr. Compliance provided support to help streamline aspects of the SOX audit process using the platform.",
+  //     intro: "Udemy adopted AuditBoard, a governance, risk, and compliance platform designed to help organizations manage internal audits, risk management and SOX compliance. Mr.Compliance provided support to help streamline aspects of the SOX audit process using the platform.",
   //     items: [
   //       {
   //         title: "Control documentation",
@@ -372,7 +372,7 @@ const CASE_STUDIES = [
   //     heading: "Modern tools for modern compliance",
   //     paras: [
   //       "For large organizations operating in regulated environments, maintaining strong internal controls and governance processes is critical.",
-  //       "By leveraging AuditBoard\u2019s compliance platform and structured audit workflows, organizations can manage SOX compliance activities more efficiently while maintaining strong financial oversight. Mr. Compliance supported these efforts by helping streamline compliance documentation and audit preparation processes."
+  //       "By leveraging AuditBoard\u2019s compliance platform and structured audit workflows, organizations can manage SOX compliance activities more efficiently while maintaining strong financial oversight. Mr.Compliance supported these efforts by helping streamline compliance documentation and audit preparation processes."
   //     ]
   //   }
   // }

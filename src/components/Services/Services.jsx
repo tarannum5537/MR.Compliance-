@@ -11,6 +11,13 @@ const SERVICES = [
     text: "Build, implement and operate a SOC 2 program that supports enterprise sales, customer trust and long-term compliance.",
     href: "/services/soc2"
   },
+ {
+  id: "hipaa",
+  name: "HIPAA",
+  kind: "Healthcare Compliance",
+  text: "Build and maintain a practical HIPAA compliance program that protects sensitive health information, strengthens security controls and supports regulatory requirements.",
+  href: "/services/hipaa"
+},
   {
     id: "iso",
     name: "ISO 27001",
@@ -31,13 +38,6 @@ const SERVICES = [
     kind: "Security Engineering",
     text: "Secure your cloud environment across AWS, Azure and GCP with practical controls, monitoring, risk management and security engineering.",
     href: "/services/cloud-security"
-  },
-  {
-    id: "gdpr",
-    name: "GDPR",
-    kind: "Data Privacy",
-    text: "Build practical privacy programs that help you manage personal data, reduce regulatory risk and meet customer expectations.",
-    href: "/services/gdpr-privacy"
   }
 ];
 
@@ -75,45 +75,54 @@ function Services() {
             Our Services
           </p>
           <h2 className="services__title" data-reveal>
-            SECURITY & <span>COMPLIANCE </span>,
+            SECURITY & <span>COMPLIANCE, </span>
             <br />
             BUILT TO SCALE.
           </h2>
         </header>
 
         <div className="services__list">
-          {SERVICES.map((s, i) => {
-            const open = active === s.id;
-            return (
-              <div
-                key={s.id}
-                className={`services__row ${open ? "is-open" : ""}`}
-                data-reveal
-                onMouseEnter={() => setActive(s.id)}
-              >
-                <button
-                  className="services__row-head"
-                  aria-expanded={open}
-                  onClick={() => setActive(s.id)}
-                >
-                  <span className="services__num">0{i + 1}</span>
-                  <span className="services__name">{s.name}</span>
-                  <span className="services__kind">{s.kind}</span>
-                  <ArrowIcon className="services__mark" />
-                </button>
+  {SERVICES.map((s, i) => {
+    const open = active === s.id;
 
-                <div className="services__body">
-                  <div className="services__body-inner">
-                    <p>{s.text}</p>
-                    <Link className="service__link" to={s.href}>
-                      View service <ArrowIcon />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
+    return (
+      <div
+        key={s.id}
+        className={`services__row ${open ? "is-open" : ""}`}
+        data-reveal
+        onMouseEnter={() => setActive(s.id)}
+      >
+        <button
+          className="services__row-head"
+          aria-expanded={open}
+          onClick={() => setActive(s.id)}
+        >
+          <span className="services__num">0{i + 1}</span>
+          <span className="services__name">{s.name}</span>
+          <span className="services__kind">{s.kind}</span>
+          <ArrowIcon className="services__mark" />
+        </button>
+
+        <div className="services__body">
+          <div className="services__body-inner">
+            <p>{s.text}</p>
+
+            <Link className="service__link" to={s.href}>
+              View service <ArrowIcon />
+            </Link>
+          </div>
         </div>
+      </div>
+    );
+  })}
+</div>
+
+<div className="services__all">
+  <Link to="/services/" className="services__all-link">
+    <span>View all services</span>
+    <ArrowIcon />
+  </Link>
+</div>
       </div>
     </section>
   );

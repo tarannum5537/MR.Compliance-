@@ -24,8 +24,8 @@ function CaseStudyDetailPage() {
 
   useSeo({
     title: study
-      ? `${study.cardTitle} — Case Study | Mr. Compliance`
-      : "Case study not found | Mr. Compliance",
+      ? `${study.cardTitle} — Case Study | Mr.Compliance`
+      : "Case study not found | Mr.Compliance",
     description: study ? study.subtitle : "",
     path: `/study/${slug}/`
   });

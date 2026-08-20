@@ -79,12 +79,23 @@
       margin-bottom: 0;
     }
 
-    strong {
-      font-size: 13px;
-      font-weight: 600;
-      color: $text;
-      letter-spacing: 0.02em;
-    }
+  strong {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  font-weight: 600;
+  color: $text;
+  letter-spacing: 0.02em;
+}
+
+.footer__flag {
+  width: 18px;
+  height: 12px;
+  object-fit: cover;
+  display: inline-block;
+  border-radius: 1px;
+}
 
     span {
       font-size: 13px;

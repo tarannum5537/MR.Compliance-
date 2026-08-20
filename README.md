@@ -1,6 +1,6 @@
-# Mr. Compliance — Website
+# Mr.Compliance — Website
 
-Marketing website for Mr. Compliance built with **React + Vite + React Router DOM + SCSS**
+Marketing website for Mr.Compliance built with **React + Vite + React Router DOM + SCSS**
 (with GSAP used for the scroll reveal animations).
 
 ## Run it locally

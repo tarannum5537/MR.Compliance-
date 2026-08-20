@@ -41,7 +41,7 @@ function Accelerator({ tool }) {
   return <>
       <PageHero
     eyebrow={`${tool} partner program`}
-    title={`${tool}-Powered SOC 2`}
+      title={`${tool}\u00A0-\u00A0Powered SOC 2`}
     accent="Accelerator"
     text={`Fast-track your SOC 2 readiness without drowning your team in spreadsheets. We combine the ${tool} platform with hands-on, practical consulting so you get real SOC 2 progress in weeks \u2013 not just another tool to manage.`}
   />

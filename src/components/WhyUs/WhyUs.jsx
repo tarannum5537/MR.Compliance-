@@ -27,7 +27,7 @@ function WhyUs() {
       <div className="why__inner" ref={ref}>
         <div className="why__left">
           <p className="why__eyebrow" data-reveal>
-            Why Mr. Compliance
+            Why Mr.Compliance
           </p>
           <h2 className="why__title" data-reveal>
             A SECURITY PROGRAM

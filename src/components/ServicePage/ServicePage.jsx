@@ -204,7 +204,7 @@ function ServicePage({
       <section className="soc2__section">
         <div className="soc2__container">
           <header className="soc2__head">
-            <h2>Why Work With Mr. Compliance?</h2>
+            <h2>Why Work With Mr.Compliance?</h2>
           </header>
 
           <div className="soc2__cards">

@@ -362,7 +362,7 @@ const SERVICE_CATALOG = [
     title: "SOC 2",
     category: "Security & Compliance",
     short: "Type 1 and Type 2 readiness and certification support \u2014 gap assessment, policies, controls, evidence and audit coordination.",
-    seoTitle: "SOC 2 Type 1 & Type 2 Compliance Services | Mr. Compliance",
+    seoTitle: "SOC 2 Type 1 & Type 2 Compliance Services | Mr.Compliance",
     seoDescription: "End-to-end SOC 2 readiness and certification support: gap assessment, policies, control implementation, evidence collection and audit coordination.",
     customComponent: "soc2",
     legacySlug: "soc2-audit-services"
@@ -372,7 +372,7 @@ const SERVICE_CATALOG = [
     title: "ISO 27001",
     category: "Security & Compliance",
     short: "Build an audit-ready ISMS: risk assessment, Statement of Applicability, Annex A controls and Stage 1 / Stage 2 support.",
-    seoTitle: "ISO 27001 Certification Services | Mr. Compliance",
+    seoTitle: "ISO 27001 Certification Services | Mr.Compliance",
     seoDescription: "Get ISO 27001 certified with a structured ISMS: risk assessment, SoA, control implementation and certification audit support.",
     legacySlug: "iso-27001-certification"
   },
@@ -381,7 +381,7 @@ const SERVICE_CATALOG = [
     title: "PCI DSS",
     category: "Security & Compliance",
     short: "Cardholder data flow mapping, control implementation, vulnerability management and QSA audit coordination.",
-    seoTitle: "PCI DSS Compliance Services | Mr. Compliance",
+    seoTitle: "PCI DSS Compliance Services | Mr.Compliance",
     seoDescription: "Protect cardholder data and pass your QSA audit: scoping, segmentation review, controls, policies and audit preparation.",
     legacySlug: "pci-dss"
   },
@@ -390,7 +390,7 @@ const SERVICE_CATALOG = [
     title: "HIPAA",
     category: "Security & Compliance",
     short: "Risk assessments, safeguards, workforce training and PHI protection for providers and health tech companies.",
-    seoTitle: "HIPAA Compliance Services | Mr. Compliance",
+    seoTitle: "HIPAA Compliance Services | Mr.Compliance",
     seoDescription: "Practical HIPAA compliance for healthcare and health tech: risk assessment, policies, administrative and technical safeguards.",
     legacySlug: "hipaa-compliance"
   },
@@ -399,7 +399,7 @@ const SERVICE_CATALOG = [
     title: "NIST / CMMC",
     category: "Security & Compliance",
     short: "NIST CSF alignment and CMMC / FedRAMP readiness: maturity evaluation, control implementation and audit preparation.",
-    seoTitle: "NIST CSF & CMMC Compliance Services | Mr. Compliance",
+    seoTitle: "NIST CSF & CMMC Compliance Services | Mr.Compliance",
     seoDescription: "Align to the NIST Cybersecurity Framework and prepare for CMMC: gap assessment, maturity evaluation, controls and policy development.",
     legacySlug: "nist-cybersecurity"
   },
@@ -408,7 +408,7 @@ const SERVICE_CATALOG = [
     title: "GDPR / Privacy",
     category: "Security & Compliance",
     short: "Data mapping, RoPA, privacy policies, consent management, DPIAs and vendor data processing agreements.",
-    seoTitle: "GDPR & Privacy Compliance Services | Mr. Compliance",
+    seoTitle: "GDPR & Privacy Compliance Services | Mr.Compliance",
     seoDescription: "End-to-end GDPR support: data mapping, RoPA, privacy policies, consent management, DPIAs and privacy governance.",
     legacySlug: "gdpr-compliance"
   },
@@ -417,7 +417,7 @@ const SERVICE_CATALOG = [
     title: "Cloud Security",
     category: "Security",
     short: "AWS, GCP and Azure review across configuration, IAM, network security, logging and monitoring \u2014 with fixes.",
-    seoTitle: "Cloud Security Assessment (AWS, GCP, Azure) | Mr. Compliance",
+    seoTitle: "Cloud Security Assessment (AWS, GCP, Azure) | Mr.Compliance",
     seoDescription: "Find and fix cloud security gaps: configuration review, IAM, network security, logging and monitoring with actionable remediation.",
     legacySlug: "cloud-security"
   },
@@ -426,7 +426,7 @@ const SERVICE_CATALOG = [
     title: "Vulnerability Management",
     category: "Security",
     short: "Scanning, risk-based triage, remediation SLAs and reporting \u2014 a program that runs, not a one-off scan.",
-    seoTitle: "Vulnerability Management Services | Mr. Compliance",
+    seoTitle: "Vulnerability Management Services | Mr.Compliance",
     seoDescription: "Build a working vulnerability management program: scanning coverage, risk-based triage, remediation SLAs and audit-ready reporting.",
     page: vulnerabilityManagement
   },
@@ -435,7 +435,7 @@ const SERVICE_CATALOG = [
     title: "Penetration Testing",
     category: "Security",
     short: "Audit-accepted pentest reports for SOC 2, ISO 27001, HIPAA and PCI DSS, with remediation support and retesting.",
-    seoTitle: "Compliance-Ready Penetration Testing | Mr. Compliance",
+    seoTitle: "Compliance-Ready Penetration Testing | Mr.Compliance",
     seoDescription: "Compliance-ready penetration testing with audit-accepted reports for SOC 2, ISO 27001, HIPAA and PCI DSS, plus remediation and retesting.",
     legacySlug: "penetration-testing"
   },
@@ -444,7 +444,7 @@ const SERVICE_CATALOG = [
     title: "Security Assessments",
     category: "Security",
     short: "An independent review of architecture, controls and processes, ending in a prioritised remediation roadmap.",
-    seoTitle: "Security Assessment Services | Mr. Compliance",
+    seoTitle: "Security Assessment Services | Mr.Compliance",
     seoDescription: "Independent security assessment of your architecture, controls and processes with a risk-ranked, executable remediation roadmap.",
     page: securityAssessments
   },
@@ -453,7 +453,7 @@ const SERVICE_CATALOG = [
     title: "Incident Readiness",
     category: "Security",
     short: "Incident response plans, playbooks, escalation paths and tabletop exercises so your team is ready before it happens.",
-    seoTitle: "Incident Response Readiness Services | Mr. Compliance",
+    seoTitle: "Incident Response Readiness Services | Mr.Compliance",
     seoDescription: "Be ready before an incident: response plan, severity model, scenario playbooks, escalation paths and tabletop exercises.",
     page: incidentReadiness
   },
@@ -462,7 +462,7 @@ const SERVICE_CATALOG = [
     title: "Risk Management",
     category: "GRC",
     short: "Asset identification, threat analysis, risk scoring and a maintained risk register with treatment plans.",
-    seoTitle: "Risk Management & Risk Assessment Services | Mr. Compliance",
+    seoTitle: "Risk Management & Risk Assessment Services | Mr.Compliance",
     seoDescription: "Structured risk management: asset identification, threat analysis, risk scoring, treatment planning and a living risk register.",
     legacySlug: "risk-assessment"
   },
@@ -471,7 +471,7 @@ const SERVICE_CATALOG = [
     title: "Vendor Risk",
     category: "GRC",
     short: "Vendor inventory, risk tiering, due diligence, DPAs and an ongoing third-party review cycle.",
-    seoTitle: "Vendor & Third-Party Risk Management | Mr. Compliance",
+    seoTitle: "Vendor & Third-Party Risk Management | Mr.Compliance",
     seoDescription: "Third-party risk done proportionately: vendor inventory, risk tiering, due diligence, security terms and ongoing monitoring.",
     page: vendorRisk
   },
@@ -480,7 +480,7 @@ const SERVICE_CATALOG = [
     title: "Security Questionnaires",
     category: "GRC",
     short: "We answer CAIQ, SIG, VSA and custom buyer questionnaires and build a reusable, approved answer library.",
-    seoTitle: "Security Questionnaire Support (CAIQ, SIG, VSA) | Mr. Compliance",
+    seoTitle: "Security Questionnaire Support (CAIQ, SIG, VSA) | Mr.Compliance",
     seoDescription: "Stop losing engineering weeks to buyer security reviews. We complete questionnaires and build a reusable approved answer library.",
     page: securityQuestionnaires
   },
@@ -489,7 +489,7 @@ const SERVICE_CATALOG = [
     title: "Policy & Control Management",
     category: "GRC",
     short: "A governed policy suite and one control set mapped across every framework you carry, with owners and review dates.",
-    seoTitle: "Policy & Security Control Management | Mr. Compliance",
+    seoTitle: "Policy & Security Control Management | Mr.Compliance",
     seoDescription: "Policies people follow and controls mapped once across SOC 2, ISO 27001 and HIPAA \u2014 with owners, approvals and review cycles.",
     page: policyControlManagement
   },
@@ -498,7 +498,7 @@ const SERVICE_CATALOG = [
     title: "Continuous Compliance",
     category: "GRC",
     short: "Automated monitoring and evidence collection in Vanta, Drata, Secureframe or Scrut \u2014 managed year-round.",
-    seoTitle: "Continuous Compliance Monitoring Services | Mr. Compliance",
+    seoTitle: "Continuous Compliance Monitoring Services | Mr.Compliance",
     seoDescription: "Stay audit-ready all year with GRC platform setup, automated evidence collection, control drift alerting and audit coordination.",
     page: continuousCompliance
   },
@@ -507,7 +507,7 @@ const SERVICE_CATALOG = [
     title: "vCISO",
     category: "Leadership",
     short: "Senior security leadership on a fractional basis \u2014 strategy, board reporting and customer assurance.",
-    seoTitle: "Virtual CISO (vCISO) Services | Mr. Compliance",
+    seoTitle: "Virtual CISO (vCISO) Services | Mr.Compliance",
     seoDescription: "Fractional security leadership: strategy and roadmap, program ownership, enterprise customer assurance and board reporting.",
     page: vciso
   },
@@ -516,7 +516,7 @@ const SERVICE_CATALOG = [
     title: "Security Program Management",
     category: "Leadership",
     short: "The delivery layer behind your strategy: owners, roadmap, weekly cadence and honest executive reporting.",
-    seoTitle: "Security Program Management Services | Mr. Compliance",
+    seoTitle: "Security Program Management Services | Mr.Compliance",
     seoDescription: "Security program management that ships: workstream design, sequenced roadmap, weekly delivery cadence and executive reporting.",
     page: securityProgramManagement
   }

@@ -6,7 +6,7 @@ import useSeo from "../../hooks/useSeo";
 
 function NotFoundPage() {
   useSeo({
-    title: "Page not found — Mr. Compliance",
+    title: "Page not found — Mr.Compliance",
     description: "The page you are looking for does not exist or has moved.",
     path: "/",
   });

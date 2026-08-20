@@ -88,7 +88,7 @@ function Hero() {
           </p>
 
           <p className="hero__lede" data-hero-reveal>
-            Mr. Compliance helps growing companies build, implement, and operate their security and compliance programs - so they can win enterprise customers, reduce risk, and scale with confidence.
+            Mr.Compliance helps growing companies build, implement, and operate their security and compliance programs - so they can win enterprise customers, reduce risk, and scale with confidence.
           </p>
 
           <div className="hero__actions" data-hero-reveal>
