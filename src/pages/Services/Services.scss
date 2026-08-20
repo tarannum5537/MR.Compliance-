@@ -87,24 +87,65 @@
 }
 
 /* Category grouping on the Services index -------------------------- */
+              
+
 
 .services-group {
-  padding-top: 0;
+  padding-top: 48px;
 
   &:first-of-type {
-    padding-top: 24px;
+    padding-top: 48px;
   }
 
   &__head {
-    max-width: 640px;
-    margin-bottom: 34px;
-    padding-bottom: 22px;
-    border-bottom: 1px solid $border;
+    width: 100%;
+    max-width: none;
+    margin: 0 0 40px;
+    padding: 0;
+    border-bottom: none;
 
     .psec__eyebrow {
-      font-size: 18px;
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.2;
       letter-spacing: 0.14em;
       color: $lime;
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .services-group {
+//   padding-top: 0;
+
+//   &:first-of-type {
+//     padding-top: 24px;
+//   }
+
+//   &__head {
+//     max-width: 640px;
+//     margin-bottom: 34px;
+//     padding-bottom: 22px;
+//     border-bottom: 1px solid $border;
+
+//     .psec__eyebrow {
+//       font-size: 18px;
+//       letter-spacing: 0.14em;
+//       color: $lime;
+//     }
+//   }
+// }

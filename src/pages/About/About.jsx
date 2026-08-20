@@ -2,7 +2,7 @@ import useSeo from "../../hooks/useSeo";
 import PageLayout from "../../components/PageLayout/PageLayout";
 import PageHero from "../../components/PageHero/PageHero";
 import Testimonials from "../../components/Testimonials/Testimonials";
-import ClientLogoSlider from "../../components/ClientLogoSlider/ClientLogoSlider";
+// import ClientLogoSlider from "../../components/ClientLogoSlider/ClientLogoSlider";
 import useReveal from "../../hooks/useReveal";
 const TITLE = "About Us \u2014 Expert Security & Compliance Consulting | Mr. Compliance";
 const DESC = "Mr. Compliance helps startups and growing technology companies implement SOC 2, ISO 27001, HIPAA, PCI DSS, NIST and SOX using automation platforms like Drata, Vanta and Scrut.";
@@ -66,7 +66,7 @@ We work as an extension of your team, bringing the expertise, structure and exec
           <p className="psec__lead">
            From startups to growing technology companies, we work alongside teams building stronger security programs, earning customer trust and scaling into enterprise markets.
           </p>
-          <ClientLogoSlider />
+          {/* <ClientLogoSlider /> */}
         </div>
       </section>
 

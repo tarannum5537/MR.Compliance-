@@ -8,7 +8,7 @@ const CASE_STUDIES = [
     
     category: "Healthcare",
     cardTitle: "Strengthening Healthcare Security",
-    cardLede: "Strengthening Healthcare Security: How Takeoff41 Achieved SOC 2 & HIPAA Readiness. Takeoff41 builds intelligent clinical tools for neonatal care, with EHR-integrated TPN ordering workflows \u2014 so security, privacy and regulatory compliance sit at the centre of their operations.",
+    cardLede: "Strengthening Healthcare Security: How Takeoff41 Achieved SOC 2 & HIPAA Readiness. Takeoff41 builds intelligent clinical tools for neonatal care, with EHR-integrated TPN ordering workflows  so security, privacy and regulatory compliance sit at the centre of their operations.",
     cardPoints: [
       "Aligning security practices with SOC 2 and HIPAA requirements",
       "Collecting and organizing evidence for audits",
@@ -283,99 +283,99 @@ const CASE_STUDIES = [
       ]
     }
   },
-  {
-    slug: "udemy-sox-compliance",
-    category: "SOX / Financial Controls",
-    cardTitle: "Udemy SOX Compliance",
-    cardLede: "Strengthening Financial Controls: Supporting SOX Compliance for Udemy Using AuditBoard. As a publicly traded global learning marketplace, Udemy maintains strong financial governance and internal controls under the Sarbanes-Oxley Act.",
-    cardPoints: [
-      "Maintaining accurate documentation of internal controls",
-      "Managing audit evidence and control testing",
-      "Ensuring audit readiness across business functions"
-    ],
-    img: udemy,
-    imgAlt: "Udemy SOX compliance program supported with AuditBoard",
-    title: "Strengthening financial controls at",
-    accent: "Udemy",
-    subtitle: "Supporting SOX compliance for a publicly traded global learning marketplace using AuditBoard \u2014 structured documentation, evidence and audit coordination.",
-    facts: [
-      { label: "Client", value: "Udemy" },
-      { label: "Industry", value: "Online Learning" },
-      { label: "Focus", value: "SOX Compliance Support" },
-      { label: "Platform", value: "AuditBoard" }
-    ],
-    about: {
-      heading: "About Udemy",
-      paras: [
-        "Udemy is a global online learning marketplace that connects millions of learners with expert instructors across thousands of courses. Organizations and individuals around the world rely on Udemy\u2019s platform to develop new skills and accelerate professional growth.",
-        "As a publicly traded company operating at global scale, Udemy must maintain strong financial governance and internal controls to comply with regulatory requirements such as the Sarbanes-Oxley Act (SOX). Ensuring the effectiveness of these controls is essential for maintaining financial transparency, regulatory compliance, and investor confidence.",
-        "To support ongoing SOX compliance efforts, Udemy utilizes modern governance and compliance tools to manage internal controls, documentation, and audit workflows."
-      ]
-    },
-    challenge: {
-      intro: [
-        "As organizations grow and scale their operations, maintaining visibility into financial controls and compliance processes becomes increasingly complex.",
-        "For large organizations like Udemy, SOX compliance involves continuous monitoring of internal controls, proper documentation, and coordination between finance, IT, and internal audit teams."
-      ],
-      points: [
-        "Maintaining accurate documentation of internal controls",
-        "Managing audit evidence and control testing",
-        "Coordinating between control owners and audit teams",
-        "Tracking remediation activities and control improvements",
-        "Ensuring audit readiness across multiple business functions"
-      ]
-    },
-    approach: {
-      intro: "Udemy adopted AuditBoard, a governance, risk, and compliance platform designed to help organizations manage internal audits, risk management and SOX compliance. Mr. Compliance provided support to help streamline aspects of the SOX audit process using the platform.",
-      items: [
-        {
-          title: "Control documentation",
-          text: "Supporting documentation and review of internal controls across business functions."
-        },
-        {
-          title: "Evidence & testing",
-          text: "Assisting with evidence collection and control testing workflows inside AuditBoard."
-        },
-        {
-          title: "Stakeholder coordination",
-          text: "Coordinating with control owners to ensure audit readiness across finance, IT and internal audit."
-        },
-        {
-          title: "Audit preparation",
-          text: "Organizing audit artifacts within the AuditBoard platform and supporting internal teams during audit preparation."
-        }
-      ],
-      note: "AuditBoard gives teams a centralized environment to document internal controls, track audit testing and remediation, maintain organized evidence repositories, and improve collaboration between compliance, finance and audit teams."
-    },
-    outcome: {
-      intro: "Through the use of AuditBoard and structured compliance workflows, Udemy was able to support its ongoing SOX compliance program more efficiently.",
-      items: [
-        {
-          title: "Improved audit coordination",
-          text: "Centralized documentation and control management simplified collaboration between stakeholders involved in the audit process."
-        },
-        {
-          title: "Better visibility into internal controls",
-          text: "Compliance teams gained clearer oversight of control testing and evidence management."
-        },
-        {
-          title: "Streamlined audit preparation",
-          text: "Organized documentation and workflows helped ensure readiness for external audit reviews."
-        },
-        {
-          title: "Strengthened governance processes",
-          text: "The structured approach supported Udemy\u2019s broader governance and internal control framework."
-        }
-      ]
-    },
-    conclusion: {
-      heading: "Modern tools for modern compliance",
-      paras: [
-        "For large organizations operating in regulated environments, maintaining strong internal controls and governance processes is critical.",
-        "By leveraging AuditBoard\u2019s compliance platform and structured audit workflows, organizations can manage SOX compliance activities more efficiently while maintaining strong financial oversight. Mr. Compliance supported these efforts by helping streamline compliance documentation and audit preparation processes."
-      ]
-    }
-  }
+  // {
+  //   slug: "udemy-sox-compliance",
+  //   category: "SOX / Financial Controls",
+  //   cardTitle: "Udemy SOX Compliance",
+  //   cardLede: "Strengthening Financial Controls: Supporting SOX Compliance for Udemy Using AuditBoard. As a publicly traded global learning marketplace, Udemy maintains strong financial governance and internal controls under the Sarbanes-Oxley Act.",
+  //   cardPoints: [
+  //     "Maintaining accurate documentation of internal controls",
+  //     "Managing audit evidence and control testing",
+  //     "Ensuring audit readiness across business functions"
+  //   ],
+  //   img: udemy,
+  //   imgAlt: "Udemy SOX compliance program supported with AuditBoard",
+  //   title: "Strengthening financial controls at",
+  //   accent: "Udemy",
+  //   subtitle: "Supporting SOX compliance for a publicly traded global learning marketplace using AuditBoard \u2014 structured documentation, evidence and audit coordination.",
+  //   facts: [
+  //     { label: "Client", value: "Udemy" },
+  //     { label: "Industry", value: "Online Learning" },
+  //     { label: "Focus", value: "SOX Compliance Support" },
+  //     { label: "Platform", value: "AuditBoard" }
+  //   ],
+  //   about: {
+  //     heading: "About Udemy",
+  //     paras: [
+  //       "Udemy is a global online learning marketplace that connects millions of learners with expert instructors across thousands of courses. Organizations and individuals around the world rely on Udemy\u2019s platform to develop new skills and accelerate professional growth.",
+  //       "As a publicly traded company operating at global scale, Udemy must maintain strong financial governance and internal controls to comply with regulatory requirements such as the Sarbanes-Oxley Act (SOX). Ensuring the effectiveness of these controls is essential for maintaining financial transparency, regulatory compliance, and investor confidence.",
+  //       "To support ongoing SOX compliance efforts, Udemy utilizes modern governance and compliance tools to manage internal controls, documentation, and audit workflows."
+  //     ]
+  //   },
+  //   challenge: {
+  //     intro: [
+  //       "As organizations grow and scale their operations, maintaining visibility into financial controls and compliance processes becomes increasingly complex.",
+  //       "For large organizations like Udemy, SOX compliance involves continuous monitoring of internal controls, proper documentation, and coordination between finance, IT, and internal audit teams."
+  //     ],
+  //     points: [
+  //       "Maintaining accurate documentation of internal controls",
+  //       "Managing audit evidence and control testing",
+  //       "Coordinating between control owners and audit teams",
+  //       "Tracking remediation activities and control improvements",
+  //       "Ensuring audit readiness across multiple business functions"
+  //     ]
+  //   },
+  //   approach: {
+  //     intro: "Udemy adopted AuditBoard, a governance, risk, and compliance platform designed to help organizations manage internal audits, risk management and SOX compliance. Mr. Compliance provided support to help streamline aspects of the SOX audit process using the platform.",
+  //     items: [
+  //       {
+  //         title: "Control documentation",
+  //         text: "Supporting documentation and review of internal controls across business functions."
+  //       },
+  //       {
+  //         title: "Evidence & testing",
+  //         text: "Assisting with evidence collection and control testing workflows inside AuditBoard."
+  //       },
+  //       {
+  //         title: "Stakeholder coordination",
+  //         text: "Coordinating with control owners to ensure audit readiness across finance, IT and internal audit."
+  //       },
+  //       {
+  //         title: "Audit preparation",
+  //         text: "Organizing audit artifacts within the AuditBoard platform and supporting internal teams during audit preparation."
+  //       }
+  //     ],
+  //     note: "AuditBoard gives teams a centralized environment to document internal controls, track audit testing and remediation, maintain organized evidence repositories, and improve collaboration between compliance, finance and audit teams."
+  //   },
+  //   outcome: {
+  //     intro: "Through the use of AuditBoard and structured compliance workflows, Udemy was able to support its ongoing SOX compliance program more efficiently.",
+  //     items: [
+  //       {
+  //         title: "Improved audit coordination",
+  //         text: "Centralized documentation and control management simplified collaboration between stakeholders involved in the audit process."
+  //       },
+  //       {
+  //         title: "Better visibility into internal controls",
+  //         text: "Compliance teams gained clearer oversight of control testing and evidence management."
+  //       },
+  //       {
+  //         title: "Streamlined audit preparation",
+  //         text: "Organized documentation and workflows helped ensure readiness for external audit reviews."
+  //       },
+  //       {
+  //         title: "Strengthened governance processes",
+  //         text: "The structured approach supported Udemy\u2019s broader governance and internal control framework."
+  //       }
+  //     ]
+  //   },
+  //   conclusion: {
+  //     heading: "Modern tools for modern compliance",
+  //     paras: [
+  //       "For large organizations operating in regulated environments, maintaining strong internal controls and governance processes is critical.",
+  //       "By leveraging AuditBoard\u2019s compliance platform and structured audit workflows, organizations can manage SOX compliance activities more efficiently while maintaining strong financial oversight. Mr. Compliance supported these efforts by helping streamline compliance documentation and audit preparation processes."
+  //     ]
+  //   }
+  // }
 ];
 function getCaseStudy(slug) {
   return CASE_STUDIES.find((c) => c.slug === slug);

@@ -10,7 +10,7 @@ const vulnerabilityManagement = {
   tag: "Vulnerability Management",
   tagIcon: "bug",
   title: "Vulnerability Management Services",
-  tagline: "Find, prioritise and close vulnerabilities on a repeatable cycle \u2014 with the scanning cadence, SLAs and evidence your auditors and customers expect.",
+  tagline: "Find, prioritise and close vulnerabilities on a repeatable cycle  with the scanning cadence, SLAs and evidence your auditors and customers expect.",
   duration: "4 weeks",
   price: "$1,500",
   timelineTitle: "Your Path to a Working Program",
