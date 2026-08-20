@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import PageLayout from "../../components/PageLayout/PageLayout";
 import PageHero from "../../components/PageHero/PageHero";
 import useReveal from "../../hooks/useReveal";
-const TITLE = "Partners & Clients \u2014 Compliance Automation Platforms | Mr. Compliance";
-const DESC = "We work with leading compliance automation platforms \u2014 Drata, Vanta, Scrut Automation and AuditBoard \u2014 to streamline evidence collection, monitoring and audit readiness.";
+const TITLE = "Partners & Clients Compliance Automation Platforms | Mr. Compliance";
+const DESC = "We work with leading compliance automation platforms Drata, Vanta, Scrut Automation and AuditBoard to streamline evidence collection, monitoring and audit readiness.";
 const PARTNERS = [
   {
     name: "Scrut Automation",

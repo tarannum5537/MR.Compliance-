@@ -73,7 +73,7 @@ function ServicePage({
     {
       icon: Zap,
       title: "Built for startups & SaaS",
-      text: "Lean controls that fit small teams and modern cloud stacks \u2014 no enterprise-sized overhead."
+      text: "Lean controls that fit small teams and modern cloud stacks  no enterprise-sized overhead."
     }
   ];
   const STATS = [

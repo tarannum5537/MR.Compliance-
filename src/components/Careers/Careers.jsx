@@ -8,12 +8,10 @@ function Careers() {
           <div>
             <p className="careers__eyebrow">Careers</p>
             <h2 className="careers__title">
-              Join the <span>GRC Ninjas</span>
+              BUILD THE FUTURE OF  <span>SECURITY & COMPLIANCE.</span>
             </h2>
             <p className="careers__text">
-              We're growing and looking for passionate GRC professionals. Want to
-              build your career in SOC 2, ISO 27001, and other global compliance
-              frameworks?
+              We're building a team of security, compliance and risk professionals helping growing companies build programs that actually work.
             </p>
           </div>
 

@@ -6,17 +6,17 @@ function Accelerator({ tool }) {
   const ref2 = useReveal();
   const STEPS = [
     {
-      num: `01 \xB7 Foundations`,
+      num: `01 Foundations`,
       title: "Architecture & readiness review",
       text: `We understand your product, data flows, and customer expectations, then align ${tool}'s control set to your real environment \u2013 not a generic template.`
     },
     {
-      num: `02 \xB7 ${tool} setup`,
+      num: `02  ${tool} setup`,
       title: "Integrations & automation strategy",
       text: "We work with your admins to connect IdP, cloud, code repos and ticketing tools. We then decide which evidences should be automated vs. manual to keep the system lean."
     },
     {
-      num: "03 \xB7 Execution",
+      num: "03  Execution",
       title: "Hands-on control implementation",
       text: `From access reviews to logging, backups and HR processes \u2013 we guide owners, draft missing artefacts and configure ${tool} so controls are actually operating, not just documented.`
     }

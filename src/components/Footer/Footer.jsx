@@ -25,9 +25,7 @@ function Footer() {
         <div className="footer__brand">
           <img src={logo} alt="Mr. Compliance" />
           <p>
-            Mr. Compliance helps growing companies build, implement, and operate
-            their security and compliance programs — so they can win enterprise
-            customers, reduce risk, and scale with confidence.
+            Mr. Compliance helps growing companies build, implement, and operate their security and compliance programs - so they can win enterprise customers, reduce risk, and scale with confidence.
           </p>
         </div>
 
@@ -67,9 +65,7 @@ function Footer() {
         <div className="footer__col">
           <h3>Contact</h3>
           <a href="mailto:support@mrcompliance.co">support@mrcompliance.co</a>
-          <a href="https://wa.me/7634076777" target="_blank" rel="noreferrer">
-            WhatsApp
-          </a>
+          
         </div>
       </div>
 

@@ -120,29 +120,53 @@
   color: #b6ff00;
   padding-top: 5px;
 }
-.why__point--highlight {
+.why__point {
   position: relative;
-  background: rgba(182, 255, 0, 0.04);
-  margin-bottom: 4px;
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 18px;
+  padding: 28px 8px;
+  border-bottom: 1px solid #242424;
   transition: background 0.3s ease, transform 0.3s ease;
 }
-.why__point--highlight::before {
+.why__point:hover, .why__point:focus-within {
+  background: rgba(182, 255, 0, 0.04);
+  transform: scale(1.02);
+}
+.why__point:hover::before, .why__point:focus-within::before {
+  background: rgba(182, 255, 0, 0.9);
+}
+.why__point:hover h3, .why__point:focus-within h3 {
+  font-weight: 600;
+}
+.why__point::before {
   content: "";
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
   width: 2px;
-  background: rgba(182, 255, 0, 0.28);
+  background: transparent;
   transition: background 0.3s ease;
 }
-.why__point--highlight:hover, .why__point--highlight:focus-visible, .why__point--highlight:active {
-  background: rgba(182, 255, 0, 0.08);
-  transform: scale(1.02);
+.why__point:nth-child(even) {
+  margin-left: clamp(0px, 4vw, 46px);
 }
-.why__point--highlight:hover::before, .why__point--highlight:focus-visible::before, .why__point--highlight:active::before {
-  background: rgba(182, 255, 0, 0.9);
+.why__point h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #f5f5f0;
+  letter-spacing: -0.01em;
 }
-.why__point--highlight:hover h3, .why__point--highlight:focus-visible h3, .why__point--highlight:active h3 {
-  font-weight: 600;
+.why__point p {
+  margin-top: 8px;
+  color: #9a9a9a;
+  font-size: 14.5px;
+  line-height: 1.65;
+}
+@media (max-width: 520px) {
+  .why__point {
+    grid-template-columns: 40px 1fr;
+    gap: 12px;
+  }
 }/*# sourceMappingURL=WhyUs.css.map */

@@ -15,13 +15,23 @@
     margin-bottom: 40px;
   }
 
-  &__body p {
-    font-size: clamp(19px, 2.7vw, 34px);
-    line-height: 1.4;
-    letter-spacing: -0.02em;
-    color: $text;
-    font-weight: 400;
-    animation: mc-fade 0.5s ease;
+  // Fixed quote area
+  &__body {
+    min-height: 285px;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+
+    p {
+      margin: 0;
+      width: 100%;
+      font-size: clamp(19px, 2.7vw, 34px);
+      line-height: 1.4;
+      letter-spacing: -0.02em;
+      color: $text;
+      font-weight: 400;
+      animation: mc-fade 0.5s ease;
+    }
   }
 
   &__foot {
@@ -87,6 +97,62 @@
     letter-spacing: 0.16em;
     color: $muted;
   }
+
+  // Tablet
+  @media (max-width: 768px) {
+    &__body {
+      min-height: 300px;
+    }
+
+    &__eyebrow {
+      margin-bottom: 32px;
+    }
+
+    &__foot {
+      margin-top: 40px;
+    }
+  }
+
+  // Mobile
+  @media (max-width: 600px) {
+    &__body {
+      min-height: 330px;
+    }
+
+    &__eyebrow {
+      margin-bottom: 28px;
+    }
+
+    &__body p {
+      font-size: clamp(20px, 6vw, 27px);
+      line-height: 1.35;
+    }
+
+    &__foot {
+      margin-top: 32px;
+      padding-top: 22px;
+      align-items: flex-start;
+    }
+
+    &__author {
+      strong {
+        font-size: 14px;
+      }
+
+      span {
+        font-size: 9px;
+      }
+    }
+
+    &__nav {
+      gap: 10px;
+
+      button {
+        width: 38px;
+        height: 38px;
+      }
+    }
+  }
 }
 
 @keyframes mc-fade {
@@ -94,6 +160,7 @@
     opacity: 0;
     transform: translateY(8px);
   }
+
   to {
     opacity: 1;
     transform: none;

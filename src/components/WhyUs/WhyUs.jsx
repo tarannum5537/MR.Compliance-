@@ -11,12 +11,13 @@ const POINTS = [
   },
   {
     title: "An Extension of Your Team",
-    text: "A dedicated team working alongside your engineering, operations and leadership teams \u2014 helping you build and operate security and compliance year-round.",
-    highlight: true
+    text: "A dedicated team working alongside your engineering, operations and leadership teams  helping you build and operate security and compliance year-round.",
+  
+    
   },
   {
     title: "Platform-agnostic approach",
-    text: "We work across all major GRC automation platforms \u2014 Drata, Vanta and Scrut \u2014 or none at all."
+    text: "We work across all major GRC automation platforms Drata, Vanta and Scrut  or none at all."
   }
 ];
 function WhyUs() {
@@ -28,32 +29,28 @@ function WhyUs() {
             Why Mr. Compliance
           </p>
           <h2 className="why__title" data-reveal>
-            A structured path
+            A SECURITY PROGRAM
             <br />
-            to <span>certification</span>.
+             BUILT AROUND <span> YOUR BUSINESS</span>.
           </h2>
           <p className="why__lede" data-reveal>
-            We partner with startups and enterprises to design, implement and
-            achieve certifications across leading frameworks — and we stay with
-            you through the audit itself.
+           We don't just help you pass an audit. We help you build the security, compliance and risk capabilities your business needs to win customers, reduce risk and scale with confidence.
           </p>
-          <a
-    className="why__link"
-    href="https://www.mrcompliance.co/about-us/"
-    target="_blank"
-    rel="noreferrer"
-    data-reveal
-  >
-            View details ↗︎
-          </a>
+        <Link
+  className="why__link"
+  to="/about-us"
+  data-reveal
+>
+  View details ↗︎
+</Link>
         </div>
 
         <div className="why__right">
           {POINTS.map((p, i) => <article
-    className={`why__point ${p.highlight ? "why__point--highlight" : ""}`}
-    key={p.title}
-    data-reveal
-  >
+  className="why__point"
+  key={p.title}
+  data-reveal
+>
               <span className="why__index">0{i + 1}</span>
               <div>
                 <h3>{p.title}</h3>

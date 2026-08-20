@@ -88,10 +88,7 @@ function Hero() {
           </p>
 
           <p className="hero__lede" data-hero-reveal>
-            Mr. Compliance is a global cybersecurity and compliance advisory firm
-            helping startups and enterprises navigate complex regulatory
-            landscapes and achieve certifications across SOC 2, ISO 27001, PCI
-            DSS, HIPAA, GDPR and NIST.
+            Mr. Compliance helps growing companies build, implement, and operate their security and compliance programs - so they can win enterprise customers, reduce risk, and scale with confidence.
           </p>
 
           <div className="hero__actions" data-hero-reveal>

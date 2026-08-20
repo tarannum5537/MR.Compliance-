@@ -6,35 +6,35 @@ const SERVICES = [
     id: "soc2",
     name: "SOC 2 Type 1 / Type 2",
     kind: "Audit Services",
-    text: "End-to-end SOC 2 readiness and audit support \u2014 control design, policy build, evidence collection and direct coordination with your auditor.",
+    text: "Build, implement and operate a SOC 2 program that supports enterprise sales, customer trust and long-term compliance.- SECURITY & COMPLIANCE",
     href: "https://www.mrcompliance.co/service/59/"
   },
   {
     id: "iso",
     name: "ISO 27001",
     kind: "Certification Services",
-    text: "ISMS design and implementation aligned to ISO 27001, from risk assessment and Statement of Applicability through Stage 1 and Stage 2 certification.",
+    text: "Build an information security management system designed for real-world operations, certification and continuous improvement.",
     href: "https://www.mrcompliance.co/service/iso-27001-certification-services/"
   },
   {
     id: "pci",
     name: "PCI DSS",
     kind: "Payment Security",
-    text: "Scoping, gap assessment and remediation for cardholder data environments so payment operations meet PCI DSS requirements.",
+    text: "Protect payment environments, meet PCI DSS requirements and build security controls that scale with your business.",
     href: "https://www.mrcompliance.co/service/pci-dss/"
   },
   {
     id: "cloud",
     name: "Cloud Security",
     kind: "Security Engineering",
-    text: "Platform-agnostic cloud hardening and security architecture reviews that keep your infrastructure audit-ready as you scale.",
+    text: "Secure your cloud environment across AWS, Azure and GCP with practical controls, monitoring, risk management and security engineering.",
     href: "https://www.mrcompliance.co/service/cloud-security/"
   },
   {
     id: "gdpr",
     name: "GDPR",
     kind: "Data Privacy",
-    text: "Privacy program design, data mapping and documentation to meet GDPR obligations across your products and vendors.",
+    text: "Build practical privacy programs that help you manage personal data, reduce regulatory risk and meet customer expectations.",
     href: "https://www.mrcompliance.co/service/gdpr-compliance/"
   }
 ];
@@ -48,9 +48,9 @@ function Services() {
             Our Services
           </p>
           <h2 className="services__title" data-reveal>
-            Certification programs,
+          SECURITY & <span>COMPLIANCE </span>,
             <br />
-            built and <span>delivered</span>.
+          BUILT TO SCALE.
           </h2>
         </header>
 
@@ -81,9 +81,12 @@ function Services() {
                 <div className="services__body">
                   <div className="services__body-inner">
                     <p>{s.text}</p>
-                    <a href={s.href} target="_blank" rel="noreferrer">
-                      View service ↗︎
-                    </a>
+                   <Link
+  className="service__link"
+  to={`/services/${s.id}`}
+>
+  View service ↗
+</Link>
                   </div>
                 </div>
               </div>;

@@ -5,14 +5,12 @@ import "./CaseStudies.scss";
 const CASES = [
   {
     tag: "Healthcare",
-    date: "05 March 2026",
     title: "Strengthening Healthcare Security",
     img: healthcare,
     href: "https://www.mrcompliance.co/study/strengthening-healthcare-security/"
   },
   {
     tag: "SaaS / SOC 2",
-    date: "25 February 2026",
     title: "Portqii SOC2 Journey",
     img: portqii,
     href: "https://www.mrcompliance.co/study/portqii-soc2-journey/"
@@ -27,8 +25,10 @@ function CaseStudies() {
             Case Studies
           </p>
           <h2 className="cases__title" data-reveal>
-            Programs we <span>shipped</span>.
+            SECURITY PROGRAMS IN <span>ACTION</span>.
           </h2>
+
+          <p className="Para">Real-world security, compliance and risk programs built to help companies meet requirements, win customers and operate with confidence.</p>
         </header>
 
         <div className="cases__grid">
@@ -45,7 +45,6 @@ function CaseStudies() {
                 <span className="cases__tag">{c.tag}</span>
               </div>
               <div className="cases__meta">
-                <span>{c.date}</span>
                 <h3>{c.title}</h3>
                 <em aria-hidden="true">↗︎</em>
               </div>

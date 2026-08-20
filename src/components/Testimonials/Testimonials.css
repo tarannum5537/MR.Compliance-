@@ -32,7 +32,15 @@
   font-weight: 600;
   margin-bottom: 40px;
 }
+.quotes__body {
+  min-height: 285px;
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+}
 .quotes__body p {
+  margin: 0;
+  width: 100%;
   font-size: clamp(19px, 2.7vw, 34px);
   line-height: 1.4;
   letter-spacing: -0.02em;
@@ -90,6 +98,47 @@
   font-size: 11px;
   letter-spacing: 0.16em;
   color: #9a9a9a;
+}
+@media (max-width: 768px) {
+  .quotes__body {
+    min-height: 300px;
+  }
+  .quotes__eyebrow {
+    margin-bottom: 32px;
+  }
+  .quotes__foot {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .quotes__body {
+    min-height: 330px;
+  }
+  .quotes__eyebrow {
+    margin-bottom: 28px;
+  }
+  .quotes__body p {
+    font-size: clamp(20px, 6vw, 27px);
+    line-height: 1.35;
+  }
+  .quotes__foot {
+    margin-top: 32px;
+    padding-top: 22px;
+    align-items: flex-start;
+  }
+  .quotes__author strong {
+    font-size: 14px;
+  }
+  .quotes__author span {
+    font-size: 9px;
+  }
+  .quotes__nav {
+    gap: 10px;
+  }
+  .quotes__nav button {
+    width: 38px;
+    height: 38px;
+  }
 }
 
 @keyframes mc-fade {
