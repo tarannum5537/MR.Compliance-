@@ -52,7 +52,7 @@ function ServicesPage() {
                   className="pcard services-card"
                   key={s.slug}
                   to={`/services/${s.slug}/`}
-                  data-reveal
+                 
                 >
                   <span
                     className="services-card__arrow"
