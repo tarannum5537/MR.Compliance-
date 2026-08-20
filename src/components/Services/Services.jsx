@@ -1,6 +1,7 @@
 import { useState } from "react";
 import useReveal from "../../hooks/useReveal";
 import "./Services.scss";
+import { Link } from "react-router-dom";
 const SERVICES = [
   {
     id: "soc2",

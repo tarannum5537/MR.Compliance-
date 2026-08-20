@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import useReveal from "../../hooks/useReveal";
 import "./WhyUs.scss";
 const POINTS = [
