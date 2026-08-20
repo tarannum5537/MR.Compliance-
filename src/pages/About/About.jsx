@@ -29,7 +29,7 @@ We work as an extension of your team, bringing the expertise, structure and exec
           <h2 className="psec__title" data-reveal>
             Compliance built into <span>everyday operations</span>.
           </h2>
-          <p className="psec__lead" data-reveal>
+          <p className="psec__about" data-reveal>
             As companies grow, security stops being an audit project and becomes part of how the business operates. Enterprise customers, regulators and partners expect organizations to have security and compliance programs that are not only documented, but actually working.
           </p>
           <p className="psec__main" data-reveal>
