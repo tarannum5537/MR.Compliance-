@@ -78,7 +78,7 @@ export default async function handler(req, res) {
       to: [process.env.OWNER_EMAIL],
       replyTo: email.trim(),
 
-      subject: `New Contact Form Submission - ${name.trim()}`,
+     subject: `New Contact Form Submission - ${name.trim()} - ${Date.now()}`,
 
       html: `
         <div style="font-family: Arial, sans-serif; line-height: 1.6;">
