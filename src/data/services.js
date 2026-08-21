@@ -360,7 +360,7 @@ const SERVICE_CATALOG = [
   {
     slug: "soc2",
     title: "SOC 2",
-    category: "Security & Compliance",
+    // category: "Security & Compliance",
     short: "Type 1 and Type 2 readiness and certification support  gap assessment, policies, controls, evidence and audit coordination.",
     seoTitle: "SOC 2 Type 1 & Type 2 Compliance Services | Mr.Compliance",
     seoDescription: "End-to-end SOC 2 readiness and certification support: gap assessment, policies, control implementation, evidence collection and audit coordination.",
@@ -370,7 +370,7 @@ const SERVICE_CATALOG = [
   {
     slug: "iso-27001",
     title: "ISO 27001",
-    category: "Security & Compliance",
+    // category: "Security & Compliance",
     short: "Build an audit-ready ISMS: risk assessment, Statement of Applicability, Annex A controls and Stage 1 / Stage 2 support.",
     seoTitle: "ISO 27001 Certification Services | Mr.Compliance",
     seoDescription: "Get ISO 27001 certified with a structured ISMS: risk assessment, SoA, control implementation and certification audit support.",
@@ -379,7 +379,7 @@ const SERVICE_CATALOG = [
   {
     slug: "pci-dss",
     title: "PCI DSS",
-    category: "Security & Compliance",
+    // category: "Security & Compliance",
     short: "Cardholder data flow mapping, control implementation, vulnerability management and QSA audit coordination.",
     seoTitle: "PCI DSS Compliance Services | Mr.Compliance",
     seoDescription: "Protect cardholder data and pass your QSA audit: scoping, segmentation review, controls, policies and audit preparation.",
@@ -388,7 +388,7 @@ const SERVICE_CATALOG = [
   {
     slug: "hipaa",
     title: "HIPAA",
-    category: "Security & Compliance",
+    // category: "Security & Compliance",
     short: "Risk assessments, safeguards, workforce training and PHI protection for providers and health tech companies.",
     seoTitle: "HIPAA Compliance Services | Mr.Compliance",
     seoDescription: "Practical HIPAA compliance for healthcare and health tech: risk assessment, policies, administrative and technical safeguards.",
@@ -397,7 +397,7 @@ const SERVICE_CATALOG = [
   {
     slug: "nist-cmmc",
     title: "NIST / CMMC",
-    category: "Security & Compliance",
+    // category: "Security & Compliance",
     short: "NIST CSF alignment and CMMC / FedRAMP readiness: maturity evaluation, control implementation and audit preparation.",
     seoTitle: "NIST CSF & CMMC Compliance Services | Mr.Compliance",
     seoDescription: "Align to the NIST Cybersecurity Framework and prepare for CMMC: gap assessment, maturity evaluation, controls and policy development.",
@@ -406,7 +406,7 @@ const SERVICE_CATALOG = [
   {
     slug: "gdpr-privacy",
     title: "GDPR Compliance",
-    category: "Security & Compliance",
+    // category: "Security & Compliance",
     short: "Data mapping, RoPA, privacy policies, consent management, DPIAs and vendor data processing agreements.",
     seoTitle: "GDPR & Privacy Compliance Services | Mr.Compliance",
     seoDescription: "End-to-end GDPR support: data mapping, RoPA, privacy policies, consent management, DPIAs and privacy governance.",
@@ -415,7 +415,7 @@ const SERVICE_CATALOG = [
   {
     slug: "cloud-security",
     title: "Cloud Security",
-    category: "Security",
+    // category: "Security",
     short: "AWS, GCP and Azure review across configuration, IAM, network security, logging and monitoring  with fixes.",
     seoTitle: "Cloud Security Assessment (AWS, GCP, Azure) | Mr.Compliance",
     seoDescription: "Find and fix cloud security gaps: configuration review, IAM, network security, logging and monitoring with actionable remediation.",
@@ -424,7 +424,7 @@ const SERVICE_CATALOG = [
   {
     slug: "vulnerability-management",
     title: "Vulnerability Management",
-    category: "Security",
+    // category: "Security",
     short: "Scanning, risk-based triage, remediation SLAs and reporting  a program that runs, not a one-off scan.",
     seoTitle: "Vulnerability Management Services | Mr.Compliance",
     seoDescription: "Build a working vulnerability management program: scanning coverage, risk-based triage, remediation SLAs and audit-ready reporting.",
@@ -433,7 +433,7 @@ const SERVICE_CATALOG = [
   {
     slug: "penetration-testing",
     title: "Penetration Testing",
-    category: "Security",
+    // category: "Security",
     short: "Audit-accepted pentest reports for SOC 2, ISO 27001, HIPAA and PCI DSS, with remediation support and retesting.",
     seoTitle: "Compliance-Ready Penetration Testing | Mr.Compliance",
     seoDescription: "Compliance-ready penetration testing with audit-accepted reports for SOC 2, ISO 27001, HIPAA and PCI DSS, plus remediation and retesting.",
@@ -442,7 +442,7 @@ const SERVICE_CATALOG = [
   {
     slug: "security-assessments",
     title: "Security Assessments",
-    category: "Security",
+    // category: "Security",
     short: "An independent review of architecture, controls and processes, ending in a prioritised remediation roadmap.",
     seoTitle: "Security Assessment Services | Mr.Compliance",
     seoDescription: "Independent security assessment of your architecture, controls and processes with a risk-ranked, executable remediation roadmap.",
@@ -451,7 +451,7 @@ const SERVICE_CATALOG = [
   {
     slug: "incident-readiness",
     title: "Incident Readiness",
-    category: "Security",
+    // category: "Security",
     short: "Incident response plans, playbooks, escalation paths and tabletop exercises so your team is ready before it happens.",
     seoTitle: "Incident Response Readiness Services | Mr.Compliance",
     seoDescription: "Be ready before an incident: response plan, severity model, scenario playbooks, escalation paths and tabletop exercises.",
@@ -460,7 +460,7 @@ const SERVICE_CATALOG = [
   {
     slug: "risk-management",
     title: "Risk Management",
-    category: "GRC",
+    // category: "GRC",
     short: "Asset identification, threat analysis, risk scoring and a maintained risk register with treatment plans.",
     seoTitle: "Risk Management & Risk Assessment Services | Mr.Compliance",
     seoDescription: "Structured risk management: asset identification, threat analysis, risk scoring, treatment planning and a living risk register.",
@@ -469,7 +469,7 @@ const SERVICE_CATALOG = [
   {
     slug: "vendor-risk",
     title: "Vendor Risk",
-    category: "GRC",
+    // category: "GRC",
     short: "Vendor inventory, risk tiering, due diligence, DPAs and an ongoing third-party review cycle.",
     seoTitle: "Vendor & Third-Party Risk Management | Mr.Compliance",
     seoDescription: "Third-party risk done proportionately: vendor inventory, risk tiering, due diligence, security terms and ongoing monitoring.",
