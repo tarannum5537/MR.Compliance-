@@ -123,7 +123,7 @@ const REASONS = [
   }
 ];
 const STATS = [
-  { value: "200", label: "Companies certified" },
+  { value: "200+", label: "Companies certified" },
   { value: "8 weeks", label: "Average turnaround" },
   { value: "100%", label: "Audit success rate" }
 ];
