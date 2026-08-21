@@ -77,7 +77,7 @@ function ServicePage({
     }
   ];
   const STATS = [
-    { value: "200", label: "Companies certified" },
+    { value: "200+", label: "Companies certified" },
     { value: page.turnaround, label: "Average turnaround" },
     { value: "100%", label: "Audit success rate" }
   ];
