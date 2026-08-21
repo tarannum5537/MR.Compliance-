@@ -110,7 +110,7 @@
   opacity: 0.85;
 }
 .cstory__points li::before {
-  content: "—";
+  content: "-";
   color: #b6ff00;
 }
 .cstory__link {

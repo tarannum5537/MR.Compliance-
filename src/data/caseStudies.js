@@ -7,7 +7,7 @@ const CASE_STUDIES = [
     slug: "Takeoff41- SOC2 & HIPAA certificate",
     
     category: "Healthcare",
-    cardTitle: "Takeoff41- SOC2 & HIPAA certificate",
+    cardTitle: "Takeoff41 - SOC2 & HIPAA Certificate",
     cardLede: "Strengthening Healthcare Security: How Takeoff41 Achieved SOC 2 & HIPAA Readiness. Takeoff41 builds intelligent clinical tools for neonatal care, with EHR-integrated TPN ordering workflows  so security, privacy and regulatory compliance sit at the centre of their operations.",
     cardPoints: [
       "Aligning security practices with SOC 2 and HIPAA requirements",
@@ -16,9 +16,9 @@ const CASE_STUDIES = [
     ],
     img: healthcare,
     imgAlt: "Healthcare technology security program for Takeoff41",
-    title: "Strengthening healthcare security for",
-    accent: "Takeoff41",
-    subtitle: "How Takeoff41 achieved SOC 2 and HIPAA readiness for a neonatal clinical technology platform \u2014 where trust is not a formality, it is a clinical requirement.",
+    title: "Takeoff41 - SOC2 & HIPAA ",
+    accent: "Certificate",
+    subtitle: "How Takeoff41 achieved SOC 2 and HIPAA readiness for a neonatal clinical technology platform  where trust is not a formality, it is a clinical requirement.",
     facts: [
       { label: "Client", value: "Takeoff41" },
       { label: "Industry", value: "Healthcare Technology" },
@@ -66,7 +66,7 @@ const CASE_STUDIES = [
           text: "Implementing vendor and third-party risk management processes alongside employee security awareness and training programs."
         }
       ],
-      note: "Drata\u2019s automation capabilities helped integrate compliance monitoring into Takeoff41\u2019s cloud infrastructure and SaaS environment, reducing manual effort and providing continuous visibility into security controls. Mr.Compliance ensured controls were not just documented but fully implemented and aligned with industry best practices."
+      note: "Dratas automation capabilities helped integrate compliance monitoring into Takeoff41s cloud infrastructure and SaaS environment, reducing manual effort and providing continuous visibility into security controls. Mr.Compliances ensured controls were not just documented but fully implemented and aligned with industry best practices."
     },
     outcome: {
       intro: "Following the implementation of its compliance program, Takeoff41 achieved several key outcomes.",
@@ -92,8 +92,8 @@ const CASE_STUDIES = [
     conclusion: {
       heading: "Compliance as a healthcare trust accelerator",
       paras: [
-        "For healthcare technology companies, security and privacy are not just technical requirements \u2014 they are foundational to patient trust and clinical partnerships.",
-        "By combining Drata\u2019s automation platform with Mr.Compliance\u2019s implementation expertise, Takeoff41 successfully built a scalable compliance program aligned with SOC 2 and HIPAA requirements. The result is a stronger security posture, improved operational transparency, and the ability to confidently engage with healthcare institutions that demand the highest standards of data protection."
+        "For healthcare technology companies, security and privacy are not just technical requirements  they are foundational to patient trust and clinical partnerships.",
+        "By combining Dratas automation platform with Mr.Compliances implementation expertise, Takeoff41 successfully built a scalable compliance program aligned with SOC 2 and HIPAA requirements. The result is a stronger security posture, improved operational transparency, and the ability to confidently engage with healthcare institutions that demand the highest standards of data protection."
       ]
     }
   },
@@ -111,7 +111,7 @@ const CASE_STUDIES = [
     imgAlt: "Portqii SOC 2 Type II compliance program",
     title: "Achieving SOC 2 Type II with",
     accent: "Portqii",
-    subtitle: "How Portqii strengthened trust and security with Scrut Automation \u2014 building a continuous compliance program that stands up to enterprise scrutiny.",
+    subtitle: "How Portqii strengthened trust and security with Scrut Automation  building a continuous compliance program that stands up to enterprise scrutiny.",
     facts: [
       { label: "Client", value: "Portqii" },
       { label: "Industry", value: "Technology / SaaS" },
@@ -159,7 +159,7 @@ const CASE_STUDIES = [
           text: "Creating a centralized compliance documentation and evidence repository, and preparing the organization for the SOC 2 Type II audit process."
         }
       ],
-      note: "Scrut Automation streamlined compliance management by automating evidence collection and integrating with Portqii\u2019s cloud infrastructure and operational tools, giving the team continuous visibility into compliance status while Mr.Compliance ensured controls were implemented effectively day to day."
+      note: "Scrut Automation streamlined compliance management by automating evidence collection and integrating with Portqiis cloud infrastructure and operational tools, giving the team continuous visibility into compliance status while Mr.Compliance ensured controls were implemented effectively day to day."
     },
     outcome: {
       intro: "Portqii achieved SOC 2 Type II certification, demonstrating that its security controls operate effectively over time.",
@@ -185,8 +185,8 @@ const CASE_STUDIES = [
     conclusion: {
       heading: "Turning compliance into a business enabler",
       paras: [
-        "Portqii\u2019s SOC 2 Type II journey demonstrates that compliance is most effective when it is integrated into daily operations rather than treated as a one-time audit requirement.",
-        "By combining Scrut Automation\u2019s compliance platform with Mr.Compliance\u2019s implementation expertise, the company built a structured and scalable security program that supports both regulatory expectations and business growth."
+        "Portqiis SOC 2 Type II journey demonstrates that compliance is most effective when it is integrated into daily operations rather than treated as a one-time audit requirement.",
+        "By combining Scrut Automations compliance platform with Mr.Compliances implementation expertise, the company built a structured and scalable security program that supports both regulatory expectations and business growth."
       ]
     }
   },
@@ -204,7 +204,7 @@ const CASE_STUDIES = [
     imgAlt: "Automynd SOC 2 Type II compliance program with Vanta",
     title: "Security and trust at scale for",
     accent: "Automynd",
-    subtitle: "How Automynd achieved SOC 2 Type II with Vanta \u2014 continuous compliance built into an AI and automation platform growing into the enterprise.",
+    subtitle: "How Automynd achieved SOC 2 Type II with Vanta  continuous compliance built into an AI and automation platform growing into the enterprise.",
     facts: [
       { label: "Client", value: "Automynd" },
       { label: "Industry", value: "AI & Automation" },
@@ -221,8 +221,8 @@ const CASE_STUDIES = [
     },
     challenge: {
       intro: [
-        "As Automynd\u2019s customer base grew, the company began receiving detailed security questionnaires and vendor risk assessments from enterprise prospects. Although the organization already maintained strong engineering and security practices, they needed a formal compliance framework to clearly demonstrate these controls to customers and external auditors.",
-        "Unlike SOC 2 Type I, which evaluates controls at a single point in time, SOC 2 Type II requires organizations to demonstrate the operational effectiveness of security controls over a defined audit period. Automynd needed a structured approach that would enable continuous compliance while supporting the company\u2019s rapid growth."
+        "As Automynds customer base grew, the company began receiving detailed security questionnaires and vendor risk assessments from enterprise prospects. Although the organization already maintained strong engineering and security practices, they needed a formal compliance framework to clearly demonstrate these controls to customers and external auditors.",
+        "Unlike SOC 2 Type I, which evaluates controls at a single point in time, SOC 2 Type II requires organizations to demonstrate the operational effectiveness of security controls over a defined audit period. Automynd needed a structured approach that would enable continuous compliance while supporting the companys rapid growth."
       ],
       points: [
         "Establishing structured security governance and policies",
@@ -278,8 +278,8 @@ const CASE_STUDIES = [
     conclusion: {
       heading: "Compliance as a competitive advantage",
       paras: [
-        "Automynd\u2019s SOC 2 Type II journey demonstrates that strong security governance and operational controls are essential for companies operating in today\u2019s technology landscape.",
-        "By combining Vanta\u2019s compliance automation capabilities with Mr.Compliance\u2019s implementation expertise, Automynd built a structured and scalable compliance program aligned with SOC 2 requirements \u2014 resulting in a stronger security posture, increased transparency, and greater trust with enterprise customers and partners."
+        "Automynds SOC 2 Type II journey demonstrates that strong security governance and operational controls are essential for companies operating in todays technology landscape.",
+        "By combining Vantas compliance automation capabilities with Mr.Compliances implementation expertise, Automynd built a structured and scalable compliance program aligned with SOC 2 requirements  resulting in a stronger security posture, increased transparency, and greater trust with enterprise customers and partners."
       ]
     }
   },
@@ -297,7 +297,7 @@ const CASE_STUDIES = [
   //   imgAlt: "Udemy SOX compliance program supported with AuditBoard",
   //   title: "Strengthening financial controls at",
   //   accent: "Udemy",
-  //   subtitle: "Supporting SOX compliance for a publicly traded global learning marketplace using AuditBoard \u2014 structured documentation, evidence and audit coordination.",
+  //   subtitle: "Supporting SOX compliance for a publicly traded global learning marketplace using AuditBoard  structured documentation, evidence and audit coordination.",
   //   facts: [
   //     { label: "Client", value: "Udemy" },
   //     { label: "Industry", value: "Online Learning" },
@@ -307,7 +307,7 @@ const CASE_STUDIES = [
   //   about: {
   //     heading: "About Udemy",
   //     paras: [
-  //       "Udemy is a global online learning marketplace that connects millions of learners with expert instructors across thousands of courses. Organizations and individuals around the world rely on Udemy\u2019s platform to develop new skills and accelerate professional growth.",
+  //       "Udemy is a global online learning marketplace that connects millions of learners with expert instructors across thousands of courses. Organizations and individuals around the world rely on Udemys platform to develop new skills and accelerate professional growth.",
   //       "As a publicly traded company operating at global scale, Udemy must maintain strong financial governance and internal controls to comply with regulatory requirements such as the Sarbanes-Oxley Act (SOX). Ensuring the effectiveness of these controls is essential for maintaining financial transparency, regulatory compliance, and investor confidence.",
   //       "To support ongoing SOX compliance efforts, Udemy utilizes modern governance and compliance tools to manage internal controls, documentation, and audit workflows."
   //     ]
@@ -364,7 +364,7 @@ const CASE_STUDIES = [
   //       },
   //       {
   //         title: "Strengthened governance processes",
-  //         text: "The structured approach supported Udemy\u2019s broader governance and internal control framework."
+  //         text: "The structured approach supported Udemys broader governance and internal control framework."
   //       }
   //     ]
   //   },
@@ -372,7 +372,7 @@ const CASE_STUDIES = [
   //     heading: "Modern tools for modern compliance",
   //     paras: [
   //       "For large organizations operating in regulated environments, maintaining strong internal controls and governance processes is critical.",
-  //       "By leveraging AuditBoard\u2019s compliance platform and structured audit workflows, organizations can manage SOX compliance activities more efficiently while maintaining strong financial oversight. Mr.Compliance supported these efforts by helping streamline compliance documentation and audit preparation processes."
+  //       "By leveraging AuditBoards compliance platform and structured audit workflows, organizations can manage SOX compliance activities more efficiently while maintaining strong financial oversight. Mr.Compliance supported these efforts by helping streamline compliance documentation and audit preparation processes."
   //     ]
   //   }
   // }

@@ -14,7 +14,7 @@ function ServiceDetailPage() {
   const service = getCatalogService(slug);
 
   useSeo({
-    title: service ? service.seoTitle : "Service not found — Mr.Compliance",
+    title: service ? service.seoTitle : "Service not found - Mr.Compliance",
     description: service ? service.seoDescription : "",
     path: `/services/${slug}/`
   });

@@ -1,7 +1,7 @@
 import useReveal from "../../hooks/useReveal";
 import "./TrustBar.scss";
 const STATS = [
-  { value: "200+", label: "Companies Guided" },
+  { value: "200", label: "Companies Guided" },
   { value: "100%", label: "Audit Pass Rate" },
   { value: "8 Weeks", label: "Certification Journey" }
 ];

@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 const CASES = [
   {
     tag: "Healthcare",
-    title: "Takeoff41- SOC2 & HIPAA certificate",
+    title: "Takeoff41- SOC2 & HIPAA Certificate",
     img: healthcare,
-    href: "/study/strengthening-healthcare-security",
+    href: "/study/Takeoff41-%20SOC2%20&%20HIPAA%20certificate/",
   },
   {
     tag: "SaaS / SOC 2",

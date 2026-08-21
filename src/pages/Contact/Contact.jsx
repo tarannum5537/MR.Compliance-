@@ -135,7 +135,7 @@ const countries = [
           onSubmit={handleSubmit(onSubmit)}
           noValidate
         >
-          {/* Honeypot field — bots ke liye trap, real users ko dikhega nahi */}
+          {/* Honeypot field - bots ke liye trap, real users ko dikhega nahi */}
           <div style={{ position: "absolute", left: "-9999px" }} aria-hidden="true">
             <label htmlFor="website">Website</label>
             <input

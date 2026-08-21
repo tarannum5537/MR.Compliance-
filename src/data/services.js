@@ -49,7 +49,7 @@ const securityAssessments = {
   tag: "Security Assessments",
   tagIcon: "search",
   title: "Security Assessment Services",
-  tagline: "An independent, practical review of your security posture \u2014 architecture, controls, processes and people \u2014 with a prioritised roadmap you can actually execute.",
+  tagline: "An independent, practical review of your security posture  architecture, controls, processes and people  with a prioritised roadmap you can actually execute.",
   duration: "3 weeks",
   price: "$2,000",
   timelineTitle: "Your Path to a Clear Roadmap",
@@ -63,7 +63,7 @@ const securityAssessments = {
   ],
   educationTitle: "What is a Security Assessment?",
   educationParagraphs: [
-    "A security assessment is a point-in-time review of how well your organisation is actually protected \u2014 across cloud and application architecture, access management, monitoring, and day-to-day operating practices.",
+    "A security assessment is a point-in-time review of how well your organisation is actually protected  across cloud and application architecture, access management, monitoring, and day-to-day operating practices.",
     "Unlike a pentest, it looks at the whole program rather than a single system, and ends with a plan rather than a finding list."
   ],
   whyTitle: "Why Do Companies Need Security Assessments?",
@@ -110,7 +110,7 @@ const incidentReadiness = {
     { icon: "clock", title: "Speed decides impact", text: "Most damage happens in the hours before anyone takes a clear decision." },
     { icon: "shield", title: "Required for compliance", text: "SOC 2, ISO 27001, HIPAA and GDPR all expect documented, tested response procedures." },
     { icon: "users", title: "Removes hesitation", text: "Defined roles and escalation paths mean nobody waits for permission." },
-    { icon: "scale", title: "Meets notification duties", text: "Breach notification clocks are short \u2014 the process must already exist." }
+    { icon: "scale", title: "Meets notification duties", text: "Breach notification clocks are short  the process must already exist." }
   ],
   includedTitle: "What's Included in Our Incident Readiness Program",
   includedSub: "Four workstreams, run over four weeks.",
@@ -127,7 +127,7 @@ const vendorRisk = {
   tag: "Vendor Risk",
   tagIcon: "building",
   title: "Vendor Risk Management Services",
-  tagline: "Know which third parties can hurt you. A tiered vendor risk program covering intake, due diligence, contracts and ongoing monitoring \u2014 without slowing procurement to a halt.",
+  tagline: "Know which third parties can hurt you. A tiered vendor risk program covering intake, due diligence, contracts and ongoing monitoring  without slowing procurement to a halt.",
   duration: "4 weeks",
   price: "$1,800",
   timelineTitle: "Your Path to Third-Party Assurance",
@@ -180,7 +180,7 @@ const securityQuestionnaires = {
   ],
   educationTitle: "What is Security Questionnaire Support?",
   educationParagraphs: [
-    "Enterprise buyers send security questionnaires \u2014 CAIQ, SIG, VSA or their own spreadsheet \u2014 before they sign. Answering them well and quickly is a revenue function, not a paperwork chore.",
+    "Enterprise buyers send security questionnaires  CAIQ, SIG, VSA or their own spreadsheet  before they sign. Answering them well and quickly is a revenue function, not a paperwork chore.",
     "We handle the responses and build the library so the second, third and tenth questionnaire take hours instead of weeks."
   ],
   whyTitle: "Why Do Companies Need Questionnaire Support?",
@@ -205,7 +205,7 @@ const policyControlManagement = {
   tag: "Policy & Control Management",
   tagIcon: "folder",
   title: "Policy & Control Management",
-  tagline: "Policies people actually follow and controls that map cleanly to every framework you carry \u2014 written, approved, assigned and reviewed on a schedule.",
+  tagline: "Policies people actually follow and controls that map cleanly to every framework you carry  written, approved, assigned and reviewed on a schedule.",
   duration: "4 weeks",
   price: "$1,800",
   timelineTitle: "Your Path to a Managed Control Set",
@@ -220,7 +220,7 @@ const policyControlManagement = {
   educationTitle: "What is Policy & Control Management?",
   educationParagraphs: [
     "Your policy set is the written description of how security works at your company; your control set is what actually operates. Managing both together is what keeps audits from turning into archaeology.",
-    "Done properly, one control satisfies several frameworks at once \u2014 so adding ISO 27001 after SOC 2 is incremental, not a restart."
+    "Done properly, one control satisfies several frameworks at once  so adding ISO 27001 after SOC 2 is incremental, not a restart."
   ],
   whyTitle: "Why Do Companies Need This?",
   why: [
@@ -259,13 +259,13 @@ const continuousCompliance = {
   educationTitle: "What is Continuous Compliance?",
   educationParagraphs: [
     "Continuous compliance means your controls are monitored and evidenced throughout the year instead of being reconstructed in the weeks before an audit.",
-    "It combines a GRC platform with someone actually watching it \u2014 reviewing failing checks, chasing owners and keeping the evidence complete."
+    "It combines a GRC platform with someone actually watching it  reviewing failing checks, chasing owners and keeping the evidence complete."
   ],
   whyTitle: "Why Do Companies Need Continuous Compliance?",
   why: [
     { icon: "clock", title: "No annual fire drill", text: "Evidence is already there when the auditor asks for it." },
     { icon: "alert", title: "Catch drift early", text: "Failing controls surface in days, not during fieldwork." },
-    { icon: "shield", title: "Type 2 requires it", text: "SOC 2 Type 2 tests controls over a period \u2014 gaps in the window are costly." },
+    { icon: "shield", title: "Type 2 requires it", text: "SOC 2 Type 2 tests controls over a period  gaps in the window are costly." },
     { icon: "trending", title: "Cheaper over time", text: "Steady maintenance costs far less than repeated readiness projects." }
   ],
   includedTitle: "What's Included in Our Continuous Compliance Service",
@@ -297,7 +297,7 @@ const vciso = {
   ],
   educationTitle: "What is a vCISO?",
   educationParagraphs: [
-    "A virtual CISO is an experienced security executive who works with you part-time \u2014 setting strategy, owning the program, and being the accountable security voice in front of customers, auditors and the board.",
+    "A virtual CISO is an experienced security executive who works with you part-time  setting strategy, owning the program, and being the accountable security voice in front of customers, auditors and the board.",
     "It suits companies that need real leadership and credibility but aren't ready for a full-time executive hire."
   ],
   whyTitle: "Why Do Companies Hire a vCISO?",
@@ -336,7 +336,7 @@ const securityProgramManagement = {
   ],
   educationTitle: "What is Security Program Management?",
   educationParagraphs: [
-    "Most security programs don't fail on strategy \u2014 they fail on delivery. Work is spread across engineering, IT, HR and legal, and nobody owns the whole plan.",
+    "Most security programs don't fail on strategy  they fail on delivery. Work is spread across engineering, IT, HR and legal, and nobody owns the whole plan.",
     "Security program management provides that owner: someone tracking every workstream, chasing evidence, and reporting honestly on where things stand."
   ],
   whyTitle: "Why Do Companies Need It?",
@@ -361,7 +361,7 @@ const SERVICE_CATALOG = [
     slug: "soc2",
     title: "SOC 2",
     category: "Security & Compliance",
-    short: "Type 1 and Type 2 readiness and certification support \u2014 gap assessment, policies, controls, evidence and audit coordination.",
+    short: "Type 1 and Type 2 readiness and certification support  gap assessment, policies, controls, evidence and audit coordination.",
     seoTitle: "SOC 2 Type 1 & Type 2 Compliance Services | Mr.Compliance",
     seoDescription: "End-to-end SOC 2 readiness and certification support: gap assessment, policies, control implementation, evidence collection and audit coordination.",
     customComponent: "soc2",
@@ -405,7 +405,7 @@ const SERVICE_CATALOG = [
   },
   {
     slug: "gdpr-privacy",
-    title: "GDPR / Privacy",
+    title: "GDPR Compliance",
     category: "Security & Compliance",
     short: "Data mapping, RoPA, privacy policies, consent management, DPIAs and vendor data processing agreements.",
     seoTitle: "GDPR & Privacy Compliance Services | Mr.Compliance",
@@ -416,7 +416,7 @@ const SERVICE_CATALOG = [
     slug: "cloud-security",
     title: "Cloud Security",
     category: "Security",
-    short: "AWS, GCP and Azure review across configuration, IAM, network security, logging and monitoring \u2014 with fixes.",
+    short: "AWS, GCP and Azure review across configuration, IAM, network security, logging and monitoring  with fixes.",
     seoTitle: "Cloud Security Assessment (AWS, GCP, Azure) | Mr.Compliance",
     seoDescription: "Find and fix cloud security gaps: configuration review, IAM, network security, logging and monitoring with actionable remediation.",
     legacySlug: "cloud-security"
@@ -425,7 +425,7 @@ const SERVICE_CATALOG = [
     slug: "vulnerability-management",
     title: "Vulnerability Management",
     category: "Security",
-    short: "Scanning, risk-based triage, remediation SLAs and reporting \u2014 a program that runs, not a one-off scan.",
+    short: "Scanning, risk-based triage, remediation SLAs and reporting  a program that runs, not a one-off scan.",
     seoTitle: "Vulnerability Management Services | Mr.Compliance",
     seoDescription: "Build a working vulnerability management program: scanning coverage, risk-based triage, remediation SLAs and audit-ready reporting.",
     page: vulnerabilityManagement
@@ -490,14 +490,14 @@ const SERVICE_CATALOG = [
     category: "GRC",
     short: "A governed policy suite and one control set mapped across every framework you carry, with owners and review dates.",
     seoTitle: "Policy & Security Control Management | Mr.Compliance",
-    seoDescription: "Policies people follow and controls mapped once across SOC 2, ISO 27001 and HIPAA \u2014 with owners, approvals and review cycles.",
+    seoDescription: "Policies people follow and controls mapped once across SOC 2, ISO 27001 and HIPAA  with owners, approvals and review cycles.",
     page: policyControlManagement
   },
   {
     slug: "continuous-compliance",
     title: "Continuous Compliance",
     category: "GRC",
-    short: "Automated monitoring and evidence collection in Vanta, Drata, Secureframe or Scrut \u2014 managed year-round.",
+    short: "Automated monitoring and evidence collection in Vanta, Drata, Secureframe or Scrut  managed year-round.",
     seoTitle: "Continuous Compliance Monitoring Services | Mr.Compliance",
     seoDescription: "Stay audit-ready all year with GRC platform setup, automated evidence collection, control drift alerting and audit coordination.",
     page: continuousCompliance
@@ -506,7 +506,7 @@ const SERVICE_CATALOG = [
     slug: "vciso",
     title: "vCISO",
     category: "Leadership",
-    short: "Senior security leadership on a fractional basis \u2014 strategy, board reporting and customer assurance.",
+    short: "Senior security leadership on a fractional basis  strategy, board reporting and customer assurance.",
     seoTitle: "Virtual CISO (vCISO) Services | Mr.Compliance",
     seoDescription: "Fractional security leadership: strategy and roadmap, program ownership, enterprise customer assurance and board reporting.",
     page: vciso

@@ -1,4 +1,4 @@
-# Mr.Compliance — Website
+# Mr.Compliance - Website
 
 Marketing website for Mr.Compliance built with **React + Vite + React Router DOM + SCSS**
 (with GSAP used for the scroll reveal animations).
@@ -75,12 +75,12 @@ Component-specific styles live next to the component (e.g.
 
 ## Editing content
 
-* **Services** — edit `src/data/services.js` (short description, SEO title/description,
+* **Services** - edit `src/data/services.js` (short description, SEO title/description,
   category) and `src/data/servicePages.js` (detail-page sections). Adding a service to the
   array automatically creates its card and its `/services/<slug>` page.
-* **Case studies** — edit `src/data/caseStudies.js`.
-* **Footer offices / contact details** — edit `src/components/Footer/Footer.jsx`.
-* **Booking link** — `BOOKING_URL` in `src/components/Navbar/Navbar.jsx`.
+* **Case studies** - edit `src/data/caseStudies.js`.
+* **Footer offices / contact details** - edit `src/components/Footer/Footer.jsx`.
+* **Booking link** - `BOOKING_URL` in `src/components/Navbar/Navbar.jsx`.
 
 ## SEO
 

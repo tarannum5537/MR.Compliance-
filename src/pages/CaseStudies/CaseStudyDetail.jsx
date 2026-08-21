@@ -24,7 +24,7 @@ function CaseStudyDetailPage() {
 
   useSeo({
     title: study
-      ? `${study.cardTitle} — Case Study | Mr.Compliance`
+      ? `${study.cardTitle} - Case Study | Mr.Compliance`
       : "Case study not found | Mr.Compliance",
     description: study ? study.subtitle : "",
     path: `/study/${slug}/`
@@ -45,7 +45,7 @@ function CaseStudyDetailPage() {
             {study.category} 
           </p>
           <h1 className="cs__title" data-reveal>
-            {study.title} <span>{study.accent}</span>
+              {study.title} <span>{study.accent}</span>
           </h1>
           <p className="cs__sub" data-reveal>
             {study.subtitle}

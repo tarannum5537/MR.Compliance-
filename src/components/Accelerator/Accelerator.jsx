@@ -69,7 +69,7 @@ function Accelerator({ tool }) {
             <li>
               <span>03</span>
               <p>
-                <strong>Limited bandwidth</strong> — small team, too many
+                <strong>Limited bandwidth</strong> - small team, too many
                 priorities, no in-house GRC.
               </p>
             </li>

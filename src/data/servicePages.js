@@ -18,7 +18,7 @@ const SERVICE_PAGES = [
     ],
     educationTitle: "What is ISO 27001?",
     educationParagraphs: [
-      "ISO 27001 is the leading international standard for an Information Security Management System (ISMS) \u2014 a structured way of managing how a company protects its information.",
+      "ISO 27001 is the leading international standard for an Information Security Management System (ISMS) a structured way of managing how a company protects its information.",
       "Certification proves your security practices are systematic, risk-based, and independently verified, not just ad hoc."
     ],
     whyTitle: "Why Do Companies Need ISO 27001?",
@@ -26,7 +26,7 @@ const SERVICE_PAGES = [
       { icon: "globe", title: "Required by global buyers", text: "Many EU and global enterprise buyers ask for ISO 27001 before they sign a contract." },
       { icon: "shield", title: "Systematic risk management", text: "Demonstrates that risk is identified, treated and reviewed on a repeatable cycle." },
       { icon: "trending", title: "Enables international expansion", text: "An internationally recognised certificate builds trust in markets that don't know you yet." },
-      { icon: "scale", title: "The non-US alternative to SOC 2", text: "Often required alongside \u2014 or instead of \u2014 SOC 2 when your clients are outside the US." }
+      { icon: "scale", title: "The non-US alternative to SOC 2", text: "Often required alongside  or instead of  SOC 2 when your clients are outside the US." }
     ],
     includedTitle: "What's Included in Our ISO 27001 Program",
     includedSub: "Four workstreams, run in sequence over eight weeks.",
@@ -38,6 +38,126 @@ const SERVICE_PAGES = [
     ],
     turnaround: "8 weeks"
   },
+  {
+  slug: "soc2",
+  tag: "SOC 2 Compliance",
+  tagIcon: "shield",
+  title: "SOC 2 Type 1 / 2 Audit Services",
+  tagline:
+    "Get audit-ready and certified - without the confusion. We handle the controls, the evidence and the auditor, so your team keeps shipping.",
+  duration: "8 weeks",
+  price: "$2,000",
+
+  timelineTitle: "Your Path to Certification",
+  timelineSub: "A clear roadmap from readiness to report.",
+
+  steps: [
+    {
+      icon: "search",
+      title: "Gap Assessment",
+      text: "See where you stand against SOC 2 requirements."
+    },
+    {
+      icon: "file",
+      title: "Policy & Controls Setup",
+      text: "Build the policies and controls that form your program."
+    },
+    {
+      icon: "folder",
+      title: "Evidence Collection",
+      text: "Collect and organize proof that controls are working."
+    },
+    {
+      icon: "users",
+      title: "Audit Coordination",
+      text: "We manage the auditor relationship and requests."
+    },
+    {
+      icon: "award",
+      title: "Certified",
+      text: "Receive your SOC 2 report and close the deal."
+    }
+  ],
+
+  educationTitle: "What is SOC 2 Certification?",
+  educationParagraphs: [
+    "SOC 2 is an independent check on how well a company protects the data it holds for its customers. An outside auditor reviews your day-to-day practices and writes a report on what they found.",
+    "Passing it proves you have real safeguards in place - who can access data, how systems are monitored, and what happens when something goes wrong. A Type 1 report looks at one moment in time; a Type 2 report watches those safeguards work over several months."
+  ],
+
+  whyTitle: "Why Do Companies Need SOC 2 Certification?",
+  why: [
+    {
+      icon: "trending",
+      title: "Wins enterprise deals",
+      text: "Large buyers ask for a SOC 2 report before they sign. Having one keeps you on the shortlist."
+    },
+    {
+      icon: "shield",
+      title: "Builds real trust",
+      text: "An independent auditor confirms your claims, so customers don't have to take your word for it."
+    },
+    {
+      icon: "zap",
+      title: "Lowers breach risk",
+      text: "The controls you put in place genuinely reduce the chance and impact of a security incident."
+    },
+    {
+      icon: "clock",
+      title: "Shortens sales cycles",
+      text: "Security questionnaires and vendor reviews move in days instead of dragging on for months."
+    }
+  ],
+
+  includedTitle: "What's Included in Our SOC 2 Program",
+  includedSub: "Four workstreams, run in sequence over eight weeks.",
+
+  workstreams: [
+    {
+      num: "01",
+      title: "Assessment & Strategy",
+      text: "Gap assessment against the Trust Services Criteria, plus a readiness roadmap with owners and dates.",
+      items: [
+        "Gap assessment",
+        "Readiness roadmap",
+        "Scope definition"
+      ]
+    },
+    {
+      num: "02",
+      title: "Policy & Controls",
+      text: "Security policies written for how your team actually works, then implemented control by control.",
+      items: [
+        "Policy development",
+        "Control implementation",
+        "Access reviews"
+      ]
+    },
+    {
+      num: "03",
+      title: "Tools & Automation",
+      text: "GRC platform onboarding and continuous monitoring so evidence collects itself in the background.",
+      items: [
+        "Vanta, Drata, Secureframe, Scrut",
+        "Continuous monitoring",
+        "Alert triage"
+      ]
+    },
+    {
+      num: "04",
+      title: "Audit & Beyond",
+      text: "We run evidence collection and auditor coordination, then keep the program healthy after the report.",
+      items: [
+        "Evidence collection",
+        "Audit coordination",
+        "Vendor risk & training"
+      ]
+    }
+  ],
+
+  turnaround: "8 weeks"
+},
+  
   {
     slug: "pci-dss",
     tag: "PCI DSS Compliance",
@@ -58,7 +178,7 @@ const SERVICE_PAGES = [
     educationTitle: "What is PCI DSS?",
     educationParagraphs: [
       "PCI DSS (Payment Card Industry Data Security Standard) is a set of security requirements for any business that stores, processes, or transmits credit/debit card data.",
-      "It's mandated by card networks (Visa, Mastercard, etc.), not a government law \u2014 but non-compliance can mean losing the ability to process payments."
+      "It's mandated by card networks (Visa, Mastercard, etc.), not a government law  but non-compliance can mean losing the ability to process payments."
     ],
     whyTitle: "Why Do Companies Need PCI DSS?",
     why: [
@@ -96,14 +216,14 @@ const SERVICE_PAGES = [
     ],
     educationTitle: "What is a Cloud Security Assessment?",
     educationParagraphs: [
-      "A structured review of your cloud infrastructure (AWS, GCP, Azure) to identify misconfigurations, weak access controls, and exposure risks \u2014 the leading causes of cloud data breaches.",
+      "A structured review of your cloud infrastructure (AWS, GCP, Azure) to identify misconfigurations, weak access controls, and exposure risks  the leading causes of cloud data breaches.",
       "The assessment ends with clear, actionable fixes rather than a raw list of scanner output."
     ],
     whyTitle: "Why Do Companies Need Cloud Security Assessments?",
     why: [
       { icon: "alert", title: "Misconfiguration is the #1 cause", text: "Most cloud breaches start with a setting nobody meant to leave open." },
       { icon: "shield", title: "Required for compliance", text: "SOC 2 and ISO 27001 both expect evidence that your cloud is reviewed and hardened." },
-      { icon: "heart", title: "Protects customer trust", text: "Customers assume their data is safe in your cloud \u2014 this is how you prove it." },
+      { icon: "heart", title: "Protects customer trust", text: "Customers assume their data is safe in your cloud  this is how you prove it." },
       { icon: "target", title: "Reduces attack surface", text: "Fewer exposed services and over-permissioned roles means fewer ways in." }
     ],
     includedTitle: "What's Included in Our Cloud Security Program",
@@ -121,7 +241,7 @@ const SERVICE_PAGES = [
     tag: "GDPR Compliance",
     tagIcon: "scale",
     title: "GDPR Compliance Services",
-    tagline: "Handle EU personal data the right way \u2014 and prove it. End-to-end support across data mapping, privacy policies, consent management, DPIAs, RoPA, vendor agreements and privacy governance.",
+    tagline: "Handle EU personal data the right way  and prove it. End-to-end support across data mapping, privacy policies, consent management, DPIAs, RoPA, vendor agreements and privacy governance.",
     duration: "8 weeks",
     price: "$2,500",
     timelineTitle: "Your Path to Compliance",
@@ -136,7 +256,7 @@ const SERVICE_PAGES = [
     educationTitle: "What is GDPR?",
     educationParagraphs: [
       "The General Data Protection Regulation (GDPR) is the EU's data privacy law governing how companies collect, store, and process personal data of EU residents.",
-      "It carries some of the highest penalties in the world for non-compliance \u2014 up to 4% of global revenue."
+      "It carries some of the highest penalties in the world for non-compliance  up to 4% of global revenue."
     ],
     whyTitle: "Why Do Companies Need GDPR Compliance?",
     why: [
@@ -182,7 +302,7 @@ const SERVICE_PAGES = [
       { icon: "scale", title: "Legally mandatory", text: "Required for healthcare organizations and their business associates, without exception." },
       { icon: "alert", title: "Avoids fines & liability", text: "Violations carry significant financial penalties and legal exposure." },
       { icon: "building", title: "Required by partners", text: "Healthcare partners and payers require it before they'll share data with you." },
-      { icon: "heart", title: "Builds patient trust", text: "Patients are handing over their most sensitive data \u2014 safeguards are the minimum." }
+      { icon: "heart", title: "Builds patient trust", text: "Patients are handing over their most sensitive data  safeguards are the minimum." }
     ],
     includedTitle: "What's Included in Our HIPAA Program",
     includedSub: "Four workstreams, run in sequence over six weeks.",
@@ -199,7 +319,7 @@ const SERVICE_PAGES = [
     tag: "Risk Assessment",
     tagIcon: "target",
     title: "Risk Assessment Services",
-    tagline: "Know your risks before they become incidents. Structured risk assessment across information security, operational and technology risk \u2014 with a register and treatment plan you can act on.",
+    tagline: "Know your risks before they become incidents. Structured risk assessment across information security, operational and technology risk  with a register and treatment plan you can act on.",
     duration: "3 weeks",
     price: "$2,000",
     timelineTitle: "Your Path to a Risk Register",
@@ -213,7 +333,7 @@ const SERVICE_PAGES = [
     educationTitle: "What is a Risk Assessment?",
     educationParagraphs: [
       "A structured process to identify, analyze, and prioritize security, operational, and technology risks facing your organization.",
-      "It forms the foundation that most compliance frameworks \u2014 SOC 2, ISO 27001, HIPAA \u2014 require before anything else."
+      "It forms the foundation that most compliance frameworks  SOC 2, ISO 27001, HIPAA  require before anything else."
     ],
     whyTitle: "Why Do Companies Need a Risk Assessment?",
     why: [
@@ -250,7 +370,7 @@ const SERVICE_PAGES = [
     ],
     educationTitle: "What is NIST CSF?",
     educationParagraphs: [
-      "The NIST Cybersecurity Framework is a widely-adopted US framework organizing cybersecurity practices into five functions \u2014 Identify, Protect, Detect, Respond, Recover.",
+      "The NIST Cybersecurity Framework is a widely-adopted US framework organizing cybersecurity practices into five functions  Identify, Protect, Detect, Respond, Recover.",
       "It's used to assess and mature an organization's overall security posture rather than to certify a single point in time."
     ],
     whyTitle: "Why Do Companies Need NIST CSF?",
@@ -330,7 +450,7 @@ const SERVICE_PAGES = [
     educationTitle: "What is Compliance-Ready Pentesting?",
     educationParagraphs: [
       "A penetration test specifically scoped and reported to satisfy auditor requirements for frameworks like SOC 2, ISO 27001, HIPAA, and PCI DSS.",
-      "It combines manual and automated testing with a report auditors will actually accept \u2014 not a raw scanner export."
+      "It combines manual and automated testing with a report auditors will actually accept  not a raw scanner export."
     ],
     whyTitle: "Why Do Companies Need Compliance-Ready Pentesting?",
     why: [

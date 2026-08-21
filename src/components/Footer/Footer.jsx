@@ -14,14 +14,26 @@ const QUICK = [
 ];
 
 const SERVICES = [
-  { label: "SOC 2 Type 1 / Type 2", slug: "soc-2-type-1-type-2" },
+  {
+    label: "SOC 2 Type 1 / Type 2",
+    slug: "soc2",
+  },
   {
     label: "ISO 27001 Certification",
-    slug: "iso-27001-certification-services",
+    slug: "iso-27001",
   },
-  { label: "PCI DSS", slug: "pci-dss" },
-  { label: "Cloud Security", slug: "cloud-security" },
-  { label: "GDPR Compliance", slug: "gdpr-compliance" },
+  {
+    label: "PCI DSS",
+    slug: "pci-dss",
+  },
+  {
+    label: "Cloud Security",
+    slug: "cloud-security",
+  },
+  {
+    label: "GDPR Compliance",
+    slug: "gdpr-privacy",
+  },
 ];
 
 function Footer() {

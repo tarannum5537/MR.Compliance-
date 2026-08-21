@@ -26,7 +26,7 @@ export default async function handler(req, res) {
     const { name, email, phone, message, website } = req.body || {};
 
     // -----------------------------
-    // Honeypot check — agar ye field bhara hai, bot hai
+    // Honeypot check - agar ye field bhara hai, bot hai
     // -----------------------------
 
     if (website) {
@@ -78,7 +78,7 @@ export default async function handler(req, res) {
       to: [process.env.OWNER_EMAIL],
       replyTo: email.trim(),
 
-      subject: `New Contact Form Submission — ${name.trim()}`,
+      subject: `New Contact Form Submission - ${name.trim()}`,
 
       html: `
         <div style="font-family: Arial, sans-serif; line-height: 1.6;">

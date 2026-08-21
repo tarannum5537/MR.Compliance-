@@ -126,7 +126,7 @@ function Process() {
               <span className="ptl__connector" aria-hidden="true" />
               <div className="ptl__block">
                 <p className="ptl__num">
-                  {s.n} — {s.label}
+                  {s.n} - {s.label}
                 </p>
                 <h3>{s.title}</h3>
                 <p className="ptl__text">{s.text}</p>

@@ -197,7 +197,7 @@
   opacity: 0.88;
 }
 .cs__list li::before {
-  content: "—";
+  content: "-";
   color: #b6ff00;
 }
 .cs__steps {

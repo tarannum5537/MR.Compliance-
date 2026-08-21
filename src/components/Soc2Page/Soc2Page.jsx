@@ -119,18 +119,18 @@ const REASONS = [
   {
     icon: Zap,
     title: "Built for startups & SaaS",
-    text: "Lean controls that fit small teams and modern cloud stacks \u2014 no enterprise-sized overhead."
+    text: "Lean controls that fit small teams and modern cloud stacks  no enterprise-sized overhead."
   }
 ];
 const STATS = [
-  { value: "120+", label: "Companies certified" },
+  { value: "200", label: "Companies certified" },
   { value: "8 weeks", label: "Average turnaround" },
   { value: "100%", label: "Audit success rate" }
 ];
 function Soc2Page() {
   return <div className="soc2">
       {
-    /* SECTION 1 — HERO + SECTION 2 — PROCESS TIMELINE CARD */
+    /* SECTION 1 - HERO + SECTION 2 - PROCESS TIMELINE CARD */
   }
       <section className="soc2__hero">
         <div className="soc2__container">
@@ -149,7 +149,7 @@ function Soc2Page() {
               </h1>
 
               <p className="soc2__hero-sub">
-                Get audit-ready and certified — without the confusion. We handle
+                Get audit-ready and certified - without the confusion. We handle
                 the controls, the evidence and the auditor, so your team keeps
                 shipping.
               </p>
@@ -198,7 +198,7 @@ function Soc2Page() {
       </section>
 
       {
-    /* SECTION 3 — EDUCATION */
+    /* SECTION 3 - EDUCATION */
   }
       <section className="soc2__section">
         <div className="soc2__container">
@@ -211,10 +211,10 @@ function Soc2Page() {
                 day-to-day practices and writes a report on what they found.
               </p>
               <p>
-                Passing it proves you have real safeguards in place — who can
+                Passing it proves you have real safeguards in place - who can
                 access data, how systems are monitored, and what happens when
-                something goes wrong. A <strong>Type 1</strong> report looks at
-                one moment in time; a <strong>Type 2</strong> report watches
+                something goes wrong. A Type 1 report looks at
+                one moment in time, a Type 2 report watches
                 those safeguards work over several months.
               </p>
             </div>
@@ -223,7 +223,7 @@ function Soc2Page() {
       </section>
 
       {
-    /* SECTION 4 — WHY NEEDED */
+    /* SECTION 4 - WHY NEEDED */
   }
       <section className="soc2__section">
         <div className="soc2__container">
@@ -244,7 +244,7 @@ function Soc2Page() {
       </section>
 
       {
-    /* SECTION 5 — WHAT'S INCLUDED */
+    /* SECTION 5 - WHAT'S INCLUDED */
   }
       <section className="soc2__section">
         <div className="soc2__container">
@@ -269,7 +269,7 @@ function Soc2Page() {
       </section>
 
       {
-    /* SECTION 6 — WHY WORK WITH US + STATS */
+    /* SECTION 6 - WHY WORK WITH US + STATS */
   }
       <section className="soc2__section">
         <div className="soc2__container">
