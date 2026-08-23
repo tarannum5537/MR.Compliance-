@@ -74,7 +74,7 @@ export default async function handler(req, res) {
     // -----------------------------
 
     const { error } = await resend.emails.send({
-      from: "Website Contact <onboarding@resend.dev>",
+      from:"Mr.Compliance <contact@mrcompliance.co>",
       to: [process.env.OWNER_EMAIL],
       replyTo: email.trim(),
 
