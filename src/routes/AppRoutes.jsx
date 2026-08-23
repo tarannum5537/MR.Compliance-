@@ -12,7 +12,7 @@ const ServiceDetail = lazy(() => import("../pages/Services/ServiceDetail"));
 const CaseStudies = lazy(() => import("../pages/CaseStudies/CaseStudies"));
 const CaseStudyDetail = lazy(() => import("../pages/CaseStudies/CaseStudyDetail"));
 const Scrut = lazy(() => import("../pages/Scrut/Scrut"));
-const Vanta = lazy(() => import("../pages/Vanta/Vanta"));
+// const Vanta = lazy(() => import("../pages/Vanta/Vanta"));
 const Drata = lazy(() => import("../pages/Drata/Drata"));
 
 const NotFound = lazy(() => import("../pages/NotFound/NotFound"));
@@ -40,7 +40,7 @@ export default function AppRoutes() {
 
       {/* Compliance automation platforms */}
       <Route path="/scrut" element={<Scrut />} />
-      <Route path="/vanta" element={<Vanta />} />
+      {/* <Route path="/vanta" element={<Vanta />} /> */}
       <Route path="/drata" element={<Drata />} />
 
       <Route path="*" element={<NotFound />} />

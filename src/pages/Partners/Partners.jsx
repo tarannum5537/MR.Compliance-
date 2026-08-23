@@ -11,11 +11,11 @@ const PARTNERS = [
     to: "/scrut",
     text: "Scrut-powered SOC 2 accelerator: integrations, control mapping and evidence strategy delivered with hands-on consulting."
   },
-  {
-    name: "Vanta",
-    to: "/vanta",
-    text: "Vanta-powered SOC 2 accelerator for lean SaaS teams that need audit-ready controls, not another tool to manage."
-  },
+  // {
+  //   name: "Vanta",
+  //   to: "/vanta",
+  //   text: "Vanta-powered SOC 2 accelerator for lean SaaS teams that need audit-ready controls, not another tool to manage."
+  // },
   {
     name: "Drata",
     to: "/drata",
@@ -30,7 +30,7 @@ function PartnersPage() {
     eyebrow="Clients & Partners"
     title="Working with the"
     accent="best."
-    text="We leverage leading compliance automation platforms including Drata, Vanta, Scrut Automation and AuditBoard to streamline evidence collection, monitoring, and audit readiness."
+    text="We leverage leading compliance automation platforms including Drata and Scrut Automation  to streamline evidence collection, monitoring, and audit readiness."
   />
 
       <section className="psec">

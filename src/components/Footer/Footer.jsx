@@ -47,6 +47,23 @@ function Footer() {
             their security and compliance programs - so they can win enterprise
             customers, reduce risk, and scale with confidence.
           </p>
+          <a
+  href="https://www.linkedin.com/company/mrcompliance/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="footer__linkedin"
+  aria-label="Mr.Compliance on LinkedIn"
+>
+  <svg
+    viewBox="0 0 24 24"
+    aria-hidden="true"
+  >
+    <path
+      d="M6.5 8.5H3.5V20H6.5V8.5ZM5 4C4.04 4 3.25 4.79 3.25 5.75S4.04 7.5 5 7.5s1.75-.79 1.75-1.75S5.96 4 5 4ZM20.5 13.4C20.5 10.2 18.8 8.5 16.4 8.5C14.9 8.5 13.9 9.3 13.3 10.2V8.5H10.5V20H13.5V14.3C13.5 12.8 13.8 11.5 15.2 11.5C16.6 11.5 16.5 12.8 16.5 14.4V20H20.5V13.4Z"
+      fill="currentColor"
+    />
+  </svg>
+</a>
         </div>
 
         <nav className="footer__col" aria-label="Quick links">
