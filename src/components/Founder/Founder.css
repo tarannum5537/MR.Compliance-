@@ -1,0 +1,289 @@
+@charset "UTF-8";
+/* ==========================================================================
+   Founder — "Meet Our Founder" section (Mr.Compliance theme)
+   Fully self-contained: no CSS variables, no global dependencies.
+   All class names are uniquely scoped under .mc-founder.
+   ========================================================================== */
+.mc-founder {
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #f2f2f0;
+  font-family: "Inter Tight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.mc-founder *,
+.mc-founder *::before,
+.mc-founder *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.mc-founder {
+  /* Subtle background detail */
+}
+.mc-founder .mc-founder__bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(600px 320px at 85% 20%, rgba(142, 217, 0, 0.07) 0%, transparent 70%);
+}
+.mc-founder .mc-founder__container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 96px 24px;
+}
+@media (min-width: 1024px) {
+  .mc-founder .mc-founder__container {
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+}
+.mc-founder {
+  /* Scroll reveal */
+}
+.mc-founder .mc-founder__reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.mc-founder .mc-founder__reveal--delay {
+  transition-delay: 120ms;
+}
+.mc-founder .mc-founder__reveal--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .mc-founder .mc-founder__reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+.mc-founder {
+  /* Eyebrow */
+}
+.mc-founder .mc-founder__eyebrow {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8ed900;
+}
+.mc-founder {
+  /* Heading */
+}
+.mc-founder .mc-founder__heading {
+  margin-top: 16px;
+  font-size: 2.25rem;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  color: #f2f2f0;
+}
+@media (min-width: 768px) {
+  .mc-founder .mc-founder__heading {
+    font-size: 3.75rem;
+  }
+}
+.mc-founder .mc-founder__heading-accent {
+  color: #8ed900;
+}
+.mc-founder {
+  /* Card */
+}
+.mc-founder .mc-founder__card {
+  margin-top: 56px;
+  display: grid;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 22px;
+  background-color: #0a0a0a;
+}
+@media (min-width: 1024px) {
+  .mc-founder .mc-founder__card {
+    grid-template-columns: 5fr 7fr;
+  }
+}
+.mc-founder {
+  /* Portrait */
+}
+.mc-founder .mc-founder__portrait {
+  position: relative;
+  aspect-ratio: 4/5;
+}
+@media (min-width: 640px) {
+  .mc-founder .mc-founder__portrait {
+    aspect-ratio: 4/3;
+  }
+}
+@media (min-width: 1024px) {
+  .mc-founder .mc-founder__portrait {
+    aspect-ratio: auto;
+    min-height: 560px;
+  }
+}
+.mc-founder .mc-founder__portrait-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+  display: block;
+}
+.mc-founder .mc-founder__portrait-fade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10, 10, 10, 0.7), transparent 45%, transparent);
+}
+@media (min-width: 1024px) {
+  .mc-founder .mc-founder__portrait-fade {
+    background: linear-gradient(to right, transparent, transparent 55%, rgba(10, 10, 10, 0.4));
+  }
+}
+.mc-founder .mc-founder__portrait-badge {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 12px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  background-color: rgba(30, 30, 32, 0.8);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.mc-founder .mc-founder__portrait-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #f2f2f0;
+}
+.mc-founder .mc-founder__portrait-role {
+  margin-top: 2px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #8ed900;
+}
+.mc-founder {
+  /* Info */
+}
+.mc-founder .mc-founder__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  padding: 32px;
+}
+@media (min-width: 768px) {
+  .mc-founder .mc-founder__info {
+    padding: 48px;
+  }
+}
+.mc-founder .mc-founder__name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  color: #f2f2f0;
+}
+@media (min-width: 768px) {
+  .mc-founder .mc-founder__name {
+    font-size: 1.875rem;
+  }
+}
+.mc-founder .mc-founder__role {
+  margin-top: 1px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: #a8a8a6;
+}
+.mc-founder .mc-founder__bio {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #a8a8a6;
+}
+@media (min-width: 768px) {
+  .mc-founder .mc-founder__bio {
+    font-size: 1.11rem;
+  }
+}
+.mc-founder .mc-founder__bio--tight {
+  margin-top: -16px;
+}
+.mc-founder {
+  /* Highlights */
+}
+.mc-founder .mc-founder__highlights {
+  list-style: none;
+  display: grid;
+  gap: 16px;
+}
+.mc-founder .mc-founder__highlight {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.mc-founder .mc-founder__highlight-icon {
+  margin-top: 2px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  background-color: #1e1e20;
+  color: #8ed900;
+}
+.mc-founder .mc-founder__highlight-icon-svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+.mc-founder .mc-founder__highlight-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #f2f2f0;
+}
+.mc-founder .mc-founder__highlight-text {
+  margin-top: 2px;
+  font-size: 0.875rem;
+  color: #a8a8a6;
+}
+.mc-founder {
+  /* CTA */
+}
+.mc-founder .mc-founder__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9999px;
+  background: transparent;
+  font-family: "Inter Tight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #f2f2f0;
+  text-decoration: none;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+.mc-founder .mc-founder__cta:hover {
+  border-color: #8ed900;
+  color: #8ed900;
+}
+.mc-founder .mc-founder__cta-icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+}/*# sourceMappingURL=Founder.css.map */

@@ -4,6 +4,7 @@ import PageHero from "../../components/PageHero/PageHero";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import ClientLogoSlider from "../../components/ClientLogoSlider/ClientLogoSlider";
 import useReveal from "../../hooks/useReveal";
+import Founder from "../../components/Founder/Founder";
 const TITLE = "About Us  Expert Security & Compliance Consulting | Mr.Compliance";
 const DESC = "Mr.Compliance helps startups and growing technology companies implement SOC 2, ISO 27001, HIPAA, PCI DSS, NIST and SOX using automation platforms like Drata, Vanta and Scrut.";
 function AboutUsPage() {
@@ -56,6 +57,8 @@ We work as an extension of your team, bringing the expertise, structure and exec
 
         </div>
       </section>
+
+        <Founder />
 
       <section className="psec">
         <div className="psec__inner">

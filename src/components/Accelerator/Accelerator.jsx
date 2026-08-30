@@ -41,7 +41,7 @@ function Accelerator({ tool }) {
   return <>
       <PageHero
     eyebrow={`${tool} partner program`}
-      title={`${tool}\u00A0-\u00A0Powered SOC 2`}
+      title={`${tool}\u00A0-\u00A0Powered SOC2`}
     accent="Accelerator"
     text={`Fast-track your SOC 2 readiness without drowning your team in spreadsheets. We combine the ${tool} platform with hands-on, practical consulting so you get real SOC 2 progress in weeks \u2013 not just another tool to manage.`}
   />
@@ -52,7 +52,7 @@ function Accelerator({ tool }) {
             Is this you?
           </p>
           <h2 className="psec__title" data-reveal>
-            SaaS founders, CTOs &amp; <span>security owners</span> who:
+            SaaS Founders, CTOs &amp; <span>Security Owners</span> who:
           </h2>
 
           <ul className="plist" data-reveal>
@@ -69,7 +69,7 @@ function Accelerator({ tool }) {
             <li>
               <span>03</span>
               <p>
-                <strong>Limited bandwidth</strong> - small team, too many
+                Limited bandwidth - small team, too many
                 priorities, no in-house GRC.
               </p>
             </li>
