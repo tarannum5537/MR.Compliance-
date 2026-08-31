@@ -109,33 +109,38 @@ $mc-ease: cubic-bezier(0.22, 1, 0.36, 1);
   }
 
   /* Card */
-  .mc-founder__card {
-    margin-top: 56px;
-    display: grid;
-    overflow: hidden;
-    border: 1px solid $mc-border;
-    border-radius: 22px; // rounded-2xl on 0.875rem base radius
-    background-color: $mc-card;
-
-    
-    @media (min-width: 1024px) {
-      grid-template-columns: 5fr 7fr;
-    }
-  }
-
-  /* Portrait */
-.mc-founder__portrait {
- position: relative;
+ .mc-founder__card {
+  margin-top: 56px;
+  display: grid;
   overflow: hidden;
-  background-color: #030303;
+  border: 1px solid $mc-border;
+  border-radius: 22px;
+  background-color: $mc-card;
 
-  @media (min-width: 640px) {
-    aspect-ratio: 4 / 3;
+  // ✅ tablet range me pura card narrow karo
+  @media (min-width: 640px) and (max-width: 1023px) {
+    max-width: 660px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   @media (min-width: 1024px) {
-    aspect-ratio: auto;
-    min-height: 560px;
+    grid-template-columns: 5fr 7fr;
+  }
+}
+
+  /* Portrait */
+.mc-founder__portrait {
+  position: relative;
+  overflow: hidden;
+  background-color: #030303;
+  width: 100%;
+  aspect-ratio: 4 / 5;      // sirf ye — koi max-width, max-height, clamp nahi
+  height: auto;
+
+  @media (min-width: 1024px) {
+    aspect-ratio: unset;     // desktop grid apne aap stretch karega
+    height: auto;
   }
 }
 
