@@ -6,7 +6,6 @@ import FOUNDER_IMAGE from "../../assets/images/Founder.png";
  * Replace FOUNDER_IMAGE with your final portrait path.
  */
 
-
 const LINKEDIN_URL = "https://www.linkedin.com/in/adarsh-mrcompliance/";
 
 function IconAward() {
@@ -84,6 +83,25 @@ function IconLinkedIn() {
   );
 }
 
+function IconFounder() {
+  return (
+    <svg
+      className="mc-founder__highlight-icon-svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <circle cx="12" cy="7" r="3" />
+      <path d="M5 21a7 7 0 0 1 14 0" />
+      <path d="m16 14 2 2 4-4" />
+    </svg>
+  );
+}
+
 const HIGHLIGHTS = [
   {
     icon: IconAward,
@@ -100,6 +118,11 @@ const HIGHLIGHTS = [
     title: "Third-Party Risk Management",
     text: "Helping organizations assess and manage vendor risk",
   },
+  {
+  icon: IconFounder,
+  title: "Founder-Led Approach",
+  text: "Hands-on involvement from building the program to getting audit-ready",
+},
 ];
 
 export default function Founder() {
@@ -118,7 +141,7 @@ export default function Founder() {
           }
         });
       },
-      { threshold: 0.15 }
+      { threshold: 0.15 },
     );
     targets.forEach((t) => observer.observe(t));
     return () => observer.disconnect();
@@ -156,7 +179,7 @@ export default function Founder() {
               />
               <div aria-hidden="true" className="mc-founder__portrait-fade" />
               <div className="mc-founder__portrait-badge">
-                <p className="mc-founder__portrait-name">Adarsh Kumar, CISM</p>
+                <p className="mc-founder__portrait-name">Adarsh Kumar</p>
                 <p className="mc-founder__portrait-role">
                   Founder, Mr.Compliance
                 </p>
@@ -166,22 +189,28 @@ export default function Founder() {
             {/* Info */}
             <div className="mc-founder__info">
               <div>
-                <h3 className="mc-founder__name">Adarsh Kumar, CISM</h3>
+                <h3 className="mc-founder__name">Adarsh Kumar</h3>
                 <p className="mc-founder__role">Founder, Mr.Compliance</p>
               </div>
 
               <p className="mc-founder__bio">
-                Adarsh Kumar, CISM, is an Information Security and GRC
-                professional with expertise in SOC 2, compliance, and
-                Third-Party Risk Management.
+                Building the security and compliance foundation that helps
+                companies earn trust. Adarsh Kumar is an Information Security
+                and GRC professional focused on helping growing companies turn
+                security and compliance into a business advantage.
               </p>
               <p className="mc-founder__bio mc-founder__bio--tight">
-                As the Founder of Mr.Compliance, he is focused on helping
-                organizations build practical compliance programs, strengthen
-                security, and earn customer trust.
+                As the founder of Mr.Compliance, he works at the intersection of security, compliance, and customer trust- helping organizations build practical security programs, prepare for audits, manage third-party risk, and confidently demonstrate that they take security seriously.
               </p>
+               <p className="mc-founder__bio mc-founder__bio--tight">
+                His approach is simple: compliance shouldn't be about collecting documents for an auditor. It should create a security program that actually works.
+              </p>
+                
 
               <ul className="mc-founder__highlights">
+                <p className="mc-founder__portrait-role">
+                  Expertise -
+                </p>
                 {HIGHLIGHTS.map((h) => (
                   <li key={h.title} className="mc-founder__highlight">
                     <span className="mc-founder__highlight-icon">
