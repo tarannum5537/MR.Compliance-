@@ -111,7 +111,7 @@ const HIGHLIGHTS = [
   {
     icon: IconShield,
     title: "GRC & Audit Expertise",
-    text: "SOC 2, ISO 27001, GDPR and compliance frameworks",
+    text: "SOC 2, ISO 27001, GDPR and practical GRC programs",
   },
   {
     icon: IconUsers,
