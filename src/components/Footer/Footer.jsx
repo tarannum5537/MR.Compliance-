@@ -98,7 +98,7 @@ function Footer() {
     </strong>
 
     <span>Phone: +91 7634076777</span>
-    <span>15, 2nd floor, Crossroads building, Wakad, Pune-411057</span>
+    <span>603, White Square, Hinjewadi-Wakad Road, Bridge, near Wakad, Maharashtra 411057</span>
   </div>
 
   <div className="footer__office">
