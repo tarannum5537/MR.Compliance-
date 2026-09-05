@@ -153,7 +153,21 @@ img {
   color: #b6ff00;
 }
 .psec__lead {
-  margin-top: 20px;
+  margin-top: 60px;
+  max-width: 680px;
+  color: #9a9a9a;
+  font-size: 15.5px;
+  line-height: 1.75;
+}
+.psec__about {
+  margin-top: 40px;
+  max-width: 680px;
+  color: #9a9a9a;
+  font-size: 15.5px;
+  line-height: 1.75;
+}
+.psec__main {
+  margin-top: 25px;
   max-width: 680px;
   color: #9a9a9a;
   font-size: 15.5px;
@@ -194,7 +208,7 @@ img {
 }
 .pcard:hover {
   transform: translateY(-5px);
-  border-color: #3a3a3a;
+  border-color: #8ed900;
 }
 .pcard__num {
   font-size: 11px;

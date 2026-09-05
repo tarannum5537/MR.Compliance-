@@ -2,7 +2,7 @@ import PageLayout from "../../components/PageLayout/PageLayout";
 import Accelerator from "../../components/Accelerator/Accelerator";
 import useSeo from "../../hooks/useSeo";
 
-const TITLE = "Scrut\u00A0\u00A0- Powered SOC 2 Accelerator - Mr.Compliance";
+const TITLE = "Scrut - Powered SOC&nbsp;2 Accelerator - Mr.Compliance";
 const DESC = "Fast-track SOC 2 readiness with the Scrut platform plus hands-on consulting: integrations, control mapping and evidence strategy delivered in weeks.";
 
 function ScrutPage() {
