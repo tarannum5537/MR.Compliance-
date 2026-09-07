@@ -124,7 +124,7 @@ function BlogDetail() {
               <div className="blog-detail__category">{blog.category}</div>
               <h1>{blog.title}</h1>
 
-<div className="blog-detail__share">
+{/* <div className="blog-detail__share">
   <span>Share</span>
 
   <button
@@ -150,7 +150,7 @@ function BlogDetail() {
   >
     <FaLink />
   </button>
-</div>
+</div> */}
 
 <div className="blog-detail__meta">
   <time dateTime={blog.dateTime}>{blog.date}</time>
