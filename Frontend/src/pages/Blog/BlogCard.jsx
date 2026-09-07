@@ -22,7 +22,7 @@ function BlogCard({ blog }) {
 
         <div className="blog-card__meta">
           <time dateTime={blog.dateTime}>{blog.date}</time>
-          <span aria-hidden="true">·</span>
+          {/* <span aria-hidden="true">·</span> */}
         </div>
       </div>
     </Link>
