@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { FaXTwitter, FaLinkedinIn, FaLink } from "react-icons/fa6";
+// import { FaXTwitter, FaLinkedinIn, FaLink } from "react-icons/fa6";
 import { Link, useParams } from "react-router-dom";
 import { client, urlFor } from "../../lib/sanityClient";
 import "./BlogDetail.scss";
@@ -87,30 +87,30 @@ function BlogDetail() {
     : null;
 
 
-    const shareUrl = window.location.href;
+//     const shareUrl = window.location.href;
 
-const shareOnX = () => {
-  const url = `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl
-  )}&text=${encodeURIComponent(blog.title)}`;
+// const shareOnX = () => {
+//   const url = `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl
+//   )}&text=${encodeURIComponent(blog.title)}`;
 
-  window.open(url, "_blank", "noopener,noreferrer");
-};
+//   window.open(url, "_blank", "noopener,noreferrer");
+// };
 
-const shareOnLinkedIn = () => {
-  const url = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
-    shareUrl
-  )}`;
+// const shareOnLinkedIn = () => {
+//   const url = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
+//     shareUrl
+//   )}`;
 
-  window.open(url, "_blank", "noopener,noreferrer");
-};
+//   window.open(url, "_blank", "noopener,noreferrer");
+// };
 
-const copyLink = async () => {
-  try {
-    await navigator.clipboard.writeText(shareUrl);
-  } catch (error) {
-    console.error("Failed to copy link:", error);
-  }
-};
+// const copyLink = async () => {
+//   try {
+//     await navigator.clipboard.writeText(shareUrl);
+//   } catch (error) {
+//     console.error("Failed to copy link:", error);
+//   }
+// };
 
   return (
     <PageLayout>
