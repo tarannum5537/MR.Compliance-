@@ -1,6 +1,8 @@
 import { lazy } from "react";
 import { Routes, Route } from "react-router-dom";
 
+const BlogPage = lazy(() => import("../pages/Blog/BlogPage"));
+const BlogDetail = lazy(() => import("../pages/Blog/BlogDetail"));
 
 
 const Home = lazy(() => import("../pages/Home/Home"));
@@ -10,13 +12,14 @@ const Partners = lazy(() => import("../pages/Partners/Partners"));
 const Services = lazy(() => import("../pages/Services/Services"));
 const ServiceDetail = lazy(() => import("../pages/Services/ServiceDetail"));
 const CaseStudies = lazy(() => import("../pages/CaseStudies/CaseStudies"));
-const CaseStudyDetail = lazy(() => import("../pages/CaseStudies/CaseStudyDetail"));
+const CaseStudyDetail = lazy(
+  () => import("../pages/CaseStudies/CaseStudyDetail"),
+);
 const Scrut = lazy(() => import("../pages/Scrut/Scrut"));
 // const Vanta = lazy(() => import("../pages/Vanta/Vanta"));
 const Drata = lazy(() => import("../pages/Drata/Drata"));
 
 const NotFound = lazy(() => import("../pages/NotFound/NotFound"));
-
 
 /**
  * All application routes in one place.
@@ -29,6 +32,9 @@ export default function AppRoutes() {
       <Route path="/about-us" element={<About />} />
       <Route path="/contact-us" element={<Contact />} />
       <Route path="/partners" element={<Partners />} />
+
+      <Route path="/blog" element={<BlogPage />} />
+      <Route path="/blog/:slug" element={<BlogDetail />} />
 
       {/* Services: one page lists them, one reusable page renders each */}
       <Route path="/services" element={<Services />} />

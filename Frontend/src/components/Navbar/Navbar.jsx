@@ -8,6 +8,7 @@ const LINKS = [
   { label: "Services", to: "/services" },
   { label: "Case Studies", to: "/case-study" },
   { label: "Partners", to: "/partners" },
+    { label: "Blogs", to: "/blog" },
   { label: "Contact Us", to: "/contact-us" }
 ];
 const BOOKING_URL = "https://calendly.com/adarshkumar-mrcompliance/30min";
