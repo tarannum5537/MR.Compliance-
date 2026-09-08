@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 // import { FaXTwitter, FaLinkedinIn, FaLink } from "react-icons/fa6";
 import { Link, useParams } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { client, urlFor } from "../../lib/sanityClient";
 import "./BlogDetail.scss";
 import PageLayout from "../../components/PageLayout/PageLayout";
@@ -29,7 +30,9 @@ function BlogDetail() {
           imageAlt,
           intro,
           content,
-          faq
+          faq,
+          metaTitle,
+          metaDescription
         }`,
         { slug }
       )
@@ -85,7 +88,9 @@ function BlogDetail() {
     : blog.image
     ? urlFor(blog.image).width(1200).url()
     : null;
-
+const seoTitle = blog.metaTitle || blog.title;
+const seoDescription = blog.metaDescription || blog.excerpt || "";
+const canonicalUrl = `https://mrcompliance.co/blog/${slug}`;
 
 //     const shareUrl = window.location.href;
 
@@ -114,6 +119,23 @@ function BlogDetail() {
 
   return (
     <PageLayout>
+
+     <Helmet>
+      <title>{seoTitle} | Mr. Compliance</title>
+      <meta name="description" content={seoDescription} />
+      <link rel="canonical" href={canonicalUrl} />
+
+      <meta property="og:title" content={seoTitle} />
+      <meta property="og:description" content={seoDescription} />
+      <meta property="og:type" content="article" />
+      <meta property="og:url" content={canonicalUrl} />
+      {imageUrl && <meta property="og:image" content={imageUrl} />}
+
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={seoTitle} />
+      <meta name="twitter:description" content={seoDescription} />
+    </Helmet>
+
       <div className="blog-detail">
         <main>
           <article className="blog-detail__article">
