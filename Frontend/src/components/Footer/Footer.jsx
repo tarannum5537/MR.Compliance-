@@ -10,6 +10,7 @@ const QUICK = [
   { label: "Services", to: "/services" },
   { label: "Case Studies", to: "/case-study" },
   { label: "Partners", to: "/partners" },
+   { label: "Blogs", to: "/blog" },
   { label: "Contact Us", to: "/contact-us" },
 ];
 
