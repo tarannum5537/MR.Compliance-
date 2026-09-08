@@ -17,7 +17,23 @@ export default {
     },
     { name: "imageAlt", title: "Image Alt Text", type: "string" },
 
-    { name: "date", title: "Date (display text)", type: "string" },
+    
+// SEO fields
+{
+  name: "metaTitle",
+  title: "Meta Title (SEO)",
+  type: "string",
+  description: "Google search mein title ye dikhega. Empty chhoda to 'Title' field use hoga. 50-60 characters ideal.",
+},
+{
+  name: "metaDescription",
+  title: "Meta Description (SEO)",
+  type: "text",
+  rows: 3,
+  description: "Google search snippet ke liye. Empty chhoda to 'Excerpt' use hoga. 150-160 characters ideal.",
+},
+
+{ name: "date", title: "Date (display text)", type: "string" },
 
     {
       name: "intro",
