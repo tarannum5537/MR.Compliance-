@@ -45,7 +45,7 @@ const seo = seoData[slug];
 useSeo({
   title: seo?.title || "Case study not found | Mr.Compliance",
   description: seo?.description || "",
-  path: `/study/${slug}/`,
+  path: `/study/${slug}`,
 });
   if (!study) return <StudyNotFound />;
 
