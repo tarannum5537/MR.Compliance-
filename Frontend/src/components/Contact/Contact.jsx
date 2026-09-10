@@ -2,8 +2,10 @@ import useReveal from "../../hooks/useReveal";
 import { BOOKING_URL } from "../Navbar/Navbar";
 import "./Contact.scss";
 
+
 function Contact() {
   const ref = useReveal();
+  
 
   return (
     <section className="contact" id="contact">

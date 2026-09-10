@@ -2,11 +2,11 @@ import PageLayout from "../../components/PageLayout/PageLayout";
 import Accelerator from "../../components/Accelerator/Accelerator";
 import useSeo from "../../hooks/useSeo";
 
-const TITLE = "Drata-Powered SOC 2 Accelerator - Mr.Compliance";
-const DESC = "Drata implementation plus practical GRC consulting - integrations, control implementation and audit-ready evidence for SaaS teams pursuing SOC 2.";
+const TITLE = "Drata Compliance Advisory Services | Mr.Compliance";
+const DESC = "Struggling to configure Drata for your audit? Our senior security consultants step in to handle policy writing, controls, and auditor readiness directly.";
 
 function DrataPage() {
-  useSeo({ title: TITLE, description: DESC, path: "/drata/" });
+  useSeo({ title: TITLE, description: DESC, path: "/drata" });
 
   return (
     <PageLayout>

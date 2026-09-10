@@ -2,11 +2,11 @@ import PageLayout from "../../components/PageLayout/PageLayout";
 import Accelerator from "../../components/Accelerator/Accelerator";
 import useSeo from "../../hooks/useSeo";
 
-const TITLE = "Scrut - Powered SOC&nbsp;2 Accelerator - Mr.Compliance";
-const DESC = "Fast-track SOC 2 readiness with the Scrut platform plus hands-on consulting: integrations, control mapping and evidence strategy delivered in weeks.";
+const TITLE = "Scrut Compliance Advisory Services | Mr.Compliance";
+const DESC = "Stuck in Scrut setup or looking for an alternative? Our human-led advisory gets you SOC 2 and ISO 27001 audit-ready fast. Speak with an advisor today.";
 
 function ScrutPage() {
-  useSeo({ title: TITLE, description: DESC, path: "/scrut/" });
+  useSeo({ title: TITLE, description: DESC, path: "/scrut" });
 
   return (
     <PageLayout>

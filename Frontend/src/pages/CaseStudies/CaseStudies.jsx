@@ -5,10 +5,10 @@ import PageHero from "../../components/PageHero/PageHero";
 import useReveal from "../../hooks/useReveal";
 import { CASE_STUDIES } from "../../data/caseStudies";
 import "./CaseStudies.scss";
-const TITLE = "Case Studies  Compliance Programs We Delivered | Mr.Compliance";
-const DESC = "Real Mr.Compliance engagements: Takeoff41 healthcare security, Portqii's SOC 2 journey, the Automynd Vanta saga and Udemy SOX compliance.";
+const TITLE = "Compliance Success Stories & Case Studies | Mr.Compliance";
+const DESC = "Read how startups and enterprises achieved SOC 2, ISO 27001, and GDPR compliance fast. Explore real client success stories and 100% audit pass rates!";
 function CaseStudyPage() {
-  useSeo({ title: TITLE, description: DESC, path: "/case-study/" });
+  useSeo({ title: TITLE, description: DESC, path: "/case-study" });
   const ref = useReveal();
   return <PageLayout>
       <PageHero

@@ -362,8 +362,8 @@ const SERVICE_CATALOG = [
     title: "SOC 2",
     // category: "Security & Compliance",
     short: "Type 1 and Type 2 readiness and certification support  gap assessment, policies, controls, evidence and audit coordination.",
-    seoTitle: "SOC 2 Type 1 & Type 2 Compliance Services | Mr.Compliance",
-    seoDescription: "End-to-end SOC 2 readiness and certification support: gap assessment, policies, control implementation, evidence collection and audit coordination.",
+    seoTitle: "SOC 2 Compliance Advisory Services | Mr.Compliance",
+    seoDescription: "Compliance shouldn't derail your engineering velocity. Get custom SOC 2 security controls, continuous evidence automation & a guaranteed 100% audit pass rate.",
     customComponent: "soc2",
     legacySlug: "soc2-audit-services"
   },
@@ -372,8 +372,8 @@ const SERVICE_CATALOG = [
     title: "ISO 27001",
     // category: "Security & Compliance",
     short: "Build an audit-ready ISMS: risk assessment, Statement of Applicability, Annex A controls and Stage 1 / Stage 2 support.",
-    seoTitle: "ISO 27001 Certification Services | Mr.Compliance",
-    seoDescription: "Get ISO 27001 certified with a structured ISMS: risk assessment, SoA, control implementation and certification audit support.",
+    seoTitle: "ISO 27001 Audit Readiness Advisory | Mr.Compliance",
+    seoDescription: "Preparing for your upcoming ISO 27001 Stage 1 or Stage 2 audit? Streamline risk assessments, policy drafting, and internal audits with guidance from top CISOs.",
     legacySlug: "iso-27001-certification"
   },
   {
@@ -381,8 +381,8 @@ const SERVICE_CATALOG = [
     title: "PCI DSS",
     // category: "Security & Compliance",
     short: "Cardholder data flow mapping, control implementation, vulnerability management and QSA audit coordination.",
-    seoTitle: "PCI DSS Compliance Services | Mr.Compliance",
-    seoDescription: "Protect cardholder data and pass your QSA audit: scoping, segmentation review, controls, policies and audit preparation.",
+    seoTitle: "PCI DSS Compliance Advisory Services | Mr.Compliance",
+    seoDescription: "Failing PCI DSS audits risks payment processor bans & heavy fines. Our advisors implement lean payment security controls to ensure seamless SAQ and QSA audits.",
     legacySlug: "pci-dss"
   },
   {
@@ -390,8 +390,8 @@ const SERVICE_CATALOG = [
     title: "HIPAA",
     // category: "Security & Compliance",
     short: "Risk assessments, safeguards, workforce training and PHI protection for providers and health tech companies.",
-    seoTitle: "HIPAA Compliance Services | Mr.Compliance",
-    seoDescription: "Practical HIPAA compliance for healthcare and health tech: risk assessment, policies, administrative and technical safeguards.",
+    seoTitle: "HIPAA Compliance Advisory Services | Mr.Compliance",
+    seoDescription: "Strict healthcare privacy rules shouldn't slow cloud deployment. Get custom HIPAA Security and Privacy Rule frameworks tailored directly to engineering stack.",
     legacySlug: "hipaa-compliance"
   },
   {
@@ -399,8 +399,8 @@ const SERVICE_CATALOG = [
     title: "NIST / CMMC",
     // category: "Security & Compliance",
     short: "NIST CSF alignment and CMMC / FedRAMP readiness: maturity evaluation, control implementation and audit preparation.",
-    seoTitle: "NIST CSF & CMMC Compliance Services | Mr.Compliance",
-    seoDescription: "Align to the NIST Cybersecurity Framework and prepare for CMMC: gap assessment, maturity evaluation, controls and policy development.",
+    seoTitle: "CMMC & NIST Cybersecurity Advisory | Mr.Compliance",
+    seoDescription: "Bidding on DoD contracts that require strict NIST compliance? Improve your SPRS scores & achieve CMMC audit readiness with guidance from veteran security CISOs.",
     legacySlug: "nist-cybersecurity"
   },
   {
@@ -408,8 +408,8 @@ const SERVICE_CATALOG = [
     title: "GDPR Compliance",
     // category: "Security & Compliance",
     short: "Data mapping, RoPA, privacy policies, consent management, DPIAs and vendor data processing agreements.",
-    seoTitle: "GDPR & Privacy Compliance Services | Mr.Compliance",
-    seoDescription: "End-to-end GDPR support: data mapping, RoPA, privacy policies, consent management, DPIAs and privacy governance.",
+    seoTitle: "GDPR & Data Privacy Advisory Services | Mr.Compliance",
+    seoDescription: "Regulatory fines and data privacy complaints destroy customer trust. Our advisors build pragmatic GDPR compliance frameworks that safeguard EU customer data.",
     legacySlug: "gdpr-compliance"
   },
   {
@@ -417,8 +417,8 @@ const SERVICE_CATALOG = [
     title: "Cloud Security",
     // category: "Security",
     short: "AWS, GCP and Azure review across configuration, IAM, network security, logging and monitoring  with fixes.",
-    seoTitle: "Cloud Security Assessment (AWS, GCP, Azure) | Mr.Compliance",
-    seoDescription: "Find and fix cloud security gaps: configuration review, IAM, network security, logging and monitoring with actionable remediation.",
+    seoTitle: "Cloud Security Architecture & Advisory | Mr.Compliance",
+    seoDescription: "Cloud misconfigurations account for most SaaS security breaches. Our experts harden AWS, Azure, and GCP environments to satisfy rigorous compliance audits.",
     legacySlug: "cloud-security"
   },
   {
@@ -435,8 +435,8 @@ const SERVICE_CATALOG = [
     title: "Penetration Testing",
     // category: "Security",
     short: "Audit-accepted pentest reports for SOC 2, ISO 27001, HIPAA and PCI DSS, with remediation support and retesting.",
-    seoTitle: "Compliance-Ready Penetration Testing | Mr.Compliance",
-    seoDescription: "Compliance-ready penetration testing with audit-accepted reports for SOC 2, ISO 27001, HIPAA and PCI DSS, plus remediation and retesting.",
+    seoTitle: "Penetration Testing Advisory Services | Mr.Compliance",
+    seoDescription: "Uncover critical vulnerabilities before security auditors or hackers do. We deliver comprehensive pentests that satisfy SOC 2, ISO 27001, and PCI requirements.",
     legacySlug: "penetration-testing"
   },
   {
@@ -462,8 +462,8 @@ const SERVICE_CATALOG = [
     title: "Risk Management",
     // category: "GRC",
     short: "Asset identification, threat analysis, risk scoring and a maintained risk register with treatment plans.",
-    seoTitle: "Risk Management & Risk Assessment Services | Mr.Compliance",
-    seoDescription: "Structured risk management: asset identification, threat analysis, risk scoring, treatment planning and a living risk register.",
+    seoTitle: "Enterprise Risk Management Advisory | Mr.Compliance",
+    seoDescription: "Unidentified security risks can ruin your SOC 2 or ISO 27001 audit. Our advisors build pragmatic risk assessment frameworks tailored to your tech stack.",
     legacySlug: "risk-assessment"
   },
   {

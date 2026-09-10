@@ -5,10 +5,10 @@ import Testimonials from "../../components/Testimonials/Testimonials";
 import ClientLogoSlider from "../../components/ClientLogoSlider/ClientLogoSlider";
 import useReveal from "../../hooks/useReveal";
 import Founder from "../../components/Founder/Founder";
-const TITLE = "About Us  Expert Security & Compliance Consulting | Mr.Compliance";
-const DESC = "Mr.Compliance helps startups and growing technology companies implement SOC 2, ISO 27001, HIPAA, PCI DSS, NIST and SOX using automation platforms like Drata, Vanta and Scrut.";
+const TITLE = "About Us | Expert Compliance Advisors | Mr.Compliance";
+const DESC = "Meet the cybersecurity and compliance experts behind Mr. Compliance. Discover how our hands-on advisory helps startups and enterprises pass audits fast.";
 function AboutUsPage() {
-  useSeo({ title: TITLE, description: DESC, path: "/about-us/" });
+  useSeo({ title: TITLE, description: DESC, path: "/about-us" });
   const ref = useReveal();
   return <PageLayout>
       <PageHero

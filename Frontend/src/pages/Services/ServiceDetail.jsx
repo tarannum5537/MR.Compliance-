@@ -16,7 +16,7 @@ function ServiceDetailPage() {
   useSeo({
     title: service ? service.seoTitle : "Service not found - Mr.Compliance",
     description: service ? service.seoDescription : "",
-    path: `/services/${slug}/`
+    path: `/services/${slug}`
   });
 
   if (!service) return <ServiceNotFound />;

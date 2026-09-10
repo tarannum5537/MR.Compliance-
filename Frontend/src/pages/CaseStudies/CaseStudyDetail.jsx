@@ -22,14 +22,31 @@ function CaseStudyDetailPage() {
   const { slug } = useParams();
   const study = getCaseStudy(slug);
 
-  useSeo({
-    title: study
-      ? `${study.cardTitle} - Case Study | Mr.Compliance`
-      : "Case study not found | Mr.Compliance",
-    description: study ? study.subtitle : "",
-    path: `/study/${slug}/`
-  });
+ const seoData = {
+  "Takeoff41- SOC2 & HIPAA certificate": {
+    title: "Takeoff41 SOC 2 & HIPAA Case Study | Mr.Compliance",
+    description:
+      "Discover how Takeoff41 achieved fast SOC 2 and HIPAA compliance with Mr. Compliance. Read how they built a strong security foundation for enterprise growth.",
+  },
+  "portqii-soc2-journey": {
+    title: "Portqii's SOC 2 Compliance Journey | Mr.Compliance",
+    description:
+      "Read how Portqii streamlined their SOC 2 compliance process with hands-on security advisory. Discover key strategies for passing your upcoming SOC 2 audit.",
+  },
+  "automynd-vanta-saga": {
+    title: "AutoMynd SOC 2 Case Study & Review | Mr.Compliance",
+    description:
+      "Learn how AutoMynd streamlined their SOC 2 audit readiness alongside Vanta. Discover why hands-on advisory is key to passing complex security compliance.",
+  },
+};
 
+const seo = seoData[slug];
+
+useSeo({
+  title: seo?.title || "Case study not found | Mr.Compliance",
+  description: seo?.description || "",
+  path: `/study/${slug}/`,
+});
   if (!study) return <StudyNotFound />;
 
   const ref = useReveal();

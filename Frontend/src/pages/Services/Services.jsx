@@ -8,16 +8,16 @@ import { SERVICE_PAGES } from "../../data/servicePages";
 import "./Services.scss";
 
 const TITLE =
-  "Compliance & Security Services - SOC 2, ISO 27001, GRC, vCISO | Mr.Compliance";
+  "Cybersecurity & Compliance Services | Mr.Compliance";
 
 const DESC =
-  "Security & compliance, security engineering, GRC and security leadership services - SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR, cloud security, vendor risk and vCISO.";
+  "Explore our compliance advisory services. We offer end-to-end guidance for SOC 2, ISO 27001, GDPR, PCI DSS, and HIPAA audits. Book a free consultation!";
 
 function ServicesPage() {
   useSeo({
     title: TITLE,
     description: DESC,
-    path: "/services/",
+    path: "/services",
   });
 
   const ref = useReveal();

@@ -3,9 +3,15 @@ import { client } from "../../lib/sanityClient";
 import BlogCard from "./BlogCard";
 import PageLayout from "../../components/PageLayout/PageLayout";
 import "./BlogPage.scss";
+import useSeo from "../../hooks/useSeo";
 import PageHero from "../../components/PageHero/PageHero";
 
+const TITLE = "Practical Security and Audit Guides | Mr.Compliance";
+const DESC = "Navigating SOC 2, ISO 27001, or GDPR doesn't require complex software. Read expert compliance guides, cost breakdowns, and audit strategies from our CISOs.";
+
 function BlogPage() {
+
+  useSeo({ title: TITLE, description: DESC, path: "/blog" });
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
 

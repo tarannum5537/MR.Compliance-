@@ -6,10 +6,17 @@ import gsap from "gsap";
 import "./Contact.scss";
 import PageLayout from "../../components/PageLayout/PageLayout";
 
+import useSeo from "../../hooks/useSeo";
+
+
+const TITLE = "Get in Touch With Security Experts | Mr.Compliance";
+const DESC = "Need expert advice on your security compliance? Send our team a message today to get answers on SOC 2 readiness, audit costs, and customized guidance.";
+
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const EASE = "power3.out";
 
 export default function Contact() {
+   useSeo({ title: TITLE, description: DESC, path: "/contact-us" });
   const pageRef = useRef(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [countryCode, setCountryCode] = useState("+91");
