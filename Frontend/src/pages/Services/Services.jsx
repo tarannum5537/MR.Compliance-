@@ -54,7 +54,7 @@ function ServicesPage() {
                 <Link
                   className="pcard services-card"
                   key={s.slug}
-                  to={`/services/${s.slug}/`}
+                  to={`/services/${s.slug}`}
                  
                 >
                   <span
